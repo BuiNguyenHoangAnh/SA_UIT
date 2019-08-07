@@ -9,6 +9,15 @@ public class Correction {
 	// read each line in file and push words into an array
 	
 	// check if word was a stop word
+	public static boolean isStopWord(String word) {
+		if(word.length() < 2)
+			return true;
+		if(word.charAt(0) >= '0' && word.charAt(0) <= '9')
+			return true;
+		if(stopWordSet.contains(word))
+			return true;
+		return false;
+	}
 	
 	/*
 	 * xu li tu viet tat
