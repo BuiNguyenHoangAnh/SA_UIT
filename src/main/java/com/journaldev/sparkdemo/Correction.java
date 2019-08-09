@@ -1,6 +1,13 @@
 package com.journaldev.sparkdemo;
 
+import java.util.Set;
+
 public class Correction {
+	/*
+	 * declare variables
+	 */
+	private static Set<String> stopWordSet;
+	
 	/*
 	 * loai bo stop word
 	 */
