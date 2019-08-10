@@ -1,19 +1,55 @@
 package com.journaldev.sparkdemo;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 
+import javax.lang.model.util.Elements;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.function.VoidFunction;
+
+import scala.Tuple2;
+
 public class Correction {
-	/*
-	 * declare variables
-	 */
+/*
+ * 
+ * declare variables
+ * 
+ */
 	private static Set<String> stopWordSet;
 	
-	/*
-	 * loai bo stop word
-	 */
-	// read a file
-	
+/*
+ * 
+ * loai bo stop word
+ * 
+ */
+
 	// read each line in file and push words into an array
+	public static Set<String> createListFromDictionary(String fileName) {
+		if(fileName != "" || fileName != null) {
+			Set<String> bufferSet = null;
+			SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Word Segmentation");
+			JavaSparkContext context = new JavaSparkContext(sparkConf);
+			JavaRDD<String> textFile = context.textFile(fileName);
+			
+			for(String line:textFile.collect()){
+	            System.out.println(line);
+	            bufferSet.add(line);
+	        } 
+			
+			return bufferSet;
+		}
+		
+		return null;
+	}
 	
 	// check if word was a stop word
 	public static boolean isStopWord(String word) {
@@ -26,16 +62,46 @@ public class Correction {
 		return false;
 	}
 	
-	/*
-	 * xu li tu viet tat
-	 */
+	public static String removeStopWords(String string) {
+		String result = "";
+		String[] words = string.split("\\s+");
+		for(String word : words) {
+			if(word.isEmpty()) continue;
+			if(isStopWord(string)) continue; //remove stopwords
+			result += (word+" ");
+		}
+		return result;
+	}
 	
-	/*
-	 * xu li tu sai chinh ta
-	 */
+	public static void checkInputFile(String inputFileName, String dictionaryFileName) {
+		stopWordSet = createListFromDictionary(dictionaryFileName);
+		
+//		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("JD Word Counter");
+//		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
+//		JavaRDD<String> inputFile = sparkContext.textFile(inputFileName);
+//
+//		JavaRDD<String> wordsFromFile = inputFile.flatMap(content -> Arrays.asList(content.split(" ")));
+
+//		JavaPairRDD countData;
+//		countData.saveAsTextFile("CountData");
+	}
+	
+/*
+ * 
+ * xu li tu viet tat
+ * 
+ */
+	
+/*
+ * 
+ * xu li tu sai chinh ta
+ * 
+ */
 	 
-	/*
-	 * xu li tieng long/ vung mien
-	 */
+/*
+ * 
+ * xu li tieng long/ vung mien
+ * 
+ */
 	
 }
