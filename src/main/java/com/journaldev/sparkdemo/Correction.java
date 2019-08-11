@@ -74,16 +74,28 @@ public class Correction {
 	}
 	
 	public static void checkInputFile(String inputFileName, String dictionaryFileName) {
+		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("JD Word Counter");
+		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
+		JavaRDD<String> inputFile = sparkContext.textFile(inputFileName);
+		
+		List<String> list;
+		JavaRDD<String> result;
+		
+		String inputString = null;
+		String outputString = null;
+		
 		stopWordSet = createListFromDictionary(dictionaryFileName);
 		
-//		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("JD Word Counter");
-//		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
-//		JavaRDD<String> inputFile = sparkContext.textFile(inputFileName);
-//
-//		JavaRDD<String> wordsFromFile = inputFile.flatMap(content -> Arrays.asList(content.split(" ")));
+		for(String line:inputFile.collect()){
+            System.out.println(line);
+            inputString = inputString + " " + line;
+        }
+		
+		outputString = removeStopWords(inputString);
+		list = Arrays.asList(outputString);
+		result = sparkContext.parallelize(list);
 
-//		JavaPairRDD countData;
-//		countData.saveAsTextFile("CountData");
+		result.saveAsTextFile("CountData");
 	}
 	
 /*
