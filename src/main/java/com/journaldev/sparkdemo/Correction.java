@@ -26,6 +26,9 @@ public class Correction {
  */
 	private static Set<String> stopWordSet;
 	
+	private SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Word Segmentation");
+	private JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
+	
 /*
  * 
  * loai bo stop word
@@ -33,12 +36,10 @@ public class Correction {
  */
 
 	// read each line in file and push words into an array
-	public static Set<String> createListFromDictionary(String fileName) {
+	public Set<String> createListFromDictionary(String fileName) {
 		if(fileName != "" || fileName != null) {
 			Set<String> bufferSet = null;
-			SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Word Segmentation");
-			JavaSparkContext context = new JavaSparkContext(sparkConf);
-			JavaRDD<String> textFile = context.textFile(fileName);
+			JavaRDD<String> textFile = sparkContext.textFile(fileName);
 			
 			for(String line:textFile.collect()){
 	            System.out.println(line);
@@ -73,9 +74,7 @@ public class Correction {
 		return result;
 	}
 	
-	public static void checkInputFile(String inputFileName, String dictionaryFileName) {
-		SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("JD Word Counter");
-		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
+	public void checkInputFile(String inputFileName, String dictionaryFileName) {;
 		JavaRDD<String> inputFile = sparkContext.textFile(inputFileName);
 		
 		List<String> list;
