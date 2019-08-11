@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -38,11 +39,11 @@ public class Correction {
 	// read each line in file and push words into an array
 	public Set<String> createListFromDictionary(String fileName) {
 		if(fileName != "" || fileName != null) {
-			Set<String> bufferSet = null;
+			Set<String> bufferSet = new HashSet<String>();;
 			JavaRDD<String> textFile = sparkContext.textFile(fileName);
 			
 			for(String line:textFile.collect()){
-	            System.out.println(line);
+//	            System.out.println(line);
 	            bufferSet.add(line);
 	        } 
 			
@@ -68,7 +69,7 @@ public class Correction {
 		String[] words = string.split("\\s+");
 		for(String word : words) {
 			if(word.isEmpty()) continue;
-			if(isStopWord(string)) continue; //remove stopwords
+			if(isStopWord(word)) continue; //remove stopwords
 			result += (word+" ");
 		}
 		return result;
@@ -94,7 +95,7 @@ public class Correction {
 		list = Arrays.asList(outputString);
 		result = sparkContext.parallelize(list);
 
-		result.saveAsTextFile("CountData");
+		result.saveAsTextFile("RemoveStopWord");
 	}
 	
 /*
