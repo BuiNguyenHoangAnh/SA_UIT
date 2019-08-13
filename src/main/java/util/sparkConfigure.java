@@ -4,18 +4,11 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
 
 public class sparkConfigure {
-	private SparkConf sparkConf;
-	private JavaSparkContext sparkContext;
-
-	public sparkConfigure() {
-		this.sparkConf = new SparkConf().setMaster("local").setAppName("SA-UIT");
-		this.sparkContext = new JavaSparkContext(sparkConf);
-	}
 	public SparkConf getSparkConf() {
-		return this.sparkConf;
+		return new SparkConf().setMaster("local").set("spark.driver.allowMultipleContexts", "true").setAppName("SA-UIT");
 	}
 	
 	public JavaSparkContext getSparkContext() {
-		return this.sparkContext;
+		return new JavaSparkContext(this.getSparkConf());
 	}
 }
