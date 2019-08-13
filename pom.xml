@@ -8,15 +8,6 @@
   <name>JD-Spark-WordCount</name>
   <url>http://maven.apache.org</url>
   
-<properties>
-  <argLine>--add-opens java.base/java.lang.module=ALL-UNNAMED</argLine>
-  <argLine>--add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
-  <argLine>export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --permit-illegal-access'</argLine>
-  <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
-  <argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
-  
-</properties>
-  
 <dependencies>
 
     <!-- Import Spark -->
@@ -99,13 +90,6 @@
 		     <configuration>                 
 		         <mainClass>com.journaldev.sparkdemo.App</mainClass>
 		     </configuration>
-		</plugin>
-		<plugin>
-		    <groupId>org.apache.maven.plugins</groupId>
-		    <artifactId>maven-surefire-plugin</artifactId>
-		    <configuration>
-		        <argLine>--add-opens java.base/java.lang.module=ALL-UNNAMED</argLine>
-		    </configuration>
 		</plugin>
     </plugins>
 </build>

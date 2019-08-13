@@ -1,13 +1,9 @@
 package bus;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
-import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 
 import dao.correctionDAO;
 import util.sparkConfigure;
@@ -24,11 +20,12 @@ public class correctionBUS {
 	
 /*
  * 
- * loai bo stop word
+ * remove stop word
  * 
  */
 
 	// read each line in file and push words into an array
+	@SuppressWarnings("unchecked")
 	public Set<String> createListFromDictionary(sparkConfigure spark, String fileName) {
 		if(fileName != "" || fileName != null) {
 			Set<String> bufferSet = new HashSet<String>();

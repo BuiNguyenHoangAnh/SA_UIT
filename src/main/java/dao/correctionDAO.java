@@ -5,9 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 
 import util.sparkConfigure;
 
@@ -39,6 +37,7 @@ public class correctionDAO {
 	}
 	
 //	read each line from file and push them to a set
+	@SuppressWarnings("rawtypes")
 	public Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
 		Set<String> set = new HashSet<String>();
 		for(String line:inputFile.collect()){
