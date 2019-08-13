@@ -30,13 +30,10 @@ public class correctionBUS {
 	// read each line in file and push words into an array
 	public Set<String> createListFromDictionary(String fileName) {
 		if(fileName != "" || fileName != null) {
-			Set<String> bufferSet = new HashSet<String>();;
-			JavaRDD<String> textFile = correctionDao.getInputFile(fileName);
+			Set<String> bufferSet = new HashSet<String>();
+			JavaRDD<String> inputFile = correctionDao.getInputFile(fileName);
 			
-			for(String line:textFile.collect()){
-//		            System.out.println(line);
-	            bufferSet.add(line);
-	        } 
+			bufferSet = correctionDao.pushDataFromFileToSet(inputFile);
 			
 			return bufferSet;
 		}
@@ -76,10 +73,7 @@ public class correctionBUS {
 		
 		stopWordSet = createListFromDictionary(dictionaryFileName);
 		
-		for(String line:inputFile.collect()){
-            System.out.println(line);
-            inputString = inputString + " " + line;
-        }
+		inputString = correctionDao.pushDataFromFileToString(inputFile);
 		
 		outputString = removeStopWords(inputString);
 		result = correctionDao.writeStringToOutputFile(outputString);

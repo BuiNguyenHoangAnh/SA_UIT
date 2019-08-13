@@ -1,7 +1,9 @@
 package dao;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -25,5 +27,25 @@ public class correctionDAO {
 
 		list = Arrays.asList(outputString);
 		return sparkContext.parallelize(list);
+	}
+	
+//	read data from file and push it to a string
+	public String pushDataFromFileToString(JavaRDD<String> inputFile) {
+		String inputString = null;
+		for(String line:inputFile.collect()){
+//            System.out.println(line);
+            inputString = inputString + " " + line;
+        }
+		return inputString;
+	}
+	
+//	read each line from file and push them to a set
+	public Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
+		Set<String> set = new HashSet<String>();
+		for(String line:inputFile.collect()){
+//            System.out.println(line);
+			set.add(line);
+		} 
+		return set;
 	}
 }
