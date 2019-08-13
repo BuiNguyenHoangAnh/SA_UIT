@@ -2,6 +2,9 @@ package com.journaldev.sparkdemo;
 
 import com.journaldev.sparkdemo.Segmentation;
 
+import bus.correctionBUS;
+import util.sparkConfigure;
+
 /**
  * 
  * SENTIMENT ANALYSIS
@@ -21,9 +24,11 @@ public class App
     	int inputFilesLenght;
     	String[] fileName;
     	
-    	Correction correction = new Correction();
+    	correctionBUS correction = new correctionBUS();
     	String dictionaryFileName;
     	String inputFileName;
+    	
+    	sparkConfigure spark = new sparkConfigure();
     	
 /*
  * 
@@ -41,7 +46,8 @@ public class App
 //    	for (int i = 0; i < inputFilesLenght; i++) {
 //    		if(i == 0)
 //    			fileName[i] = "input.txt";
-//    		fileName[i] = "";
+//    		else
+//    			fileName[i] = "";
 //    	}
 //    	
 //    	// checking if there is no input file then exit app
@@ -50,13 +56,13 @@ public class App
 //    		System.exit(0);
 //    	} 
 //    	// tokenizer and write result to output file
-//    	segmentation.wordSegmentation(fileName[0]);
+//    	segmentation.wordSegmentation(spark, fileName[0]);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
     	dictionaryFileName = "stopword_dictionary.txt";
     	inputFileName = "stopword_file.txt";
-    	correction.checkInputFile(inputFileName, dictionaryFileName);
+    	correction.checkInputFile(spark, inputFileName, dictionaryFileName);
     }
 }

@@ -10,18 +10,17 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
 import scala.Tuple2;
-
+import util.sparkConfigure;
 import vn.vitk.tok.*;
 
 public class Segmentation {
 	@SuppressWarnings({ "resource", "rawtypes", "unchecked" })
-	public void wordSegmentation(String fileName) {
+	public void wordSegmentation(sparkConfigure spark, String fileName) {
 		if(fileName != "" || fileName != null) {
-			SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Word Segmentation");
-//			String dataFolder = "/export/dat/tok";
-			String dataFolder = "/home/buinguyenhoanganh/Desktop/vn.vitk/dat/tok";
+			String dataFolder = "/export/dat/tok";
+//			String dataFolder = "/home/buinguyenhoanganh/Desktop/vn.vitk/dat/tok";
 //			String master = "local[*]";
-			String master = sparkConf.get("spark.master");	
+			String master = spark.getSparkConf().get("spark.master");	
 			String inputFileName = fileName;
 			String outputDirectory = "SegmentData";
 

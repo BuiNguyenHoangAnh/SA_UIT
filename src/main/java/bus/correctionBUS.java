@@ -10,6 +10,7 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
 import dao.correctionDAO;
+import util.sparkConfigure;
 
 public class correctionBUS {
 /*
@@ -28,10 +29,10 @@ public class correctionBUS {
  */
 
 	// read each line in file and push words into an array
-	public Set<String> createListFromDictionary(String fileName) {
+	public Set<String> createListFromDictionary(sparkConfigure spark, String fileName) {
 		if(fileName != "" || fileName != null) {
 			Set<String> bufferSet = new HashSet<String>();
-			JavaRDD<String> inputFile = correctionDao.getInputFile(fileName);
+			JavaRDD<String> inputFile = correctionDao.getInputFile(spark, fileName);
 			
 			bufferSet = correctionDao.pushDataFromFileToSet(inputFile);
 			
@@ -63,20 +64,20 @@ public class correctionBUS {
 		return result;
 	}
 	
-	public void checkInputFile(String inputFileName, String dictionaryFileName) {;
-		JavaRDD<String> inputFile = correctionDao.getInputFile(inputFileName);
+	public void checkInputFile(sparkConfigure spark, String inputFileName, String dictionaryFileName) {;
+		JavaRDD<String> inputFile = correctionDao.getInputFile(spark, inputFileName);
 		
 		JavaRDD<String> result;
 		
 		String inputString = null;
 		String outputString = null;
 		
-		stopWordSet = createListFromDictionary(dictionaryFileName);
+		stopWordSet = createListFromDictionary(spark, dictionaryFileName);
 		
 		inputString = correctionDao.pushDataFromFileToString(inputFile);
 		
 		outputString = removeStopWords(inputString);
-		result = correctionDao.writeStringToOutputFile(outputString);
+		result = correctionDao.writeStringToOutputFile(spark, outputString);
 
 		result.saveAsTextFile("RemoveStopWord");
 	}
