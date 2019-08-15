@@ -1,11 +1,13 @@
 package bus;
 
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import dao.correctionDAO;
+import dto.correctionDTO;
 import util.sparkConfigure;
 
 public class correctionBUS {
@@ -15,28 +17,55 @@ public class correctionBUS {
  * 
  */
 	private static Set<String> stopWordSet;;
-	
-	private correctionDAO correctionDao = new correctionDAO();
+
+	private correctionDTO correctionDto = new correctionDTO();
 	
 /*
  * 
  * remove stop word
  * 
  */
-
-	// read each line in file and push words into an array
-	@SuppressWarnings("unchecked")
-	public Set<String> createListFromDictionary(sparkConfigure spark, String fileName) {
-		if(fileName != "" || fileName != null) {
-			Set<String> bufferSet = new HashSet<String>();
-			JavaRDD<String> inputFile = correctionDao.getInputFile(spark, fileName);
-			
-			bufferSet = correctionDao.pushDataFromFileToSet(inputFile);
-			
-			return bufferSet;
-		}
+	public void correctInputFile(sparkConfigure spark) {
+		JavaRDD<String> inputFile;
+		JavaRDD<String> result;
 		
-		return null;
+		String inputString = null;
+		String outputString = null;
+		
+		stopWordSet = this.createListFromDictionary(spark);
+
+		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
+			inputFile = spark.getSparkContext().textFile(this.correctionDto.getInputFiles()[i]);
+		
+			inputString = this.pushDataFromFileToString(inputFile);
+			
+			outputString = removeStopWords(inputString);
+			
+			result = this.writeStringToFile(spark, outputString);
+			
+			result.saveAsTextFile("RemoveStopWord");
+		}
+	}
+
+	// read each line in file and push words into a set
+	@SuppressWarnings("unchecked")
+	public Set<String> createListFromDictionary(sparkConfigure spark) {
+		Set<String> bufferSet = new HashSet<String>();
+		JavaRDD<String> inputFile = this.correctionDto.getDictionary(spark);
+		
+		bufferSet = this.pushDataFromFileToSet(inputFile);
+		
+		return bufferSet;
+	}
+	
+	@SuppressWarnings("rawtypes")
+	public Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
+		Set<String> set = new HashSet<String>();
+		for(String line:inputFile.collect()){
+//            System.out.println(line);
+			set.add(line);
+		} 
+		return set;
 	}
 	
 	// check if word was a stop word
@@ -61,22 +90,22 @@ public class correctionBUS {
 		return result;
 	}
 	
-	public void checkInputFile(sparkConfigure spark, String inputFileName, String dictionaryFileName) {;
-		JavaRDD<String> inputFile = correctionDao.getInputFile(spark, inputFileName);
-		
-		JavaRDD<String> result;
-		
+//	read data from file and push it to a string
+	public String pushDataFromFileToString(JavaRDD<String> inputFile) {
 		String inputString = null;
-		String outputString = null;
-		
-		stopWordSet = createListFromDictionary(spark, dictionaryFileName);
-		
-		inputString = correctionDao.pushDataFromFileToString(inputFile);
-		
-		outputString = removeStopWords(inputString);
-		result = correctionDao.writeStringToOutputFile(spark, outputString);
+		for(String line:inputFile.collect()){
+//            System.out.println(line);
+            inputString = inputString + " " + line;
+        }
+		return inputString;
+	}
+	
+//	write a string to output file
+	public JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
+		List<String> list;
 
-		result.saveAsTextFile("RemoveStopWord");
+		list = Arrays.asList(outputString);
+		return spark.getSparkContext().parallelize(list);
 	}
 	
 /*
