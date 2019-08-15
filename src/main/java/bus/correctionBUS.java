@@ -39,17 +39,17 @@ public class correctionBUS {
 		
 			inputString = this.pushDataFromFileToString(inputFile);
 			
-			outputString = removeStopWords(inputString);
+			outputString = this.removeStopWords(inputString);
 			
 			result = this.writeStringToFile(spark, outputString);
 			
-			result.saveAsTextFile("RemoveStopWord");
+			result.saveAsTextFile("RemoveStopWord" + (i + 1));
 		}
 	}
 
 	// read each line in file and push words into a set
 	@SuppressWarnings("unchecked")
-	public Set<String> createListFromDictionary(sparkConfigure spark) {
+	private Set<String> createListFromDictionary(sparkConfigure spark) {
 		Set<String> bufferSet = new HashSet<String>();
 		JavaRDD<String> inputFile = this.correctionDto.getDictionary(spark);
 		
@@ -59,7 +59,7 @@ public class correctionBUS {
 	}
 	
 	@SuppressWarnings("rawtypes")
-	public Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
+	private Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
 		Set<String> set = new HashSet<String>();
 		for(String line:inputFile.collect()){
 //            System.out.println(line);
@@ -69,7 +69,7 @@ public class correctionBUS {
 	}
 	
 	// check if word was a stop word
-	public static boolean isStopWord(String word) {
+	private boolean isStopWord(String word) {
 		if(word.length() < 2)
 			return true;
 		if(word.charAt(0) >= '0' && word.charAt(0) <= '9')
@@ -79,19 +79,19 @@ public class correctionBUS {
 		return false;
 	}
 	
-	public static String removeStopWords(String string) {
+	private String removeStopWords(String string) {
 		String result = "";
 		String[] words = string.split("\\s+");
 		for(String word : words) {
 			if(word.isEmpty()) continue;
-			if(isStopWord(word)) continue; //remove stopwords
+			if(this.isStopWord(word)) continue; //remove stopwords
 			result += (word+" ");
 		}
 		return result;
 	}
 	
 //	read data from file and push it to a string
-	public String pushDataFromFileToString(JavaRDD<String> inputFile) {
+	private String pushDataFromFileToString(JavaRDD<String> inputFile) {
 		String inputString = null;
 		for(String line:inputFile.collect()){
 //            System.out.println(line);
@@ -101,7 +101,7 @@ public class correctionBUS {
 	}
 	
 //	write a string to output file
-	public JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
+	private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
 		List<String> list;
 
 		list = Arrays.asList(outputString);

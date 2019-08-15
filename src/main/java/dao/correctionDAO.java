@@ -21,7 +21,7 @@ public class correctionDAO {
 
 //	get input file
 	public String[] inputFiles() {
-		int length = 10;
+		int length = 2;
 		this.inputFileName = new String[length];
 		
 		// checking if there is no input file then exit app
@@ -32,10 +32,7 @@ public class correctionDAO {
 		// set data for file name elements
 		else {
 			for (int i = 0; i < this.inputFileName.length; i++) {
-				if(i == 0)
-					this.inputFileName[i] = "stopword_file.txt";
-				else
-					this.inputFileName[i] = "";
+				this.inputFileName[i] = "stopword_file.txt";
 			}
 		}
 		

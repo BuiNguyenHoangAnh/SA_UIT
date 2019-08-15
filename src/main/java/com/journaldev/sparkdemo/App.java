@@ -34,11 +34,11 @@ public class App
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-    	segmentation.wordSegmentation(spark);
+//    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-//    	correction.correctInputFile(spark);
+    	correction.correctInputFile(spark);
     }
 }
