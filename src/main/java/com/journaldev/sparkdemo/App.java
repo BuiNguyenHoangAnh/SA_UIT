@@ -1,5 +1,7 @@
 package com.journaldev.sparkdemo;
 
+import java.io.IOException;
+
 import bus.correctionBUS;
 import bus.segmentationBUS;
 
@@ -34,11 +36,16 @@ public class App
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-//    	segmentation.wordSegmentation(spark);
+    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-    	correction.correctInputFile(spark);
+    	try {
+			correction.correctInputFile(spark);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 }

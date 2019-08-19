@@ -1,5 +1,6 @@
 package bus;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -25,7 +26,7 @@ public class correctionBUS {
  * remove stop word
  * 
  */
-	public void correctInputFile(sparkConfigure spark) {
+	public void correctInputFile(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
 		
@@ -45,11 +46,12 @@ public class correctionBUS {
 			
 			result.saveAsTextFile("RemoveStopWord" + (i + 1));
 		}
+		
 	}
 
 	// read each line in file and push words into a set
 	@SuppressWarnings("unchecked")
-	private Set<String> createListFromDictionary(sparkConfigure spark) {
+	private Set<String> createListFromDictionary(sparkConfigure spark) throws IOException {
 		Set<String> bufferSet = new HashSet<String>();
 		JavaRDD<String> inputFile = this.correctionDto.getDictionary(spark);
 		
@@ -59,7 +61,7 @@ public class correctionBUS {
 	}
 	
 	@SuppressWarnings("rawtypes")
-	private Set pushDataFromFileToSet(JavaRDD<String> inputFile) {
+	private Set pushDataFromFileToSet(JavaRDD<String> inputFile) throws IOException {
 		Set<String> set = new HashSet<String>();
 		for(String line:inputFile.collect()){
 //            System.out.println(line);
@@ -105,7 +107,8 @@ public class correctionBUS {
 		List<String> list;
 
 		list = Arrays.asList(outputString);
-		return spark.getSparkContext().parallelize(list);
+		JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
+		return result;
 	}
 	
 /*
