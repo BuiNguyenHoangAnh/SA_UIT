@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import bus.correctionBUS;
 import bus.segmentationBUS;
-
+import bus.taggingBUS;
 import util.sparkConfigure;
 
 /**
@@ -28,6 +28,8 @@ public class App
     	
     	correctionBUS correction = new correctionBUS();
     	
+    	taggingBUS tagging = new taggingBUS();
+    	
 /*
  * 
  * GIAI DOAN: TIEN XU LI
@@ -36,16 +38,21 @@ public class App
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-    	segmentation.wordSegmentation(spark);
+//    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-    	try {
-			correction.correctInputFile(spark);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//    	try {
+//			correction.correctInputFile(spark);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+    	
+		/*
+		 * WORD TAGGING
+		 */
+    	tagging.wordTagging(spark);
     }
 }
