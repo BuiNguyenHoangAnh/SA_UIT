@@ -38,17 +38,17 @@ public class App
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-//    	segmentation.wordSegmentation(spark);
+    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-//    	try {
-//			correction.correctInputFile(spark);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+    	try {
+			correction.correctInputFile(spark);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
 		/*
 		 * WORD TAGGING

@@ -10,7 +10,6 @@ public class taggingBUS {
 	
 	public void wordTagging(sparkConfigure spark) {
 		String dataFolder = "/export/dat/tag";
-		String master = spark.getSparkConf().get("spark.master");
 		String cmm = dataFolder + "/vi/cmm";
 		
 		Tagger tagger = new Tagger(spark.getSparkContext());
