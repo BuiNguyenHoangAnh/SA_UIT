@@ -20,7 +20,8 @@ public class segmentationBUS {
 				String outputDirectory = "SegmentData";
 
 				Tokenizer tokenizer = null;
-				tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/whitespace.model", true);
+//				tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/whitespace.model", true);
+				tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/syllables2M.arpa");
 				tokenizer.tokenize(inputFileName, outputDirectory + (i + 1));
 			}
 		}
