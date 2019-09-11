@@ -5,6 +5,7 @@ import java.io.IOException;
 import bus.correctionBUS;
 import bus.segmentationBUS;
 import bus.taggingBUS;
+import bus.topicModelingBUS;
 import util.sparkConfigure;
 
 /**
@@ -30,29 +31,35 @@ public class App
     	
     	taggingBUS tagging = new taggingBUS();
     	
+//    	topicModelingBUS topicModelingBus = new topicModelingBUS();
+    	
 /*
  * 
  * GIAI DOAN: TIEN XU LI
  * 
  */
 		/*
+		 * STANDARDIZE DATA
+		 */
+    	
+		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-    	segmentation.wordSegmentation(spark);
+//    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-    	try {
-			correction.correctInputFile(spark);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//    	try {
+//			correction.correctInputFile(spark);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
     	
 		/*
 		 * WORD TAGGING
 		 */
-    	tagging.wordTagging(spark);
+//    	tagging.wordTagging(spark);
     }
 }
