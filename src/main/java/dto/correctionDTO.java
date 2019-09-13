@@ -19,4 +19,8 @@ public class correctionDTO {
 	public String[] getInputFiles() {
 		return this.correctionDao.inputFiles();
 	}
+
+	public Object getExcelFile() {
+		return this.correctionDao.readSocialDictionary();
+	}
 }

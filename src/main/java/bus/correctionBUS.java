@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
+import org.uncommons.maths.statistics.DataSet;
 
 import dto.correctionDTO;
 import util.sparkConfigure;
@@ -17,7 +18,13 @@ public class correctionBUS {
  * declare variables
  * 
  */
-	private static Set<String> stopWordSet;;
+	class Bean {
+		private String incorrectWord;
+		private String correctWord;
+	}
+
+	private static Set<String> stopWordSet;
+	private static DataSet<Bean> socialWordSet;
 
 	private correctionDTO correctionDto = new correctionDTO();
 	
@@ -26,7 +33,7 @@ public class correctionBUS {
  * remove stop word
  * 
  */
-	public void correctInputFile(sparkConfigure spark) throws IOException {
+	public void correctData(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
 		
@@ -113,20 +120,19 @@ public class correctionBUS {
 	
 /*
  * 
- * xu li tu viet tat
+ * xu li tu viet tat, sai chinh ta, tieng long/ vung mien
  * 
  */
+	public void standardizeData(sparkConfigure spark) {
+		JavaRDD<String> input;
+		JavaRDD<String> result;
+		
+		socialWordSet = correctionDTO.getExcelFile();
+		
+		result = this.standardize(input);
+	}
 	
-/*
- * 
- * xu li tu sai chinh ta
- * 
- */
-	 
-/*
- * 
- * xu li tieng long/ vung mien
- * 
- */
-
+	private JavaRDD<String> standardize(JavaRDD<String> input) {
+		
+	}
 }

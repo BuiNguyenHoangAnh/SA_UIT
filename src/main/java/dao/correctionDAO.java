@@ -1,6 +1,13 @@
 package dao;
 
 import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Encoders;
+import org.apache.spark.sql.types.DataTypes;
+import org.apache.spark.sql.types.Metadata;
+import org.apache.spark.sql.types.StructField;
+import org.apache.spark.sql.types.StructType;
+import org.apache.spark.sql.SparkSession;
 
 import util.sparkConfigure;
 
@@ -37,5 +44,44 @@ public class correctionDAO {
 		}
 		
 		return this.inputFileName;
+	}
+	
+	/*
+	 * read Social Language Dictionary
+	 */
+	//build session
+    SparkSession sparkSession = SparkSession
+            .builder()
+            .appName("Java Spark SQL Example")
+            .config("spark.master", "local")
+            .getOrCreate();
+	
+	class Bean {
+	     private String col1;
+	     private String col2;   
+//	     private Timestamp col3;
+	}	
+
+	public Dataset<Bean> readSocialDictionary() {
+//		return null;
+		
+		StructType structType= new StructType(new StructField[] {
+                new StructField("col1", DataTypes.StringType, true, Metadata.empty()),
+                new StructField("col2", DataTypes.StringType, true, Metadata.empty()),
+//                new StructField("col3", DataTypes.TimestampType, true, Metadata.empty())
+        });
+
+		Dataset<Bean> ds = this.sparkSession.read().
+		                schema(structType).
+		                format("com.crealytics.spark.excel").
+		                option("useHeader", true). // If the xls file has headers
+		                option("timestampFormat", "yyyy-MM-dd HH:mm:ss"). // If you want to convert timestamp to a specific format
+		                option("treatEmptyValuesAsNulls", "false").
+		                option("inferSchema", "false").
+		                option("addColorColumns", "false").
+		                load("/home/user/test/sample.xls"). //path to xls or xlsx
+		                as(Encoders.bean(Bean.class)); 
+		
+		return ds;
 	}
 }

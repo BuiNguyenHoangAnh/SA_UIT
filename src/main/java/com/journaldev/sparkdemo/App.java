@@ -5,7 +5,6 @@ import java.io.IOException;
 import bus.correctionBUS;
 import bus.segmentationBUS;
 import bus.taggingBUS;
-import bus.topicModelingBUS;
 import util.sparkConfigure;
 
 /**
@@ -41,6 +40,7 @@ public class App
 		/*
 		 * STANDARDIZE DATA
 		 */
+    	correctionBUS.standardizeData(spark);
     	
 		/*
 		 * TOKENIZER/ SEGMENTATION
@@ -51,7 +51,7 @@ public class App
 		 * REMOVE STOP WORD
 		 */
 //    	try {
-//			correction.correctInputFile(spark);
+//			correction.correctData(spark);
 //		} catch (IOException e) {
 //			// TODO Auto-generated catch block
 //			e.printStackTrace();
