@@ -7,10 +7,14 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
-import org.uncommons.maths.statistics.DataSet;
+import org.apache.spark.sql.DataFrame;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SQLContext;
 
 import dto.correctionDTO;
 import util.sparkConfigure;
+import util.util.Bean;
 
 public class correctionBUS {
 /*
@@ -18,13 +22,8 @@ public class correctionBUS {
  * declare variables
  * 
  */
-	class Bean {
-		private String incorrectWord;
-		private String correctWord;
-	}
-
 	private static Set<String> stopWordSet;
-	private static DataSet<Bean> socialWordSet;
+	private static DataFrame socialWordSet;
 
 	private correctionDTO correctionDto = new correctionDTO();
 	
@@ -99,25 +98,6 @@ public class correctionBUS {
 		return result;
 	}
 	
-//	read data from file and push it to a string
-	private String pushDataFromFileToString(JavaRDD<String> inputFile) {
-		String inputString = null;
-		for(String line:inputFile.collect()){
-//            System.out.println(line);
-            inputString = inputString + " " + line;
-        }
-		return inputString;
-	}
-	
-//	write a string to output file
-	private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
-		List<String> list;
-
-		list = Arrays.asList(outputString);
-		JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
-		return result;
-	}
-	
 /*
  * 
  * xu li tu viet tat, sai chinh ta, tieng long/ vung mien
@@ -127,12 +107,84 @@ public class correctionBUS {
 		JavaRDD<String> input;
 		JavaRDD<String> result;
 		
-		socialWordSet = correctionDTO.getExcelFile();
+		String inputString = null;
+		String outputString = null;
 		
-		result = this.standardize(input);
+		for (int i = 0; i < this.correctionDto.getInput().length; i++) {
+			input = spark.getSparkContext().textFile(this.correctionDto.getInput()[i]);
+		
+			inputString = this.pushDataFromFileToString(input);
+			
+			outputString = this.standardize(inputString, spark);
+			
+			result = this.writeStringToFile(spark, outputString);
+			
+//			result = this.writeStringToFile(spark, outputString);
+			
+			result.saveAsTextFile("Standardize" + (i + 1));
+		}
 	}
 	
-	private JavaRDD<String> standardize(JavaRDD<String> input) {
+	private String standardize(String string, sparkConfigure spark) {
+		socialWordSet = correctionDto.getSocialLanguageDictionary(spark);
 		
+		String result = "";
+		String[] words = string.split("\\s+");
+		for(String word : words) {
+			if(word.isEmpty()) continue;
+			if(this.isSocialLanguage(word, spark) > 0) {
+				//remove teen code, incorrect words, ...
+				DataFrame correctWords =  socialWordSet.select("correct");
+				Row[] correctRows = correctWords.collect();
+				
+				int count = this.isSocialLanguage(word, spark);
+				
+				for (Row row : correctRows) {
+					count -= 1;
+					if(count == 0) 
+						result += (row.toString().substring(1, row.toString().length() - 1)+" ");
+				}
+				continue;
+			}
+			result += (word+" ");
+		}
+		return result;
+	}
+	
+	private int isSocialLanguage(String word, sparkConfigure spark) {
+		int count = 0;
+
+		DataFrame incorrectWords =  socialWordSet.select("incorrect");
+		Row[] incorrectRows = incorrectWords.collect();
+		for (Row row : incorrectRows) {
+			count += 1;
+			if(row.toString().contains(word)) 
+				return count;
+		}
+
+		return 0;
+	}
+
+/*
+ * helper function
+ */
+
+//read data from file and push it to a string
+	private String pushDataFromFileToString(JavaRDD<String> inputFile) {
+		String inputString = null;
+		for(String line:inputFile.collect()){
+	//        System.out.println(line);
+	        inputString = inputString + " " + line;
+	    }
+		return inputString;
+	}
+
+//write a string to output file
+	private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
+		List<String> list;
+	
+		list = Arrays.asList(outputString);
+		JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
+		return result;
 	}
 }

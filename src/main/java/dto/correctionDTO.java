@@ -1,9 +1,13 @@
 package dto;
 
 import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.sql.DataFrame;
+import org.apache.spark.sql.Dataset;
 
 import dao.correctionDAO;
+
 import util.sparkConfigure;
+import util.util.Bean;
 
 public class correctionDTO {
 	private correctionDAO correctionDao = new correctionDAO();
@@ -19,8 +23,12 @@ public class correctionDTO {
 	public String[] getInputFiles() {
 		return this.correctionDao.inputFiles();
 	}
+	
+	public String[] getInput() {
+		return this.correctionDao.input();
+	}
 
-	public Object getExcelFile() {
-		return this.correctionDao.readSocialDictionary();
+	public DataFrame getSocialLanguageDictionary(sparkConfigure spark) {
+		return this.correctionDao.readSocialDictionary(spark);
 	}
 }

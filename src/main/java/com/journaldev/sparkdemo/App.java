@@ -40,7 +40,7 @@ public class App
 		/*
 		 * STANDARDIZE DATA
 		 */
-    	correctionBUS.standardizeData(spark);
+    	correction.standardizeData(spark);
     	
 		/*
 		 * TOKENIZER/ SEGMENTATION

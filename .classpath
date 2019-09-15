@@ -16,7 +16,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/vn.vitk"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
@@ -24,17 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/arpack_combined_all-0.1.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/bsh-2.0b4.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/jdom-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/jgrapht-0.6.0.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/junit-4.10.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/jwnl-1.4_rc3.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/mallet-2.0.8.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/mtj-0.9.14.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/netlib-java-0.9.3.jar"/>
-	<classpathentry kind="lib" path="/home/buinguyenhoanganh/Downloads/jar_files/trove4j-2.0.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/vn.vitk"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
