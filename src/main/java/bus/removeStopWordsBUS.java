@@ -7,25 +7,19 @@ import java.util.List;
 import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.sql.DataFrame;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SQLContext;
 
-import dto.correctionDTO;
+import dto.removeStopWordsDTO;
 import util.sparkConfigure;
-import util.util.Bean;
 
-public class correctionBUS {
+public class removeStopWordsBUS {
 /*
  * 
  * declare variables
  * 
  */
 	private static Set<String> stopWordSet;
-	private static DataFrame socialWordSet;
-
-	private correctionDTO correctionDto = new correctionDTO();
+	
+	private removeStopWordsDTO correctionDto = new removeStopWordsDTO();
 	
 /*
  * 
@@ -52,7 +46,6 @@ public class correctionBUS {
 			
 			result.saveAsTextFile("RemoveStopWord" + (i + 1));
 		}
-		
 	}
 
 	// read each line in file and push words into a set
@@ -96,73 +89,6 @@ public class correctionBUS {
 			result += (word+" ");
 		}
 		return result;
-	}
-	
-/*
- * 
- * xu li tu viet tat, sai chinh ta, tieng long/ vung mien
- * 
- */
-	public void standardizeData(sparkConfigure spark) {
-		JavaRDD<String> input;
-		JavaRDD<String> result;
-		
-		String inputString = null;
-		String outputString = null;
-		
-		for (int i = 0; i < this.correctionDto.getInput().length; i++) {
-			input = spark.getSparkContext().textFile(this.correctionDto.getInput()[i]);
-		
-			inputString = this.pushDataFromFileToString(input);
-			
-			outputString = this.standardize(inputString, spark);
-			
-			result = this.writeStringToFile(spark, outputString);
-			
-//			result = this.writeStringToFile(spark, outputString);
-			
-			result.saveAsTextFile("Standardize" + (i + 1));
-		}
-	}
-	
-	private String standardize(String string, sparkConfigure spark) {
-		socialWordSet = correctionDto.getSocialLanguageDictionary(spark);
-		
-		String result = "";
-		String[] words = string.split("\\s+");
-		for(String word : words) {
-			if(word.isEmpty()) continue;
-			if(this.isSocialLanguage(word, spark) > 0) {
-				//remove teen code, incorrect words, ...
-				DataFrame correctWords =  socialWordSet.select("correct");
-				Row[] correctRows = correctWords.collect();
-				
-				int count = this.isSocialLanguage(word, spark);
-				
-				for (Row row : correctRows) {
-					count -= 1;
-					if(count == 0) 
-						result += (row.toString().substring(1, row.toString().length() - 1)+" ");
-				}
-				continue;
-			}
-			result += (word+" ");
-		}
-		return result;
-	}
-	
-	private int isSocialLanguage(String word, sparkConfigure spark) {
-		int count = 0;
-
-		DataFrame incorrectWords =  socialWordSet.select("incorrect");
-		Row[] incorrectRows = incorrectWords.collect();
-		for (Row row : incorrectRows) {
-			count += 1;
-			if(row.toString().contains(word)) 
-				return count;
-		}
-
-		return 0;
 	}
 
 /*

@@ -2,8 +2,9 @@ package com.journaldev.sparkdemo;
 
 import java.io.IOException;
 
-import bus.correctionBUS;
+import bus.removeStopWordsBUS;
 import bus.segmentationBUS;
+import bus.standardizeBUS;
 import bus.taggingBUS;
 import util.sparkConfigure;
 
@@ -26,7 +27,9 @@ public class App
   
     	segmentationBUS segmentation = new segmentationBUS();
     	
-    	correctionBUS correction = new correctionBUS();
+    	standardizeBUS standardize = new standardizeBUS();
+    	
+    	removeStopWordsBUS removeStopWords = new removeStopWordsBUS();
     	
     	taggingBUS tagging = new taggingBUS();
     	
@@ -36,30 +39,30 @@ public class App
  * 
  * GIAI DOAN: TIEN XU LI
  * 
- */
-		/*
+ */ 	
+    	/*
 		 * STANDARDIZE DATA
 		 */
-    	correction.standardizeData(spark);
-    	
+    	standardize.standardizeData(spark);
+  
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-//    	segmentation.wordSegmentation(spark);
+    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-//    	try {
-//			correction.correctData(spark);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+    	try {
+    		removeStopWords.correctData(spark);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
 		/*
 		 * WORD TAGGING
 		 */
-//    	tagging.wordTagging(spark);
+    	tagging.wordTagging(spark);
     }
 }
