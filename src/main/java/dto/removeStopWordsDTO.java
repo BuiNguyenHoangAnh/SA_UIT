@@ -2,11 +2,11 @@ package dto;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import dao.correctionDAO;
+import dao.removeStopWordsDAO;
 import util.sparkConfigure;
 
-public class correctionDTO {
-	private correctionDAO correctionDao = new correctionDAO();
+public class removeStopWordsDTO {
+	private removeStopWordsDAO correctionDao = new removeStopWordsDAO();
 	
 	public JavaRDD<String> getDictionary(sparkConfigure spark) {
 		return this.correctionDao.dictionaryFile(spark);

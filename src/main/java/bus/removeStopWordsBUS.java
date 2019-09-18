@@ -8,25 +8,25 @@ import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import dto.correctionDTO;
+import dto.removeStopWordsDTO;
 import util.sparkConfigure;
 
-public class correctionBUS {
+public class removeStopWordsBUS {
 /*
  * 
  * declare variables
  * 
  */
-	private static Set<String> stopWordSet;;
-
-	private correctionDTO correctionDto = new correctionDTO();
+	private static Set<String> stopWordSet;
+	
+	private removeStopWordsDTO correctionDto = new removeStopWordsDTO();
 	
 /*
  * 
  * remove stop word
  * 
  */
-	public void correctInputFile(sparkConfigure spark) throws IOException {
+	public void correctData(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
 		
@@ -46,7 +46,6 @@ public class correctionBUS {
 			
 			result.saveAsTextFile("RemoveStopWord" + (i + 1));
 		}
-		
 	}
 
 	// read each line in file and push words into a set
@@ -91,42 +90,27 @@ public class correctionBUS {
 		}
 		return result;
 	}
-	
-//	read data from file and push it to a string
+
+/*
+ * helper function
+ */
+
+//read data from file and push it to a string
 	private String pushDataFromFileToString(JavaRDD<String> inputFile) {
 		String inputString = null;
 		for(String line:inputFile.collect()){
-//            System.out.println(line);
-            inputString = inputString + " " + line;
-        }
+	//        System.out.println(line);
+	        inputString = inputString + " " + line;
+	    }
 		return inputString;
 	}
-	
-//	write a string to output file
+
+//write a string to output file
 	private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
 		List<String> list;
-
+	
 		list = Arrays.asList(outputString);
 		JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
 		return result;
 	}
-	
-/*
- * 
- * xu li tu viet tat
- * 
- */
-	
-/*
- * 
- * xu li tu sai chinh ta
- * 
- */
-	 
-/*
- * 
- * xu li tieng long/ vung mien
- * 
- */
-
 }

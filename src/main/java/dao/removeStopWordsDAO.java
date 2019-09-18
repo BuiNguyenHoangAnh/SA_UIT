@@ -4,22 +4,22 @@ import org.apache.spark.api.java.JavaRDD;
 
 import util.sparkConfigure;
 
-public class correctionDAO {
-	private String dictionaryFileName = null;
+public class removeStopWordsDAO {
+	private String stopWordsDictionaryFileName = null;
 	private String[] inputFileName = null;
 	
 //	get stop words dictionary
 	public JavaRDD<String> dictionaryFile(sparkConfigure spark) {
-		this.dictionaryFileName = "stopword_dictionary.txt";
+		this.stopWordsDictionaryFileName = "stopword_dictionary.txt";
 
-		if (this.dictionaryFileName != "" || this.dictionaryFileName != null) {
-			JavaRDD<String> dictionaryFile = spark.getSparkContext().textFile(this.dictionaryFileName);
+		if (this.stopWordsDictionaryFileName != "" || this.stopWordsDictionaryFileName != null) {
+			JavaRDD<String> dictionaryFile = spark.getSparkContext().textFile(this.stopWordsDictionaryFileName);
 			return dictionaryFile;
 		}
 		return null;
 	}
-
-//	get input file
+	
+//	get input
 	public String[] inputFiles() {
 		int length = 2;
 		this.inputFileName = new String[length];
