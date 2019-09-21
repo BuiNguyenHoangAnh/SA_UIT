@@ -48,21 +48,21 @@ public class App
 		/*
 		 * TOKENIZER/ SEGMENTATION
 		 */
-//    	segmentation.wordSegmentation(spark);
+    	segmentation.wordSegmentation(spark);
     	
 		/*
 		 * REMOVE STOP WORD
 		 */
-//    	try {
-//    		removeStopWords.correctData(spark);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+    	try {
+    		removeStopWords.correctData(spark);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
 		/*
 		 * WORD TAGGING
 		 */
-//    	tagging.wordTagging(spark);
+    	tagging.wordTagging(spark);
     }
 }
