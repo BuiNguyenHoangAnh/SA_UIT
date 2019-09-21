@@ -1,19 +1,18 @@
 package bus;
 
-import java.util.Arrays;
-import java.util.List;
-
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.sql.DataFrame;
 import org.apache.spark.sql.Row;
 
 import dto.standardizeDTO;
+import util.helpFunction;
 import util.sparkConfigure;
 
 public class standardizeBUS {
 	private static DataFrame socialWordSet;
 	
 	private standardizeDTO correctionDto = new standardizeDTO();
+	private helpFunction helpFunc = new helpFunction();
 	
 	public void standardizeData(sparkConfigure spark) {
 		JavaRDD<String> input;
@@ -25,11 +24,11 @@ public class standardizeBUS {
 		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
 			input = spark.getSparkContext().textFile(this.correctionDto.getInput()[i]);
 		
-			inputString = this.pushDataFromFileToString(input);
+			inputString = this.helpFunc.pushDataFromFileToString(input);
 			
 			outputString = this.standardize(inputString, spark);
 			
-			result = this.writeStringToFile(spark, outputString);
+			result = this.helpFunc.writeStringToFile(spark, outputString);
 			
 			result.saveAsTextFile("Standardize" + (i + 1));
 		}
@@ -74,27 +73,4 @@ public class standardizeBUS {
 
 		return 0;
 	}
-	
-	/*
-	 * helper function
-	 */
-
-	//read data from file and push it to a string
-		private String pushDataFromFileToString(JavaRDD<String> inputFile) {
-			String inputString = null;
-			for(String line:inputFile.collect()){
-		//        System.out.println(line);
-		        inputString = inputString + " " + line;
-		    }
-			return inputString;
-		}
-
-	//write a string to output file
-		private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
-			List<String> list;
-		
-			list = Arrays.asList(outputString);
-			JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
-			return result;
-		}
 }

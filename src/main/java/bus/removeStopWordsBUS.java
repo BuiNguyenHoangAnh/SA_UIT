@@ -1,14 +1,13 @@
 package bus;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
 
 import dto.removeStopWordsDTO;
+import util.helpFunction;
 import util.sparkConfigure;
 
 public class removeStopWordsBUS {
@@ -20,6 +19,7 @@ public class removeStopWordsBUS {
 	private static Set<String> stopWordSet;
 	
 	private removeStopWordsDTO correctionDto = new removeStopWordsDTO();
+	private helpFunction helpFunc = new helpFunction();
 	
 /*
  * 
@@ -38,11 +38,11 @@ public class removeStopWordsBUS {
 		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
 			inputFile = spark.getSparkContext().textFile(this.correctionDto.getInputFiles()[i]);
 		
-			inputString = this.pushDataFromFileToString(inputFile);
+			inputString = this.helpFunc.pushDataFromFileToString(inputFile);
 			
 			outputString = this.removeStopWords(inputString);
 			
-			result = this.writeStringToFile(spark, outputString);
+			result = this.helpFunc.writeStringToFile(spark, outputString);
 			
 			result.saveAsTextFile("RemoveStopWord" + (i + 1));
 		}
@@ -88,29 +88,6 @@ public class removeStopWordsBUS {
 			if(this.isStopWord(word)) continue; //remove stopwords
 			result += (word+" ");
 		}
-		return result;
-	}
-
-/*
- * helper function
- */
-
-//read data from file and push it to a string
-	private String pushDataFromFileToString(JavaRDD<String> inputFile) {
-		String inputString = null;
-		for(String line:inputFile.collect()){
-	//        System.out.println(line);
-	        inputString = inputString + " " + line;
-	    }
-		return inputString;
-	}
-
-//write a string to output file
-	private JavaRDD<String> writeStringToFile(sparkConfigure spark, String outputString) {
-		List<String> list;
-	
-		list = Arrays.asList(outputString);
-		JavaRDD<String> result = spark.getSparkContext().parallelize(list); 
 		return result;
 	}
 }
