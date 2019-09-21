@@ -1,8 +1,8 @@
-package dao;
+package tagging;
 
-public class segmentationDAO {
+public class taggingDAO {
 	private String[] fileName = null;
-	
+
 	public String[] inputFiles() {
 		int length = 2;
 		this.fileName = new String[length];
@@ -15,7 +15,7 @@ public class segmentationDAO {
 		// set data for file name elements
 		else {
 			for (int i = 0; i < this.fileName.length; i++) {
-				this.fileName[i] = "input.txt";
+				this.fileName[i] = "tagging.txt";
 			}
 		}
 		

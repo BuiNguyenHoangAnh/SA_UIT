@@ -1,4 +1,4 @@
-package bus;
+package stopword;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -6,7 +6,6 @@ import java.util.Set;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import dto.removeStopWordsDTO;
 import util.helpFunction;
 import util.sparkConfigure;
 

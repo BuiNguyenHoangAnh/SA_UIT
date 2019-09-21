@@ -2,10 +2,10 @@ package com.journaldev.sparkdemo;
 
 import java.io.IOException;
 
-import bus.removeStopWordsBUS;
-import bus.segmentationBUS;
-import bus.standardizeBUS;
-import bus.taggingBUS;
+import segmentation.segmentationBUS;
+import standardize.standardizeBUS;
+import stopword.removeStopWordsBUS;
+import tagging.taggingBUS;
 import util.sparkConfigure;
 
 /**

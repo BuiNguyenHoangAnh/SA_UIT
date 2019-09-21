@@ -1,6 +1,4 @@
-package dto;
-
-import dao.segmentationDAO;
+package segmentation;
 
 public class segmentationDTO {
 	segmentationDAO segmentationDao = new segmentationDAO();

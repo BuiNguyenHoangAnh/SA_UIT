@@ -7,7 +7,7 @@ import vn.vitk.util.SparkContextFactory;
 
 public class sparkConfigure {
 	private SparkConf sparkConf = new SparkConf().setMaster("local").set("spark.driver.allowMultipleContexts", "true").setAppName("SA-UIT");
-	private JavaSparkContext sparkContext;
+	private JavaSparkContext sparkContext = null;
 
 	public SparkConf getSparkConf() {
 		return this.sparkConf;

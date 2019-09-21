@@ -1,8 +1,7 @@
-package dto;
+package standardize;
 
 import org.apache.spark.sql.DataFrame;
 
-import dao.standardizeDAO;
 import util.sparkConfigure;
 
 public class standardizeDTO {

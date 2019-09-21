@@ -1,8 +1,7 @@
-package dto;
+package stopword;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import dao.removeStopWordsDAO;
 import util.sparkConfigure;
 
 public class removeStopWordsDTO {

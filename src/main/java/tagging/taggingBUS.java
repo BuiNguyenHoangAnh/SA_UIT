@@ -1,6 +1,5 @@
-package bus;
+package tagging;
 
-import dto.taggingDTO;
 import util.sparkConfigure;
 
 import vn.vitk.tag.Tagger;

@@ -1,6 +1,5 @@
-package bus;
+package segmentation;
 
-import dto.segmentationDTO;
 import util.sparkConfigure;
 import vn.vitk.tok.Tokenizer;
 

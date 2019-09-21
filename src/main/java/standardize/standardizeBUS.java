@@ -1,10 +1,9 @@
-package bus;
+package standardize;
 
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.sql.DataFrame;
 import org.apache.spark.sql.Row;
 
-import dto.standardizeDTO;
 import util.helpFunction;
 import util.sparkConfigure;
 

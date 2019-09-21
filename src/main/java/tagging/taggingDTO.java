@@ -1,6 +1,4 @@
-package dto;
-
-import dao.taggingDAO;
+package tagging;
 
 public class taggingDTO {
 	taggingDAO taggingnDao = new taggingDAO();
