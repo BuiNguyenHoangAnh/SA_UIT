@@ -34,7 +34,7 @@ public class standardizeBUS {
 			result.saveAsTextFile("Standardize" + (i + 1));
 		}
 		
-		spark.getSparkContext().
+		spark.getSparkContext();
 	}
 	
 	private String standardize(String string, sparkConfigure spark) {
