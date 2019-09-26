@@ -1,20 +1,11 @@
 package model;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
-import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
-import org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.deeplearning4j.datasets.iterator.AsyncDataSetIterator;
 import org.deeplearning4j.datasets.iterator.DataSetIterator;
 import org.deeplearning4j.earlystopping.saver.LocalFileModelSaver;
@@ -37,17 +28,19 @@ import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
 public class sentimentAnalyser {
-	/**
-     * Location to save and extract the training/testing data
-     */
-    public static final String DATA_PATH = "/path/to/data/train/";
-    /**
-     * Location (local file system) for the model word2vector. Set this manually.
-     */
-    public static final String WORD_VECTORS_PATH = "/path/to/data/vnw2v.bin";
+	/*
+	 * // // Declare variables //
+	 */
+	// Location to save and extract the training/testing data
+    public static final String DATA_PATH = ""; // need to replace this path. Ex: /path/to/data/train/
+    // Location for the model word2vector
+    public static final String WORD_VECTORS_PATH = ""; //need to replace this path. Ex: /path/to/data/w2v.bin
     // Directory save checkpoint MultiLayerNetwork. 
-    public static final String CHECKPOINT_PATH = "/path/to/checkpoint/";
+    public static final String CHECKPOINT_PATH = ""; // ex: /path/to/checkpoint/<name>
     
+	/*
+	 * training model
+	 */
     public void sentimentModel() throws IOException {
     	long start = System.currentTimeMillis();
 
@@ -82,11 +75,10 @@ public class sentimentAnalyser {
         DataSetIterator train = new AsyncDataSetIterator(new sentimentIterator(DATA_PATH,wordVectors,batchSize,truncateReviewsToLength,true),1);
         DataSetIterator test = new AsyncDataSetIterator(new sentimentIterator(DATA_PATH,wordVectors,100,truncateReviewsToLength,false),1);
 
-        System.out.println("Starting training...");
+        // Training: start here
         for( int i=0; i < nEpochs; i++ ){
             net.fit(train);
             train.reset();
-            System.out.println("Epoch " + i + " complete. Starting evaluation:");
 
             //Run evaluation. This is on 25k reviews, so can take some time
             Evaluation evaluation = new Evaluation();
@@ -104,7 +96,7 @@ public class sentimentAnalyser {
 
             System.out.println(evaluation.stats());
             
-            System.out.println("Save checkpoint MultiLayerNetwork time " + i + "..............");
+            // Save checkpoint
             String confPath = CHECKPOINT_PATH + "conf" + i + ".json";
             String netPath = CHECKPOINT_PATH + "sentimentNet" + i + ".bin";
             try {
@@ -120,11 +112,8 @@ public class sentimentAnalyser {
             }
         }
 
-        //saveLatestModel
-        System.out.println("Save saveLatestModel...");
+        //save Latest Model
         LocalFileModelSaver saver = new LocalFileModelSaver(CHECKPOINT_PATH);
         saver.saveLatestModel(net, 1);
-        System.out.println("----- Example complete -----");
-        System.out.println("===== Example complete Time: " + (System.currentTimeMillis() - start) + " ms");
     }
 }

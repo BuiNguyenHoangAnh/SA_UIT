@@ -20,9 +20,9 @@ import org.nd4j.linalg.indexing.NDArrayIndex;
 
 public class sentimentIterator implements DataSetIterator {
 	/**
-	 * 
+	 * Declare variables
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; // default serial Version
 	private final WordVectors wordVectors;
     private final int batchSize;
     private final int vectorSize;
@@ -39,16 +39,23 @@ public class sentimentIterator implements DataSetIterator {
      * @param wordVectors WordVectors object
      * @param batchSize Size of each minibatch for training
      * @param truncateLength If reviews exceed
-     * @param train If true: return the training data. If false: return the testing data.
+     * @param train If true: return the training data, else return the testing data.
      */
     public sentimentIterator(String dataDirectory, WordVectors wordVectors, int batchSize, int truncateLength, boolean train) throws IOException {
         this.batchSize = batchSize;
         this.vectorSize = wordVectors.lookupTable().layerSize();
         
-        File pos = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/pos/") + "/");
-        File neg = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/neg/") + "/");
-        positiveFiles = pos.listFiles();
-        negativeFiles = neg.listFiles();
+		/*
+		 * data folder structure
+		 * train/neg/...
+		 * train/pos/...
+		 * test/neg/...
+		 * test/pos/...
+		*/
+        File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/pos/") + "/");
+        File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/neg/") + "/");
+        positiveFiles = positiveFile.listFiles();
+        negativeFiles = negativeFile.listFiles();
 
         this.wordVectors = wordVectors;
         this.truncateLength = truncateLength;
@@ -56,8 +63,8 @@ public class sentimentIterator implements DataSetIterator {
         tokenizerFactory = new DefaultTokenizerFactory();
         tokenizerFactory.setTokenPreProcessor(new CommonPreprocessor());
         
-        int num = positiveFiles.length + negativeFiles.length;
-        mapIndexRandom = genRandomMapIndex(0, num);
+        int fileLength = positiveFiles.length + negativeFiles.length;
+        mapIndexRandom = genRandomMapIndex(0, fileLength);
     }
 
 
@@ -73,8 +80,7 @@ public class sentimentIterator implements DataSetIterator {
 
     //0=pos, 1=neg.
     private DataSet nextDataSet(int num) throws IOException {
-        //First: load reviews to String. Alternate positive and negative reviews
-        //Map mapIndexRandom = genRandomMapIndex(0, num);
+        // Load reviews to String. Alternate positive and negative reviews
         List<String> reviews = new ArrayList<>(num);
         int[] positive = new int[num];
         int segment1 = positiveFiles.length;
@@ -97,7 +103,7 @@ public class sentimentIterator implements DataSetIterator {
             cursor++;
         }
 
-        //Second: tokenize reviews and filter out unknown words
+        // Tokenize reviews and filter out unknown words
         List allTokens = new ArrayList<>(reviews.size());
         int maxLength = 0;
         for(String s : reviews){
@@ -144,20 +150,21 @@ public class sentimentIterator implements DataSetIterator {
 
         return new DataSet(features,labels,featuresMask,labelsMask);
     }
-
+    
+	/*
+	 * random methods
+	 */
     public Map genRandomMapIndex(int min, int max){
         Map mapIndex = new ConcurrentHashMap();
         for(int i=0; i < max; i++){
             mapIndex.put(i, i);
         }
-        //System.out.println("In mapData: " + mapData);
         for(int i=0; i < max + 1000; i++){
             int a = randomRange(min, max);
             int b = randomRange(min, max);
-            //swap value of 2 key.
+            //swap value
             mapIndex.put(a, mapIndex.put(b, mapIndex.get(a)));
         }
-        //System.out.println("Out mapData: " + mapData);
         return mapIndex;
     }
     
@@ -166,6 +173,9 @@ public class sentimentIterator implements DataSetIterator {
         return r.nextInt(max - min) + min;
     }
     
+	/*
+	 * Override methods
+	 */
     @Override
     public int totalExamples() {
         return positiveFiles.length + negativeFiles.length;
@@ -220,13 +230,11 @@ public class sentimentIterator implements DataSetIterator {
     public DataSet next() {
         return next(batchSize);
     }
-
-    @Override
-    public void remove() {
-
-    }
-
-    /** Convenience method for loading review to String */
+    
+	/*
+	 * helper function
+	 */
+    // Convenience method for loading review to String
     public String loadReviewToString(int index) throws IOException{
         File f;
         if(index%2 == 0) f = positiveFiles[index/2];
@@ -234,7 +242,7 @@ public class sentimentIterator implements DataSetIterator {
         return FileUtils.readFileToString(f);
     }
 
-    /** Convenience method to get label for review */
+    // Convenience method to get label for review
     public boolean isPositiveReview(int index){
         return index%2 == 0;
     }
