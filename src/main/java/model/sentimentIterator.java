@@ -3,7 +3,6 @@ package model;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import java.util.NoSuchElementException;
 import java.util.concurrent.ConcurrentHashMap;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
@@ -20,6 +19,10 @@ import org.nd4j.linalg.indexing.INDArrayIndex;
 import org.nd4j.linalg.indexing.NDArrayIndex;
 
 public class sentimentIterator implements DataSetIterator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final WordVectors wordVectors;
     private final int batchSize;
     private final int vectorSize;
@@ -72,12 +75,12 @@ public class sentimentIterator implements DataSetIterator {
     private DataSet nextDataSet(int num) throws IOException {
         //First: load reviews to String. Alternate positive and negative reviews
         //Map mapIndexRandom = genRandomMapIndex(0, num);
-        List reviews = new ArrayList<>(num);
+        List<String> reviews = new ArrayList<>(num);
         int[] positive = new int[num];
         int segment1 = positiveFiles.length;
         int segment2 = positiveFiles.length + negativeFiles.length;
         for( int i=0; i < num && cursor < totalExamples(); i++ ){
-            int indexFile = mapIndexRandom.get(cursor);
+            int indexFile = (int) mapIndexRandom.get(cursor);
             if(0 <= indexFile && indexFile < segment1){
                 //Load positive review
                 int posReviewNumber = indexFile;
@@ -98,7 +101,7 @@ public class sentimentIterator implements DataSetIterator {
         List allTokens = new ArrayList<>(reviews.size());
         int maxLength = 0;
         for(String s : reviews){
-            List tokens = tokenizerFactory.create(s).getTokens();
+            List<String> tokens = tokenizerFactory.create(s).getTokens();
             List tokensFiltered = new ArrayList<>();
             for(String t : tokens ){
                 if(wordVectors.hasWord(t)) tokensFiltered.add(t);
@@ -121,11 +124,11 @@ public class sentimentIterator implements DataSetIterator {
 
         int[] temp = new int[2];
         for( int i=0; i < reviews.size(); i++ ){
-            List tokens = allTokens.get(i);
+            List tokens = (List) allTokens.get(i);
             temp[0] = i;
             //Get word vectors for each word in review, and put them in the training data
             for( int j=0; j < tokens.size() && j < maxLength; j++ ){
-                String token = tokens.get(j);
+                String token = (String) tokens.get(j);
                 INDArray vector = wordVectors.getWordVectorMatrix(token);
                 features.put(new INDArrayIndex[]{NDArrayIndex.point(i), NDArrayIndex.all(), NDArrayIndex.point(j)}, vector);
 
