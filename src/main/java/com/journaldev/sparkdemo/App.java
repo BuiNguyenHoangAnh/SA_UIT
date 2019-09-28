@@ -2,6 +2,7 @@ package com.journaldev.sparkdemo;
 
 import java.io.IOException;
 
+import model.sentimentAnalyser;
 import segmentation.segmentationBUS;
 import standardize.standardizeBUS;
 import stopword.removeStopWordsBUS;
@@ -24,7 +25,7 @@ public class App
  * 
  */
     	sparkConfigure spark = new sparkConfigure();
-  
+    	
     	segmentationBUS segmentation = new segmentationBUS();
     	
     	standardizeBUS standardize = new standardizeBUS();
@@ -33,7 +34,7 @@ public class App
     	
     	taggingBUS tagging = new taggingBUS();
     	
-//    	topicModelingBUS topicModelingBus = new topicModelingBUS();
+//    	sentimentAnalyser model = new sentimentAnalyser();
     	
 /*
  * 
