@@ -14,13 +14,14 @@ public class sparkConfigure {
 	}
 
 	public JavaSparkContext getSparkContext() {
-		if (this.sparkContext == null) {
-			synchronized (SparkContextFactory.class) {
-				if (this.sparkContext == null) {
-					this.sparkContext = new JavaSparkContext(this.sparkConf);
-				}
-			}
-		}
+//		if (this.sparkContext == null) {
+//			synchronized (SparkContextFactory.class) {
+//				if (this.sparkContext == null) {
+//					this.sparkContext = new JavaSparkContext(this.sparkConf);
+//				}
+//			}
+//		}
+		this.sparkContext = SparkContextFactory.create();
 		return this.sparkContext;
 	}
 	
