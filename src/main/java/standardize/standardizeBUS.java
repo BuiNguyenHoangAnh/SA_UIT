@@ -40,18 +40,13 @@ public class standardizeBUS {
 		String[] words = string.split("\\s+");
 		for(String word : words) {
 			if(word.isEmpty()) continue;
-			if(this.isSocialLanguage(word, spark) > 0) {
+			int count = this.isSocialLanguage(word, spark);
+			if(count > 0) {
 				//remove teen code, incorrect words, ...
 				DataFrame correctWords =  socialWordSet.select("correct");
 				Row[] correctRows = correctWords.collect();
 				
-				int count = this.isSocialLanguage(word, spark);
-				
-				for (Row row : correctRows) {
-					count -= 1;
-					if(count == 0) 
-						result += (row.toString().substring(1, row.toString().length() - 1)+" ");
-				}
+				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ");
 				continue;
 			}
 			result += (word+" ");
