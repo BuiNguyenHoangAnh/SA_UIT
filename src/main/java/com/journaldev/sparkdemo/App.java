@@ -44,7 +44,7 @@ public class App
     	/*
 		 * STANDARDIZE DATA
 		 */
-//    	standardize.standardizeData(spark);
+    	standardize.standardizeData(spark);
   
 		/*
 		 * TOKENIZER/ SEGMENTATION
@@ -54,16 +54,16 @@ public class App
 		/*
 		 * REMOVE STOP WORD
 		 */
-//    	try {
-//    		removeStopWords.correctData(spark);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+    	try {
+    		removeStopWords.correctData(spark);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
 		/*
 		 * WORD TAGGING
 		 */
-//    	tagging.wordTagging(spark);
+    	tagging.wordTagging(spark);
     }
 }
