@@ -1,6 +1,7 @@
 package stopword;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,6 +9,7 @@ import org.apache.spark.api.java.JavaRDD;
 
 import util.helpFunction;
 import util.sparkConfigure;
+import vn.uit.edu.sa.define.Constant;
 
 public class removeStopWordsBUS {
 /*
@@ -28,6 +30,7 @@ public class removeStopWordsBUS {
 	public void correctData(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
+		JavaRDD<String> output;
 		
 		String inputString = null;
 		String outputString = null;
@@ -35,15 +38,15 @@ public class removeStopWordsBUS {
 		stopWordSet = this.createListFromDictionary(spark);
 
 		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
-			inputFile = spark.getSparkContext().textFile(this.correctionDto.getInputFiles()[i]);
+			inputFile = spark.getSparkContext().textFile(Constant.projectOutputDir + "/Segmentation/" + this.correctionDto.getInputFiles().get(i));
 		
 			inputString = this.helpFunc.pushDataFromFileToString(inputFile);
 			
 			outputString = this.removeStopWords(inputString);
 			
 			result = this.helpFunc.writeStringToFile(spark, outputString);
-			
-			result.saveAsTextFile("RemoveStopWord" + (i + 1));
+			output = result.filter(x -> x.length() > 1 || !(x.equals("") && x.length() == 0));
+			output.saveAsTextFile(Constant.projectOutputDir + "/StopWords");
 		}
 	}
 
@@ -81,12 +84,21 @@ public class removeStopWordsBUS {
 	
 	private String removeStopWords(String string) {
 		String result = "";
-		String[] words = string.split("\\s+");
-		for(String word : words) {
-			if(word.isEmpty()) continue;
-			if(this.isStopWord(word)) continue; //remove stopwords
-			result += (word+" ");
-		}
+		//System.out.println(string);
+		String[] words = string.split(" ");
+		//System.out.println(Arrays.toString(words));
+		
+		
+		  for(String word : words) { 
+			  if(word.isEmpty()) continue;
+			  if (word.equals("\n")) {
+			  }
+			  else if(this.isStopWord(word)) continue; //remove stopwords 
+			 
+			  result += (word+" "); 
+		  }
+		 
+		System.out.println(result);
 		return result;
 	}
 }

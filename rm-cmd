@@ -1,0 +1,6 @@
+sudo rm -r Standardize1
+sudo rm -r Standardize2
+sudo rm -r SegmentData1
+sudo rm -r SegmentData2
+sudo rm -r RemoveStopWord1
+sudo rm -r RemoveStopWord2

@@ -16,11 +16,7 @@
 	    <artifactId>spark-core_2.11</artifactId>
 	    <version>1.6.2</version>
 	</dependency>
-	<dependency>
-	    <groupId>org.apache.spark</groupId>
-	    <artifactId>spark-sql_2.11</artifactId>
-	    <version>1.6.2</version>
-	</dependency>
+
 	<dependency>
 	    <groupId>org.apache.spark</groupId>
 	    <artifactId>spark-mllib_2.11</artifactId>
@@ -33,6 +29,28 @@
         <artifactId>spark-excel_2.11</artifactId>
         <version>0.11.1</version>
     </dependency>
+    
+    <dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-core</artifactId>
+      <version>0.4-rc3.8</version>
+   </dependency>
+   <dependency>
+	    <groupId>org.nd4j</groupId>
+	    <artifactId>nd4j-api</artifactId>
+	    <version>0.4-rc3.8</version>
+	</dependency>
+   <dependency>
+	    <groupId>org.deeplearning4j</groupId>
+	    <artifactId>deeplearning4j-nlp</artifactId>
+	    <version>0.4-rc3.8</version>
+	</dependency>
+   
+		<dependency>
+	    <groupId>org.apache.spark</groupId>
+	    <artifactId>spark-sql_2.11</artifactId>
+	    <version>1.6.2</version>
+	</dependency>
 	
 	<dependency>
 	    <groupId>javax.activation</groupId>
@@ -47,6 +65,18 @@
         <scope>test</scope>
     </dependency>
 
+	<!-- Mongo Spark SQL dependencies -->
+	<dependency>
+    	<groupId>org.mongodb.spark</groupId>
+    	<artifactId>mongo-spark-connector_2.10</artifactId>
+    	<version>1.1.0</version>
+	</dependency>
+
+  	
+
+  
+  
+	
 </dependencies>
 
 <build>
