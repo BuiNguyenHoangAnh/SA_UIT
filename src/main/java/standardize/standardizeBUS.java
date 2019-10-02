@@ -10,8 +10,14 @@ import util.sparkConfigure;
 public class standardizeBUS {
 	private static DataFrame socialWordSet;
 	
+	private DataFrame correctWords;
+	private Row[] correctRows;
+	
 	private standardizeDTO correctionDto = new standardizeDTO();
 	private helpFunction helpFunc = new helpFunction();
+	
+	private DataFrame incorrectWords;
+	private Row[] incorrectRows;
 	
 	public void standardizeData(sparkConfigure spark) {
 		JavaRDD<String> input;
@@ -36,16 +42,19 @@ public class standardizeBUS {
 	private String standardize(String string, sparkConfigure spark) {
 		socialWordSet = correctionDto.getSocialLanguageDictionary(spark);
 		
+		this.correctWords =  socialWordSet.select("correct");
+		this.correctRows = correctWords.collect();
+		
+		this.incorrectWords =  socialWordSet.select("incorrect");
+		this.incorrectRows = incorrectWords.collect();
+		
 		String result = "";
 		String[] words = string.split("\\s+");
 		for(String word : words) {
 			if(word.isEmpty()) continue;
 			int count = this.isSocialLanguage(word, spark);
 			if(count > 0) {
-				//remove teen code, incorrect words, ...
-				DataFrame correctWords =  socialWordSet.select("correct");
-				Row[] correctRows = correctWords.collect();
-				
+				//remove teen code, incorrect words, ...		
 				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ");
 				continue;
 			}
@@ -57,11 +66,9 @@ public class standardizeBUS {
 	private int isSocialLanguage(String word, sparkConfigure spark) {
 		int count = 0;
 
-		DataFrame incorrectWords =  socialWordSet.select("incorrect");
-		Row[] incorrectRows = incorrectWords.collect();
 		for (Row row : incorrectRows) {
 			count += 1;
-			if(row.toString().contains(word)) 
+			if(row.toString().substring(1, row.toString().length() - 1).equals(word)) 
 				return count;
 		}
 
