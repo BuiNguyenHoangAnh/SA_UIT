@@ -12,7 +12,7 @@ public class standardizeDAO {
 	
 	//	get input file
 	public String[] input() {
-		int length = 2;
+		int length = 1;
 		this.inputFileName = new String[length];
 		
 		// checking if there is no input file then exit app

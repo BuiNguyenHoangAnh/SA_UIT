@@ -160,3 +160,9 @@
 {"incorrect":"z", "correct":"vậy"}
 {"incorrect":"shcd", "correct":"sinh hoạt công dân"}
 {"incorrect":"sv", "correct":"sinh viên"}
+{"incorrect":"tvts", "correct":"tư vấn tuyển sinh"}
+{"incorrect":"đk", "correct":"đăng kí"}
+{"incorrect":"thpt", "correct":"trung học phổ thông"}
+{"incorrect":"qg", "correct":"quốc gia"}
+{"incorrect":"thpt qg", "correct":"trung học phổ thông quốc gia"}
+{"incorrect":"thptqg", "correct":"trung học phổ thông quốc gia"}
