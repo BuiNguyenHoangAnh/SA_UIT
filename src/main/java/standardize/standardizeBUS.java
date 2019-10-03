@@ -81,7 +81,7 @@ public class standardizeBUS {
 		int count = 0;
 		for (Row row : incorrectRows) {
 			count += 1;
-			if(row.toString().substring(1, row.toString().length()-1).equals(word)) 
+			if(row.toString().substring(1, row.toString().length()-1).equals(word.toLowerCase())) 
 				return count;
 		}
 		return 0;
