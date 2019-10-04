@@ -8,6 +8,7 @@
 {"incorrect":"ck", "correct":"chồng"}
 {"incorrect":"vk", "correct":"vợ"}
 {"incorrect":"dc", "correct":"được"}
+{"incorrect":"đc", "correct":"được"}
 {"incorrect":"dk", "correct":"được"}
 {"incorrect":"đéo", "correct":"không"}
 {"incorrect":"đếu", "correct":"không"}
@@ -80,7 +81,7 @@
 {"incorrect":"wá", "correct":"quá"}
 {"incorrect":"ng`", "correct":"người"}
 {"incorrect":"btw", "correct":"nhân tiện"}
-{"incorrect":"đr", "correct":"đúng rồi"}
+Y{"incorrect":"đr", "correct":"đúng rồi"}
 {"incorrect":"cs", "correct":"cuộc sống"}
 {"incorrect":"zthg", "correct":"dễ thương"}
 {"incorrect":"nx", "correct":"nữa"}
@@ -155,8 +156,80 @@
 {"incorrect":"tag", "correct":"gán nhãn"}
 {"incorrect":"crush", "correct":"yêu đơn phương"}
 {"incorrect":"dh", "correct":"đại học"}
+{"incorrect":"đh", "correct":"đại học"}
 {"incorrect":"cntt", "correct":"công nghệ thông tin"}
 {"incorrect":"link", "correct":"liên kết"}
 {"incorrect":"z", "correct":"vậy"}
 {"incorrect":"shcd", "correct":"sinh hoạt công dân"}
 {"incorrect":"sv", "correct":"sinh viên"}
+{"incorrect":"đk", "correct":"đăng ký"}
+{"incorrect":"đki", "correct":"đăng ký"}
+{"incorrect":"đky", "correct":"đăng ký"}
+{"incorrect":"âu", "correct":"đâu"}
+{"incorrect":"h", "correct":"giờ"}
+{"incorrect":"ok", "correct":"đồng ý"}
+{"incorrect":"tvts", "correct":"tư vấn tuyển sinh"}
+{"incorrect":"hox", "correct":"học"}
+{"incorrect":"hok", "correct":"không"}
+{"incorrect":"thptqg", "correct":"trung học phổ thông quốc gia"}
+{"incorrect":"thpt qg", "correct":"trung học phổ thông quốc gia"}
+{"incorrect":"toán cc", "correct":"toán cao cấp"}
+{"incorrect":"thpt", "correct":"trung học phổ thông"}
+{"incorrect":"THPT", "correct":"trung học phổ thông"}
+{"incorrect":"lp", "correct":"lớp"}
+{"incorrect":"ktx", "correct":"kí túc xá"}
+{"incorrect":"cx", "correct":"cũng"}
+{"incorrect":"qg", "correct":"quốc gia"}
+{"incorrect":"team", "correct":"đội"}
+{"incorrect":"NV1", "correct":"nguyện vọng 1"}
+{"incorrect":"Nv1", "correct":"nguyện vọng 1"}
+{"incorrect":"nv1", "correct":"nguyện vọng 1"}
+{"incorrect":"NV2", "correct":"nguyện vọng 2"}
+{"incorrect":"nv2", "correct":"nguyện vọng 2"}
+{"incorrect":"Nv2", "correct":"nguyện vọng 2"}
+{"incorrect":"NV3", "correct":"nguyện vọng 3"}
+{"incorrect":"Nv3", "correct":"nguyện vọng 3"}
+{"incorrect":"nv3", "correct":"nguyện vọng 3"}
+{"incorrect":"mt", "correct":"máy tính"}
+{"incorrect":"clc", "correct":"chất lượng cao"}
+{"incorrect":"CLC", "correct":"chất lượng cao"}
+{"incorrect":"bk", "correct":"biết"}
+{"incorrect":"th", "correct":"thôi"}
+{"incorrect":"ui", "correct":"ơi"}
+{"incorrect":"cmnd", "correct":"chứng minh nhân dân"}
+{"incorrect":"b", "correct":"bạn"}
+{"incorrect":"bn", "correct":"bao nhiêu"}
+{"incorrect":"nghành", "correct":"ngành"}
+{"incorrect":"Tks", "correct":"cảm ơn"}
+{"incorrect":"tks", "correct":"cảm ơn"}
+{"incorrect":"bhyt", "correct":"bảo hiểm y tế"}
+{"incorrect":"BHYT", "correct":"bảo hiểm y tế"}
+{"incorrect":"họk", "correct":"học"}
+{"incorrect":"tk", "correct":"tài khoản"}
+{"incorrect":"tng", "correct":"trường"}
+{"incorrect":"trg", "correct":"trường"}
+{"incorrect":"llsv", "correct":"lí lịch sinh viên"}
+{"incorrect":"CS1", "correct":"cơ sở 1"}
+{"incorrect":"Cs1", "correct":"cơ sở 1"}
+{"incorrect":"cs1", "correct":"cơ sở 1"}
+{"incorrect":"CS2", "correct":"cơ sở 2"}
+{"incorrect":"Cs2", "correct":"cơ sở 2"}
+{"incorrect":"cs2", "correct":"cơ sở 2"}
+{"incorrect":"cđ", "correct":"cao đẳng"}
+{"incorrect":"CĐ", "correct":"cao đẳng"}
+{"incorrect":"ds", "correct":"danh sách"}
+{"incorrect":"xog", "correct":"xong"}
+{"incorrect":"ĐGNL", "correct":"đánh giá năng lực"}
+{"incorrect":"dgnl", "correct":"đánh giá năng lực"}
+{"incorrect":"đgnl", "correct":"đánh giá năng lực"}
+{"incorrect":"kq", "correct":"kết quả"}
+{"incorrect":"hc", "correct":"học"}
+{"incorrect":"nta", "correct":"người ta"}
+{"incorrect":"e", "correct":"em"}
+{"incorrect":"a", "correct":"anh"}
+{"incorrect":"c", "correct":"chị"}
+{"incorrect":"s", "correct":"sao"}
+{"incorrect":"ns", "correct":"nói"}
+{"incorrect":"mssv", "correct":"mã số sinh viên"}
+{"incorrect":"hịn", "correct":"xịn"}
+

@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
+
+import javax.print.DocFlavor.STRING;
+
 import java.util.List;
 
 import org.apache.spark.api.java.JavaRDD;
@@ -16,6 +19,7 @@ import org.apache.spark.sql.Encoders;
 import org.bson.Document;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SQLContext;
+import org.apache.spark.sql.types.DataType;
 import org.apache.spark.sql.types.StructType;
 
 import com.mongodb.spark.MongoSpark;
@@ -131,11 +135,11 @@ public class MongoSparkHelper<T> {
 		return false;
 	}
 	
-	public void readFileAsDataFrame(String fileName) {
+	@SuppressWarnings("deprecation")
+	public DataFrame readFileAsDataFrame(String fileName) {
 		SQLContext sqlContext = new SQLContext(sparkContext);
+		DataFrame df = sqlContext.sql("SELECT * FROM " + "(" +  fileName + ")" );
 
-		DataFrame df = sqlContext.sql("SELECT * FROM " +  fileName );
-
-		df.show();
+		return df;
 	}
 }

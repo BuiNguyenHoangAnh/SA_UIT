@@ -52,6 +52,7 @@ public class Constant {
 	public static final String projectInputFile = Constant.projecInputDir + "/" + Constant.inputFileName;
 	public static final String outputStandardizedDir = System.getProperty("user.dir") + "/output/Standardize";
 	public static final String projectOutputDir = System.getProperty("user.dir") + "/output";
+	public static final String projectInputFolder = System.getProperty("user.dir") + "/input";
 	
 	/*End of MongoDB define*/
 	

@@ -9,8 +9,7 @@ import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
 
 public class standardizeDAO {
-	private String socialLanguageDictionaryName = null;
-
+	private static String socialLanguageDictionaryName = null;
 	private String[] inputFileName = null;
 	
 	//	get input file
@@ -37,12 +36,12 @@ public class standardizeDAO {
 	/*
 	 * read Social Language Dictionary
 	 */
-	public DataFrame readSocialDictionary(sparkConfigure spark) {
-		this.socialLanguageDictionaryName = "resource/SocialLanguageDictionary.json";
+	public static DataFrame readSocialDictionary(sparkConfigure spark) {
+		socialLanguageDictionaryName = "resource/SocialLanguageDictionary.json";
 		
 		SQLContext sqlContext = new SQLContext(spark.getSparkContext());
 		
-		DataFrame dictionary  = sqlContext.read().json(this.socialLanguageDictionaryName);
+		DataFrame dictionary  = sqlContext.read().json(socialLanguageDictionaryName);
 	
 		return dictionary;
 	}

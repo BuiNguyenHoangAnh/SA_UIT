@@ -2,6 +2,7 @@ package segmentation;
 
 import java.util.ArrayList;
 
+import util.helpFunction;
 import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
 import vn.vitk.tok.Tokenizer;
@@ -32,4 +33,13 @@ public class segmentationBUS {
 		
 		tokenizer.tokenize(inputFileName,  outputDirectory + "/Segmentation");
     }
+
+	public String wordSegmentation(sparkConfigure spark, String handleString) {
+		String dataFolder = "/export/dat/tok";
+		String master = spark.getSparkConf().get("spark.master");	
+		Tokenizer tokenizer = null;
+		tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/syllables2M.arpa");
+		
+		return  helpFunction.pushDataFromFileToString(tokenizer.tokenize(handleString, true));
+	}
 }

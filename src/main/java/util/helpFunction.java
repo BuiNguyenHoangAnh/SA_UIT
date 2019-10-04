@@ -1,7 +1,10 @@
 package util;
 
 import java.io.File;
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,7 +16,7 @@ import vn.uit.edu.sa.define.Constant;
 
 public class helpFunction {
 	//read data from file and push it to a string
-		public String pushDataFromFileToString(JavaRDD<String> inputFile) {
+		public static String pushDataFromFileToString(JavaRDD<String> inputFile) {
 			String inputString = null;
 			for(String line:inputFile.collect()){
 		//        System.out.println(line);
@@ -84,7 +87,22 @@ public class helpFunction {
 						fileName = file.getName();
 					}
 				}
+			}
+			return fileName;
+		}
+		
+		public static String getFileName(String fileName) {
+			File folder = new File(Constant.projectOutputDir + "/" + fileName);
+			//System.out.println(Constant.projecInputDir + "/" + fileName);
+			File[] listOfFiles = folder.listFiles();
 
+			for (File file : listOfFiles) {
+				if (!getExtensionByStringHandling(file.getName()).equals(".crc")) {
+					if (file.getName() != "_SUCCESS")
+					{
+						fileName = file.getName();
+					}
+				}
 			}
 			return fileName;
 		}
@@ -104,56 +122,42 @@ public class helpFunction {
 				return true;		
 			return false;
 		}
+
+		public static String removeEmptyLine(String outputString) {
+			String[] stringArray = outputString.split("\n");
+			List<String> stringList = new ArrayList<>();
+			Collections.addAll(stringList, stringArray);
+			if (stringList.get(0).equals("null \n")) stringList.remove(0);
+			if (stringList.get(1).equals(" null \n")) stringList.remove(1);
+			for (int i = 0; i < stringList.size(); i ++) {
+				if (stringList.get(i).equals(" ") || stringList.isEmpty()) {
+					stringList.remove(i); 
+				}else if (stringList.get(i).charAt(0) == ' ') {
+					stringList.set(i, stringList.get(i).substring(1));
+				}
+			}
+			String res = "";
+			for (String string : stringList) {
+				res += string;
+				res += "\n";
+			}
+			return res;
+		}
 		
-		public static void splitString() {
-			String input = " null \n" + 
-					" Em đk rồi chỉ sợ lên đó lạ_nước_lạ_cái không biết thích ở đâu rồi chạy vòng_vòng kiếm phòng thì mệt -.- \n" + 
-					" Nguyên_Khánh_Trần_Duyên_Thanh \n" + 
-					" Kim_Yến_Nguyễn_Thị \n" + 
-					" Nguyễn_Văn_Âu Âu_là sao âu \n" + 
-					" Em đọc mấy cái xem thêm thôi . hihi \n" + 
-					" Nguyên_Phan nè người quản_trị : v \n" + 
-					" nhạc hay đấy người quản_trị : V \n" + 
-					" Haha . Tag vô rứa thôi . Chứ không có tham_gia được đâu . hihi \n" + 
-					" Nguyễn_Truog người quản_trị vào xem ảnh đại_diện cái thế_nào \n" + 
-					" Thái_Thị_Kim_Duyên \n" + 
-					" Không nói nhiều , Việt_Nam_vô địch ! - Tục_ngữ Châu Á \n" + 
-					" 😂 😂 \n" + 
-					" Tinh_Linh : v \n" + 
-					" thích này đỡ không bài : 3 \n" + 
-					" đăng_kí xong rồi \n" + 
-					" mày không cho tao được không ? \n" + 
-					" ảnh đại_diện nhớ có gì đó về con ruồi bê đê : )))))) \n" + 
-					" cái nào cũng được \n" + 
-					" không nào_hay đó \n" + 
-					" Trần_Vạn_Xuân nghe nè . Cntt hay Quốc_tế đều vợ hết \n" + 
-					" Hiếu_Thanh \n" + 
-					" Tinh_Linh kho ́ a ̀ kkkk \n" + 
-					" không hiểu gì hêt \n" + 
-					" Tam T_Bui : )))))))))))) \n" + 
-					" Như nào giải_thích ảnh đại_diện với \n" + 
-					" thì không cho ảnh đại_diện với \n" + 
-					" không người quản_trị muốn không gì nè : v ngoài anh văn ra thì mấy cái kia rộng cực \n" + 
-					" Lam_Giang nghe sơ qua nè người quản_trị \n" + 
-					" Nguyễn_Hà_Thuyên ok \n" + 
-					" Nguyễn_Tấn_Dân \n" + 
-					" Đồng_Quang_Quyền \n" + 
-					" người ảnh đại_diện đã nói_vợ ảnh đại_diện mà không hiểu \n" + 
-					" Phạm_Thị_Ngọc_Hoà : )) I đã xem \n" + 
-					" chắc chủ_yếu cũng như năm trước thôi , người quản_trị coi cách đăng_kí quá \n" + 
-					" mày biết gì chỉ ảnh đại_diện cái đó \n" + 
-					" Đức_Toàn người quản_trị hiểu ý ảnh đại_diện chứ \n" + 
-					" M_Ic_Uc \n" + 
-					" gán nhãn người quản_trị cho vui chứ ảnh đại_diện nghĩ cái này có tham_gia người quản_trị cx rớt , mà nó lại cho cái này % chỉ_tiêu cao vãi lìn \n" + 
-					" Thái_Thị_Kim_Duyên ";
-			
-			String res[] = input.split(" ");
-			String result = "";
-			  for(String word : res) { if(word.isEmpty()) continue;
-			  //if(this.isStopWord(word)) continue; //remove stopwords 
-			  if (word.equals("\n")) {
-			  System.out.println("test"); 
-			  } result += (word+" "); }
-			 System.out.println(result);
+		public static void addNumberToDocument(String count, String fileName) {
+			  try {
+				  RandomAccessFile f = new RandomAccessFile(new File(fileName), "rw");
+				  f.seek(0); 
+				  f.write(count.getBytes());
+				  f.close();		  
+				  }catch (Exception e) {
+				  	System.out.println(e);
+			  }
+		}
+		
+		public static long convertToListAndCount(String string) {
+			List<String> stringList = new  ArrayList<>();
+			Collections.addAll(stringList, string.split("\n"));
+			return stringList.size();
 		}
 }

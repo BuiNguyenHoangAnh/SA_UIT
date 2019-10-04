@@ -6,12 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.DataFrame;
 import org.apache.spark.sql.Encoders;
 import org.apache.spark.sql.SQLContext;
 
 import scala.collection.Seq;
+import util.helpFunction;
 import util.sparkConfigure;
 import vn.uit.edu.sa.connectDB.MongoSparkHelper;
 import vn.uit.edu.sa.define.Constant;
@@ -37,6 +39,14 @@ public class GibbsLDAService {
 		option.dir = Constant.GibbsLDA_optionDir + "/output";
 		option.modelName = Constant.LDAmodelName;
 		option.niters = Constant.GibbsNiters;
+	}
+	
+	public void generateInpuFromDirtFile(String fileName) {
+		mongoHelper = new MongoSparkHelper(sparkContext);
+		System.out.println(Constant.projectOutputDir + "/StopWords/" + fileName);
+		DataFrame df = mongoHelper.readFileAsDataFrame(Constant.projectOutputDir + "/StopWords/" + fileName);
+		df.show();
+		
 	}
 	
 	public void generateInputFile() {
@@ -135,5 +145,11 @@ public class GibbsLDAService {
 		if (oldFile.renameTo(newFile))
 			return true;		
 		return false;
+	}
+	
+	private void generateInputFile(String fileName) {
+		JavaRDD<String> rdd = this.sparkContext.textFile(fileName);
+		addNumberToDocument(Long.toString(rdd.count()) + "\n", this.getFileName() );
+
 	}
 }

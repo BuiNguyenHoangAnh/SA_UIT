@@ -39,11 +39,24 @@ public class standardizeBUS {
 		 */
 		
 		input = spark.getSparkContext().textFile(this.correctionDto.getInput()[0]);
-		inputString = this.helpFunc.pushDataFromFileToString(input);
+		inputString = helpFunction.pushDataFromFileToString(input);
 		outputString = this.standardize(inputString, spark);
 		result = this.helpFunc.writeStringToFile(spark, outputString);
 		result.repartition(1).saveAsTextFile(Constant.outputStandardizedDir);
+	}
+	
+	public String standarizeData(sparkConfigure spark, String fileName){ 
 		
+		JavaRDD<String> input;
+		
+		String inputString = null;
+		String result = null;
+		
+		input = spark.getSparkContext().textFile(fileName);
+		inputString = helpFunction.pushDataFromFileToString(input);
+		result = this.standardize(inputString, spark);
+		
+		return result;
 	}
 	
 
