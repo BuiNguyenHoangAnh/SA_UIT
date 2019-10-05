@@ -3,8 +3,6 @@ package com.journaldev.sparkdemo;
 import java.io.File;
 import java.io.IOException;
 
-<<<<<<< HEAD
-=======
 import org.apache.commons.io.FileUtils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
@@ -14,7 +12,6 @@ import org.apache.spark.sql.Dataset;
 
 import com.mongodb.spark.MongoSpark;
 
->>>>>>> languageProcessor
 import model.sentimentAnalyser;
 import segmentation.segmentationBUS;
 import standardize.standardizeBUS;
