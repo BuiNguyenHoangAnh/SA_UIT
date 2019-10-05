@@ -1,24 +1,25 @@
 package segmentation;
 
+import java.io.File;
+import java.util.ArrayList;
+
+import vn.uit.edu.sa.define.Constant;
+
 public class segmentationDAO {
-	private String[] fileName = null;
+	private ArrayList<String> fileName = null;
 	
-	public String[] inputFiles() {
-		int length = 2;
-		this.fileName = new String[length];
+	public ArrayList<String> inputFiles() {
+		this.fileName = new ArrayList<>();
+		String inputDir = Constant.projectOutputDir + "/Standardize";
+
+		File folder = new File(inputDir);
+		File[] listOfFiles = folder.listFiles();
 		
-		// checking if there is no input file then exit app
-		if (this.fileName.length <= 0) {
-			System.out.println("No files provided.");
-			System.exit(0);
-		}
-		// set data for file name elements
-		else {
-			for (int i = 0; i < this.fileName.length; i++) {
-				this.fileName[i] = "input.txt";
+		for (File file : listOfFiles){
+			if (!file.isHidden()) {
+				fileName.add(file.getName());				
 			}
-		}
-		
+		}				
 		return this.fileName;
 	}
 }

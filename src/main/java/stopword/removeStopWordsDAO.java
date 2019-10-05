@@ -1,12 +1,21 @@
 package stopword;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
 import org.apache.spark.api.java.JavaRDD;
 
+import util.helpFunction;
 import util.sparkConfigure;
+import vn.uit.edu.sa.define.Constant;
 
 public class removeStopWordsDAO {
 	private String stopWordsDictionaryFileName = null;
-	private String[] inputFileName = null;
+	private ArrayList<String> inputFileName = null;
 	
 //	get stop words dictionary
 	public JavaRDD<String> dictionaryFile(sparkConfigure spark) {
@@ -20,22 +29,18 @@ public class removeStopWordsDAO {
 	}
 	
 //	get input
-	public String[] inputFiles() {
-		int length = 2;
-		this.inputFileName = new String[length];
+	public ArrayList<String> inputFiles() {
+		this.inputFileName = new ArrayList<>();
 		
-		// checking if there is no input file then exit app
-		if (this.inputFileName.length <= 0) {
-			System.out.println("No files provided.");
-			System.exit(0);
-		}
-		// set data for file name elements
-		else {
-			for (int i = 0; i < this.inputFileName.length; i++) {
-				this.inputFileName[i] = "stopword_file.txt";
-			}
-		}
-		
+
+		String inputDir = Constant.projectOutputDir + "/Segmentation";
+
+		File folder = new File(inputDir);
+		File[] listOfFiles = folder.listFiles();		
+		for (File file : listOfFiles){
+			if (!file.isHidden())
+				inputFileName.add(file.getName());
+		}		
 		return this.inputFileName;
 	}
 }

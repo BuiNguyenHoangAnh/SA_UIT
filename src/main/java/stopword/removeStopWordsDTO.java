@@ -1,5 +1,7 @@
 package stopword;
 
+import java.util.ArrayList;
+
 import org.apache.spark.api.java.JavaRDD;
 
 import util.sparkConfigure;
@@ -12,10 +14,10 @@ public class removeStopWordsDTO {
 	}
 	
 	public int getInputLength() {
-		return this.correctionDao.inputFiles().length;
+		return this.correctionDao.inputFiles().size();
 	}
 	
-	public String[] getInputFiles() {
+	public ArrayList<String> getInputFiles() {
 		return this.correctionDao.inputFiles();
 	}
 }

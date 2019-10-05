@@ -1,13 +1,17 @@
 package stopword;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.spark.api.java.JavaRDD;
 
 import util.helpFunction;
 import util.sparkConfigure;
+import vn.uit.edu.sa.define.Constant;
 
 public class removeStopWordsBUS {
 /*
@@ -28,6 +32,7 @@ public class removeStopWordsBUS {
 	public void correctData(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
+		JavaRDD<String> output;
 		
 		String inputString = null;
 		String outputString = null;
@@ -35,15 +40,22 @@ public class removeStopWordsBUS {
 		stopWordSet = this.createListFromDictionary(spark);
 
 		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
-			inputFile = spark.getSparkContext().textFile(this.correctionDto.getInputFiles()[i]);
+			inputFile = spark.getSparkContext().textFile(Constant.projectOutputDir + "/Segmentation/" + this.correctionDto.getInputFiles().get(i));
 		
 			inputString = this.helpFunc.pushDataFromFileToString(inputFile);
 			
 			outputString = this.removeStopWords(inputString);
+			outputString = helpFunction.removeEmptyLine(outputString);
+			result = this.helpFunc.writeStringToFile(spark, outputString);			
+			result.saveAsTextFile(Constant.projectOutputDir + "/StopWords");
+			helpFunction.removeUnusedFile("StopWords");
+			try {
+				System.out.println("checkout");
+				new File(Constant.projectOutputDir + "/GibbsLDA").mkdirs();
+				FileUtils.copyFile(new File(Constant.projectOutputDir + "/StopWords/" + helpFunction.getFileName("StopWords")), new File(Constant.projectOutputDir + "/GibbsLDA/GibbsLDA"));
+			}catch (Exception e) {e.printStackTrace();}
 			
-			result = this.helpFunc.writeStringToFile(spark, outputString);
-			
-			result.saveAsTextFile("RemoveStopWord" + (i + 1));
+			helpFunction.addNumberToDocument(Long.toString(helpFunction.convertToListAndCount(outputString)), Constant.projectOutputDir + "/GibbsLDA/" + helpFunction.getFileName("GibbsLDA"));
 		}
 	}
 
@@ -81,12 +93,44 @@ public class removeStopWordsBUS {
 	
 	private String removeStopWords(String string) {
 		String result = "";
-		String[] words = string.split("\\s+");
-		for(String word : words) {
-			if(word.isEmpty()) continue;
-			if(this.isStopWord(word)) continue; //remove stopwords
-			result += (word+" ");
-		}
+		//System.out.println(string);
+		String[] words = string.split(" ");
+		//System.out.println(Arrays.toString(words));
+		
+		
+		  for(String word : words) { 
+			  if(word.isEmpty()) continue;
+			  if (word.equals("\n")) {
+			  }
+			  else if(this.isStopWord(word)) continue; //remove stopwords 
+			 
+			  result += (word+" "); 
+		  }
+		 
+		//System.out.println(result);
 		return result;
+	}
+
+	public void correctData(sparkConfigure spark, String handleString) throws IOException{
+		JavaRDD<String> inputFile;
+		JavaRDD<String> result;
+		JavaRDD<String> output;
+		
+		String outputString = null;
+		
+		stopWordSet = this.createListFromDictionary(spark);
+		
+		outputString = this.removeStopWords(handleString);
+		outputString = helpFunction.removeEmptyLine(outputString);
+		
+		result = this.helpFunc.writeStringToFile(spark, outputString);			
+		result.saveAsTextFile(Constant.projectOutputDir + "/StopWords");
+		helpFunction.removeUnusedFile("StopWords");
+		try {
+			new File(Constant.projectOutputDir + "/GibbsLDA").mkdirs();
+			FileUtils.copyFile(new File(Constant.projectOutputDir + "/StopWords/" + helpFunction.getFileName("StopWords")), new File(Constant.projectOutputDir + "/GibbsLDA/GibbsLDA"));
+		}catch (Exception e) {e.printStackTrace();}
+			
+			helpFunction.addNumberToDocument(Long.toString(helpFunction.convertToListAndCount(outputString)), Constant.projectOutputDir + "/GibbsLDA/" + helpFunction.getFileName("GibbsLDA"));		
 	}
 }

@@ -1,19 +1,23 @@
 package standardize;
 
 import org.apache.spark.sql.DataFrame;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SQLContext;
 
 import util.sparkConfigure;
+import vn.uit.edu.sa.define.Constant;
 
 public class standardizeDAO {
-	private String socialLanguageDictionaryName = null;
-
+	private static String socialLanguageDictionaryName = null;
 	private String[] inputFileName = null;
 	
 	//	get input file
 	public String[] input() {
-		int length = 1;
+		int length = Constant.numOfProjectInputFile;
+
 		this.inputFileName = new String[length];
+		String inputFile = Constant.inputFileName;
 		
 		// checking if there is no input file then exit app
 		if (this.inputFileName.length <= 0) {
@@ -23,7 +27,7 @@ public class standardizeDAO {
 		// set data for file name elements
 		else {
 			for (int i = 0; i < this.inputFileName.length; i++) {
-				this.inputFileName[i] = "sample.txt";
+				this.inputFileName[i] = "input" + "/" + inputFile;
 			}
 		}
 		
@@ -33,13 +37,13 @@ public class standardizeDAO {
 	/*
 	 * read Social Language Dictionary
 	 */
-	public DataFrame readSocialDictionary(sparkConfigure spark) {
-		this.socialLanguageDictionaryName = "resource/SocialLanguageDictionary.json";
+	public static DataFrame readSocialDictionary(sparkConfigure spark) {
+		socialLanguageDictionaryName = "resource/SocialLanguageDictionary.json";
 		
 		SQLContext sqlContext = new SQLContext(spark.getSparkContext());
 		
-		DataFrame dictionary = sqlContext.read().json(this.socialLanguageDictionaryName);
-		
+		DataFrame dictionary  = sqlContext.read().json(socialLanguageDictionaryName);
+	
 		return dictionary;
 	}
 }
