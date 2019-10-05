@@ -1,8 +1,6 @@
 package standardize;
 
 import org.apache.spark.sql.DataFrame;
-import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SQLContext;
 
 import util.sparkConfigure;
@@ -37,7 +35,7 @@ public class standardizeDAO {
 	/*
 	 * read Social Language Dictionary
 	 */
-	public static DataFrame readSocialDictionary(sparkConfigure spark) {
+	public DataFrame readSocialDictionary(sparkConfigure spark) {
 		socialLanguageDictionaryName = "resource/SocialLanguageDictionary.json";
 		
 		SQLContext sqlContext = new SQLContext(spark.getSparkContext());

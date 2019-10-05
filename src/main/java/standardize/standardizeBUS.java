@@ -25,21 +25,8 @@ public class standardizeBUS {
 		String inputString = null;
 		String outputString = null;
 		
-		/*
-		 * for (int i = 0; i < this.correctionDto.getInputLength(); i++) { input =
-		 * spark.getSparkContext().textFile(this.correctionDto.getInput()[i]);
-		 * 
-		 * inputString = this.helpFunc.pushDataFromFileToString(input);
-		 * 
-		 * outputString = this.standardize(inputString, spark);
-		 * 
-		 * result = this.helpFunc.writeStringToFile(spark, outputString);
-		 * 
-		 * result.saveAsTextFile("Standardize" + (i + 1)); }
-		 */
-		
 		input = spark.getSparkContext().textFile(this.correctionDto.getInput()[0]);
-		inputString = helpFunction.pushDataFromFileToString(input);
+		inputString = helpFunc.pushDataFromFileToString(input);
 		outputString = this.standardize(inputString, spark);
 		result = this.helpFunc.writeStringToFile(spark, outputString);
 		result.repartition(1).saveAsTextFile(Constant.outputStandardizedDir);
@@ -53,7 +40,7 @@ public class standardizeBUS {
 		String result = null;
 		
 		input = spark.getSparkContext().textFile(fileName);
-		inputString = helpFunction.pushDataFromFileToString(input);
+		inputString = helpFunc.pushDataFromFileToString(input);
 		result = this.standardize(inputString, spark);
 		
 		return result;
@@ -62,12 +49,6 @@ public class standardizeBUS {
 
 	private String standardize(String string, sparkConfigure spark) {
 		socialWordSet = correctionDto.getSocialLanguageDictionary(spark);
-		
-		this.correctWords =  socialWordSet.select("correct");
-		this.correctRows = correctWords.collect();
-		
-		this.incorrectWords =  socialWordSet.select("incorrect");
-		this.incorrectRows = incorrectWords.collect();
 		
 		String result = "";
 		String[] words = string.split(" ");

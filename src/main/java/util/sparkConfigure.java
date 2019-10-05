@@ -8,17 +8,12 @@ import vn.uit.edu.sa.define.Constant;
 import vn.vitk.util.SparkContextFactory;
 
 public class sparkConfigure {
-	private static SparkConf sparkConf = new SparkConf().setMaster("local").set("spark.driver.allowMultipleContexts", "true").setAppName("SA-UIT").set(Constant.inputURI, Constant.mongoURI).set(Constant.outputURI, Constant.mongoURI);
 	private static JavaSparkContext sparkContext = null;
 
-	public SparkConf getSparkConf() {
-		return this.sparkConf;
-	}
-
 	public JavaSparkContext getSparkContext() {
-		this.sparkContext = SparkContextFactory.create();
+		sparkContext = SparkContextFactory.create();
 		
-		return this.sparkContext;
+		return sparkContext;
 	}
 	
 //	public JavaSparkContext getRemoteSparkContext() {
@@ -27,8 +22,5 @@ public class sparkConfigure {
 //		return this.sparkContext;
 //	}
 	
-	public void closeJavaSparkContext() {
-		this.sparkContext.close();
-	}
 	
 }

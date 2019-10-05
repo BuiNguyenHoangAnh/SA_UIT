@@ -9,14 +9,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.sql.DataFrame;
-import org.apache.spark.sql.SQLContext;
 
 import vn.uit.edu.sa.define.Constant;
 
 public class helpFunction {
 	//read data from file and push it to a string
-		public static String pushDataFromFileToString(JavaRDD<String> inputFile) {
+		public String pushDataFromFileToString(JavaRDD<String> inputFile) {
 			String inputString = null;
 			for(String line:inputFile.collect()){
 		//        System.out.println(line);
@@ -93,7 +91,6 @@ public class helpFunction {
 		
 		public static String getFileName(String fileName) {
 			File folder = new File(Constant.projectOutputDir + "/" + fileName);
-			//System.out.println(Constant.projecInputDir + "/" + fileName);
 			File[] listOfFiles = folder.listFiles();
 
 			for (File file : listOfFiles) {

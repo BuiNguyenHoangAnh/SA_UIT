@@ -1,15 +1,10 @@
 package stopword;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import org.apache.spark.api.java.JavaRDD;
 
-import util.helpFunction;
 import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
 

@@ -2,7 +2,6 @@ package stopword;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,7 +31,6 @@ public class removeStopWordsBUS {
 	public void correctData(sparkConfigure spark) throws IOException {
 		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
-		JavaRDD<String> output;
 		
 		String inputString = null;
 		String outputString = null;
@@ -42,7 +40,7 @@ public class removeStopWordsBUS {
 		for (int i = 0; i < this.correctionDto.getInputLength(); i++) {
 			inputFile = spark.getSparkContext().textFile(Constant.projectOutputDir + "/Segmentation/" + this.correctionDto.getInputFiles().get(i));
 		
-			inputString = this.helpFunc.pushDataFromFileToString(inputFile);
+			inputString = helpFunc.pushDataFromFileToString(inputFile);
 			
 			outputString = this.removeStopWords(inputString);
 			outputString = helpFunction.removeEmptyLine(outputString);
@@ -74,7 +72,6 @@ public class removeStopWordsBUS {
 	private Set pushDataFromFileToSet(JavaRDD<String> inputFile) throws IOException {
 		Set<String> set = new HashSet<String>();
 		for(String line:inputFile.collect()){
-//            System.out.println(line);
 			set.add(line);
 		} 
 		return set;
@@ -93,10 +90,7 @@ public class removeStopWordsBUS {
 	
 	private String removeStopWords(String string) {
 		String result = "";
-		//System.out.println(string);
 		String[] words = string.split(" ");
-		//System.out.println(Arrays.toString(words));
-		
 		
 		  for(String word : words) { 
 			  if(word.isEmpty()) continue;
@@ -107,14 +101,11 @@ public class removeStopWordsBUS {
 			  result += (word+" "); 
 		  }
 		 
-		//System.out.println(result);
 		return result;
 	}
 
 	public void correctData(sparkConfigure spark, String handleString) throws IOException{
-		JavaRDD<String> inputFile;
 		JavaRDD<String> result;
-		JavaRDD<String> output;
 		
 		String outputString = null;
 		
