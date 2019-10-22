@@ -61,14 +61,16 @@ public class App
  * GIAI DOAN: TIEN XU LI (RUN MANUALLY)
  * 
  * 
- *     	//segmentationBUS segmentation = new segmentationBUS();
+
+    	
+    	taggingBUS tagging = new taggingBUS();
+ */ 	
+     	//segmentationBUS segmentation = new segmentationBUS();
     	
     	//standardizeBUS standardize = new standardizeBUS();
     	
     	//removeStopWordsBUS removeStopWords = new removeStopWordsBUS();
     	
-    	//taggingBUS tagging = new taggingBUS();
- */ 	
     	/*
 		 * STANDARDIZE DATA
 		 */
@@ -84,7 +86,7 @@ public class App
 		 * REMOVE STOP WORD
 		 */
 		
-		 //try { removeStopWords.correctData(sparkConfig); } catch (IOException e) { 
+		// try { removeStopWords.correctData(sparkConfig); } catch (IOException e) { 
 		 // e.printStackTrace(); }
     			 
     	//helpFunction.removeEmptyLine("");		

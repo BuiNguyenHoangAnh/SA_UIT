@@ -754,7 +754,6 @@ lần_sau
 lần_theo
 lần_trước
 lần_tìm
-lớn
 lớn_lên
 lớn_nhỏ
 lời
@@ -902,7 +901,6 @@ nhiều
 nhiều_ít
 nhiệt_liệt
 nhung_nhăng
-nhà
 nhà_chung
 nhà_khó
 nhà_làm
@@ -971,8 +969,8 @@ nhằm_lúc
 nhằm_vào
 nhằm_để
 nhỉ
-nhỏ
 nhỏ_người
+nơi
 nhớ
 nhớ_bập_bõm
 nhớ_lại
@@ -1500,7 +1498,6 @@ tôi_con
 tông_tốc
 tù_tì
 tăm_tắp
-tăng
 tăng_chúng
 tăng_cấp
 tăng_giảm
@@ -1540,7 +1537,6 @@ tỏ_ra
 tỏ_vẻ
 tốc_tả
 tối_ư
-tốt
 tốt_bạn
 tốt_bộ
 tốt_hơn
@@ -3666,3 +3662,19 @@ yêu_cầu
 🇿🇲
 🇿🇼
 cl
+..
+...
+....
+.....
+!
+!!
+!!!
+!!!!
+!!!!!
+?
+??
+???
+????
+?????
+//
+

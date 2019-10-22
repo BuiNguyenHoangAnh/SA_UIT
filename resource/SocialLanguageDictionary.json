@@ -167,7 +167,7 @@ Y{"incorrect":"đr", "correct":"đúng rồi"}
 {"incorrect":"đky", "correct":"đăng ký"}
 {"incorrect":"âu", "correct":"đâu"}
 {"incorrect":"h", "correct":"giờ"}
-{"incorrect":"ok", "correct":"đồng ý"}
+{"incorrect":"ok", "correct":"tốt"}
 {"incorrect":"tvts", "correct":"tư vấn tuyển sinh"}
 {"incorrect":"hox", "correct":"học"}
 {"incorrect":"hok", "correct":"không"}
@@ -232,4 +232,44 @@ Y{"incorrect":"đr", "correct":"đúng rồi"}
 {"incorrect":"ns", "correct":"nói"}
 {"incorrect":"mssv", "correct":"mã số sinh viên"}
 {"incorrect":"hịn", "correct":"xịn"}
+{"incorrect":"tot", "correct":"tốt"}
+{"incorrect":"truong", "correct":"trường"}
+{"incorrect":"dep", "correct":"đẹp"}
+{"incorrect":"truong", "correct":"trường"}
+{"incorrect":"tr", "correct":"trường"}
+{"incorrect":"trg", "correct":"trường"}
+{"incorrect":"Trg", "correct":"trường"}
+{"incorrect":"dh", "correct":"đại học"}
+{"incorrect":"đh", "correct":"đại học"}
+{"incorrect":"DH", "correct":"đại học"}
+{"incorrect":"ĐH", "correct":"đại học"}
+{"incorrect":"rong", "correct":"rộng"}
+{"incorrect":"WC", "correct":"nhà vệ sinh"}
+{"incorrect":"wc", "correct":"nhà vệ sinh"}
+{"incorrect":"wifi", "correct":"mạng"}
+{"incorrect":"WIFI", "correct":"mạng"}
+{"incorrect":"wifi", "correct":"mạng"}
+{"incorrect":"csvc", "correct":"cơ sở vật chất"}
+{"incorrect":"CSVC", "correct":"cơ sở vật chất"}
+{"incorrect":"co so vat chat", "correct":"cơ sở vật chất"}
+{"incorrect":"khuon vien", "correct":"khuôn viên"}
+{"incorrect":"view", "correct":"cảnh"}
+{"incorrect":"hoanh trang", "correct":"hoành tráng"}
+{"incorrect":"hien dai", "correct":"hiện đại"}
+{"incorrect":"Căn tin", "correct":"nhà ăn"}
+{"incorrect":"canteen", "correct":"nhà ăn"}
+{"incorrect":"Truong", "correct":"trường"}
+{"incorrect":"truong", "correct":"trường"}
+{"incorrect":"Căn tin", "correct":"nhà ăn"}
+{"incorrect":"full", "correct":"đầy đủ"}
+{"incorrect":"update", "correct":"cập nhật"}
+{"incorrect":"ok", "correct":"tốt}
+{"incorrect":"oke", "correct":"tốt}
+{"incorrect":"pro", "correct":"chuyên nghiệp"}
+{"incorrect":"shit", "correct":"tệ"}
+{"incorrect":"sh*t", "correct":"tệ"}
+
+
+
+
 

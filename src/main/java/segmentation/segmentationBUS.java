@@ -2,6 +2,8 @@ package segmentation;
 
 import java.util.ArrayList;
 
+import org.apache.spark.api.java.JavaRDD;
+
 import util.helpFunction;
 import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
@@ -19,6 +21,8 @@ public class segmentationBUS {
 		Tokenizer tokenizer = null;
 //		tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/whitespace.model", true);
 		tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/syllables2M.arpa");
+
+		System.out.println("CHECKPOINT1");
 
 		String outputDirectory = Constant.projectOutputDir;
 		String inputFileName = Constant.projectOutputDir + "/Standardize";

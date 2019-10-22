@@ -39,6 +39,7 @@ public class standardizeBUS {
 		 */
 		
 		input = spark.getSparkContext().textFile(this.correctionDto.getInput()[0]);
+		System.out.println("CHECKPOINT");
 		inputString = helpFunction.pushDataFromFileToString(input);
 		outputString = this.standardize(inputString, spark);
 		result = this.helpFunc.writeStringToFile(spark, outputString);

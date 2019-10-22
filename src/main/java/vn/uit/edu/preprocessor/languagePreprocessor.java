@@ -40,11 +40,13 @@ public class languagePreprocessor {
 	public void run(String _fileName) {
 		
 		if (_fileName == null)
-			this.fileName = Constant.projectInputFolder + "/input"; //default input
+			this.fileName = Constant.projectInputFolder + "/data"; //default input
 		else this.fileName =  _fileName; //user input
 		
 		handleString = standardizer.standarizeData(spark, fileName);
+		System.out.println(handleString);
 		handleString = segmentation.wordSegmentation(spark, handleString);
+		System.out.println(handleString);
 		try {
 			removeStopWords.correctData(this.spark, handleString);
 		} catch (IOException e) {
