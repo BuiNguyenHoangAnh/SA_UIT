@@ -15,6 +15,7 @@ import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.api.DataSetPreProcessor;
+import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.indexing.INDArrayIndex;
 import org.nd4j.linalg.indexing.NDArrayIndex;
@@ -293,4 +294,25 @@ public class sentimentIterator implements DataSetIterator {
 
         return features;
     }
+
+
+	@Override
+	public boolean resetSupported() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public boolean asyncSupported() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public DataSetPreProcessor getPreProcessor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
