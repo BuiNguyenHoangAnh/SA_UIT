@@ -45,6 +45,39 @@
 	    <artifactId>deeplearning4j-nlp</artifactId>
 	    <version>0.4-rc3.8</version>
 	</dependency>
+	
+<dependency>
+  <groupId>org.nd4j</groupId>
+  <artifactId>nd4j-x86</artifactId>
+  <version>0.4-rc3.8</version>
+</dependency>
+
+
+<!-- 	<dependency>
+		<groupId>org.nd4j</groupId>
+  		<artifactId>nd4j-native-platform</artifactId>
+  		<version>1.0.0-beta5</version>
+	</dependency>
+   <dependency>
+  <groupId>org.deeplearning4j</groupId>
+  <artifactId>deeplearning4j-core</artifactId>
+  <version>1.0.0-beta5</version>
+</dependency>
+<dependency>
+  <groupId>org.deeplearning4j</groupId>
+  <artifactId>deeplearning4j-ui_2.12</artifactId>
+  <version>1.0.0-beta5</version>
+</dependency>
+<dependency>
+  <groupId>org.deeplearning4j</groupId>
+  <artifactId>deeplearning4j-nlp</artifactId>
+  <version>1.0.0-beta5</version>
+</dependency>
+<dependency>
+  <groupId>org.nd4j</groupId>
+  <artifactId>nd4j-api</artifactId>
+  <version>1.0.0-beta5</version>
+</dependency> -->
    
 		<dependency>
 	    <groupId>org.apache.spark</groupId>
@@ -72,7 +105,12 @@
     	<version>1.1.0</version>
 	</dependency>
 
-  	
+  	<dependency>
+  <groupId>org.kohsuke.args4j</groupId>
+  <artifactId>args4j-maven-plugin</artifactId>
+  <version>2.33</version>
+  <type>maven-plugin</type>
+	</dependency>
 
   
   

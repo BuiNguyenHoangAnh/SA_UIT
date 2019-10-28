@@ -77,9 +77,11 @@ public class LDADataset {
 		localDict = new Dictionary();	
 		this.M = M;
 		this.V = 0;
+		//this.V = globalDict.id2word.size();
 		docs = new Document[M];	
 		
 		this.globalDict = globalDict;
+		//this.V = this.globalDict.id2word.size();
 		lid2gid = new HashMap<Integer, Integer>();
 	}
 	
@@ -103,8 +105,9 @@ public class LDADataset {
 	 */
 	public void setDoc(String str, int idx){
 		if (0 <= idx && idx < M){
-			String [] words = str.split("[ \\t\\n]");
 			
+			String [] words = str.split(System.getProperty("line.separator"));
+
 			Vector<Integer> ids = new Vector<Integer>();
 			
 			for (String word : words){
@@ -220,6 +223,7 @@ public class LDADataset {
 	 * @return dataset if success and null otherwise
 	 */
 	public static LDADataset readDataSet(BufferedReader reader, Dictionary dict){
+
 		try {
 			//read number of document
 			String line;
@@ -230,7 +234,6 @@ public class LDADataset {
 			LDADataset data = new LDADataset(M, dict);
 			for (int i = 0; i < M; ++i){
 				line = reader.readLine();
-				
 				data.setDoc(line, i);
 			}
 			

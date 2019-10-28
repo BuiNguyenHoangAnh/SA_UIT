@@ -42,7 +42,7 @@ public class Inferencer {
 	
 	private Model newModel;
 	public int niters = 100;
-	
+			
 	//-----------------------------------------------------
 	// Init method
 	//-----------------------------------------------------
@@ -109,9 +109,9 @@ public class Inferencer {
 		newModel = new Model();
 		if (!newModel.initNewModel(option, trnModel)) return null;
 		
-		System.out.println("Sampling " + niters + " iteration for inference!");
+		System.out.println("Sampling " + newModel.niters + " iteration for inference!");
 		
-		for (newModel.liter = 1; newModel.liter <= niters; newModel.liter++){
+		for (newModel.liter = 1; newModel.liter <= newModel.niters; newModel.liter++){
 			//System.out.println("Iteration " + newModel.liter + " ...");
 			
 			// for all newz_i

@@ -82,10 +82,10 @@ public class standardizeBUS {
 			}
 			else if (count > 0) {
 				//remove teen code, incorrect words, ...				
-				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ");
+				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ").toLowerCase();
 				continue;
 			}
-			result += (word+" ");
+			result += (word.toLowerCase()+" ");
 		}
 		
 		return result;

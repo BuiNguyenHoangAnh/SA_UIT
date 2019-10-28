@@ -35,12 +35,12 @@ public class Constant {
 	/*End of MongoDB define*/
 	
 	/*Start of LDA Model & Gibbs Sampling define*/
-	public static final String GibbsLDA_optionDir = System.getProperty("user.dir") + "/data/jgibbslda/LDAModelDir";
-	public static final String LDAmodelName = "LDAModel";
-	public static final int GibbsNiters = 100;
-	public static final String GibbsLDA_dFile = "input-data.txt";
+	public static final String GibbsLDA_optionDir = "/home/tranhamduong/JGibbLDA-v.1.0/models/casestudy-vi";
+	public static final String LDAmodelName = "model-final";
+	public static final int GibbsNiters = 1000;
+	public static final String GibbsLDA_dFile = "testfile";
 	
-	public static final String GibbsLDA_input_dataFileName = "part-00000";
+	public static final String GibbsLDA_input_dataFileName = "testfile";
 
 	
 	/*End of LDA Model & Gibbs Sampling define*/
