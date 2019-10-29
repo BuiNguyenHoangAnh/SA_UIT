@@ -32,6 +32,8 @@ import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.indexing.NDArrayIndex;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
+import breeze.linalg.all;
+
 
 public class sentimentAnalyser {
 	/*
@@ -55,7 +57,7 @@ public class sentimentAnalyser {
     
     private static final int batchSize = 50; //Number of examples in each minibatch
     private static final int vectorSize = 300; //Size of the word vectors. 300 in the model.
-    private static final int nEpochs = 5; //Number of epochs (full passes of training data) to train on
+    private static final int nEpochs = 12; //Number of epochs (full passes of training data) to train on
     private static final int truncateReviewsToLength = 300; ////Truncate reviews with length (# words) greater than this
     
     public sentimentAnalyser() throws IOException {
@@ -75,6 +77,7 @@ public class sentimentAnalyser {
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT).iterations(1)
                 .updater(Updater.RMSPROP)
+                .iterations(1)
                 .regularization(true).l2(1e-5)
                 .weightInit(WeightInit.XAVIER)
                 .gradientNormalization(GradientNormalization.ClipElementWiseAbsoluteValue).gradientNormalizationThreshold(1.0)
@@ -136,16 +139,52 @@ public class sentimentAnalyser {
         
     }
     
-    public void testData(String filePath) throws IOException{
+    public void testData(String filePath1, String filePath2) throws IOException{
     	
         //After training: load a single example and generate predictions
     	
 		try {
-			
+			int countPos  = 0;
+			int countNeg  = 0;
 			MultiLayerNetwork net = ModelSerializer.restoreMultiLayerNetwork(new File(MODEL_PATH));
 			
-			List<String> allLines = Files.readAllLines(Paths.get(filePath));
+			List<String> allLines = Files.readAllLines(Paths.get(filePath1));
+			int total = allLines.size();
 			for (String line : allLines) {				
+				
+		        INDArray features = test.loadFeaturesFromString(line, truncateReviewsToLength);
+		        INDArray networkOutput = net.output(features);
+		        long timeSeriesLength = networkOutput.size(2);
+		        INDArray probabilitiesAtLastWord = networkOutput.get(NDArrayIndex.point(0), NDArrayIndex.all(), NDArrayIndex.point((int) (timeSeriesLength - 1)));
+
+		        System.out.println("\n\n-------------------------------");
+		        System.out.println("Short positive review: \n" + line);
+		        System.out.println("\n\nProbabilities at last time step:");
+		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+		        
+		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1))
+		        	countPos++;
+		        else 
+		        	countNeg++;
+			}
+			
+			System.out.println("CALCAULATE ");
+			System.out.println("Positive: " + countPos + "/" + total + " => "+ ((float) countPos / (float) total));
+			System.out.println("Negative: " + countNeg + "/" + total + " => "+ ((float) countNeg / (float) total));
+			System.out.println("==================================================================");
+			
+			
+			countPos  = 0;
+			countNeg  = 0;
+			net.clear();
+			net = ModelSerializer.restoreMultiLayerNetwork(new File(MODEL_PATH));
+			
+			allLines.clear();
+			allLines = Files.readAllLines(Paths.get(filePath2));
+			total = allLines.size();
+			for (String line : allLines) {				
+				
 		        INDArray features = test.loadFeaturesFromString(line, truncateReviewsToLength);
 		        INDArray networkOutput = net.output(features);
 		        long timeSeriesLength = networkOutput.size(2);
@@ -156,7 +195,17 @@ public class sentimentAnalyser {
 		        System.out.println("\n\nProbabilities at last time step:");
 		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
 		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+		        
+		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1))
+		        	countPos++;
+		        else 
+		        	countNeg++;
 			}
+			
+			System.out.println("CALCAULATE ");
+			System.out.println("Positive: " + countPos + "/" + total + " => "+ ((float) countPos / (float) total));
+			System.out.println("Negative: " + countNeg + "/" + total + " => "+ ((float) countNeg / (float) total));
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

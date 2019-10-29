@@ -33,7 +33,8 @@ import vn.uit.edu.sa.gibbsLDA.*;
  */
 public class App 	
 {	
-    public static final String VALIDATE_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg";
+    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg";
+    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/pos";
 
     public static void main( String[] args ) throws IOException
     {
@@ -50,12 +51,12 @@ public class App
     	
 	    sparkConfigure sparkConfig = new sparkConfigure();
 	    
-	    languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
-	    preproccessor.run(null); 
+	    //languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
+	    //preproccessor.run(null); 
 
-    	//sentimentAnalyser model = new sentimentAnalyser();
-    	//model.sentimentModel();
-    	//model.testData(VALIDATE_PATH);
+    	sentimentAnalyser model = new sentimentAnalyser();
+    	model.sentimentModel();
+	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
     	
     	
     	

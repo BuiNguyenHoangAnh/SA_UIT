@@ -605,7 +605,6 @@ khó_nghĩ
 khó_nói
 khó_thấy
 khó_tránh
-không
 không_ai
 không_bao_giờ
 không_bao_lâu
@@ -1716,7 +1715,6 @@ yêu_cầu
 áng
 áng_như
 âu_là
-ít
 ít_biết
 ít_có
 ít_hơn

@@ -278,7 +278,7 @@ public class sentimentIterator implements DataSetIterator {
             if(wordVectors.hasWord(t)) tokensFiltered.add(t);
         }
         int outputLength = Math.min(maxLength,tokensFiltered.size());
-
+        if (outputLength == 0 ) outputLength = 1;
         INDArray features = Nd4j.create(1, vectorSize, outputLength);
 
         int count = 0;

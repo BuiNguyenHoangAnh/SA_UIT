@@ -6,7 +6,7 @@ quán cà_phê
 phòng máy_lạnh trang_bị máy_tính sinh_viên mượn 
 hành_lang lầu chào trang_bị thiết_bị sạc điện_thoại sinh_viên 
 tòa nhà bố_trí hệ_thống uống tầng đỡ 
-đường tòa nhà máy che sợ mưa_nắng 
+đường tòa nhà máy che không sợ mưa_nắng 
 mạng miễn_phí sinh_viên 
 nhà_xe máy che 
 máy_lạnh 
@@ -34,16 +34,16 @@ nhà_vệ_sinh sạch_sẽ lắp gương sống ảo
 thư_viện máy_lạnh đầu_sách thư_viện 
 phòng máy cấu_hình chạy mượt 
 trung_tâm ngoại_ngữ thuận_tiện tiếng 
-cơ_sở di_chuyển 
-xe đưa_đón giảng_viên sinh_viên sợ trễ 
+cơ_sở không di_chuyển 
+xe đưa_đón giảng_viên sinh_viên không sợ trễ 
 sân rộng thích_hợp hoạt_động ngoài_trời 
 tâm_lý xây_dựng đường sinh_viên khuyết_tật 
 chuẩn vệ_sinh quán cảnh sống ảo 
 máy điểm_danh tầng mất_công chạy 
 điểm_danh ứng_dụng hiện_đại 
 rộng món ngon 
-món thường_xuyên ngán 
-nhà_xe lane quá_tải đầu 
+món thường_xuyên không ngán 
+nhà_xe lane không quá_tải đầu 
 phòng sáng_sủa thoải_mái giúp sinh_viên cảm_hứng học_tập 
 trung_tâm thuận_tiện đi_lại 
 hệ_thống website cập_nhật thường_xuyên 
@@ -83,14 +83,14 @@ khuôn_viên mát
 khuôn_viên sạch_sẽ thoáng mát cây_xanh 
 khuôn_viên thoáng_đãng 
 xây_dựng kiến_trúc hiện_đại trang_thiết_bị hiện_đại 
-tòa nhà bản_đồ tầng sợ lạc 
+tòa nhà bản_đồ tầng không sợ lạc 
 trông mùa 
 phòng thiết_kế linh_động thích_hợp hoạt_động lớp 
 phòng thiết_kế hiện_đại 
 phòng đầy_đủ ánh_sáng 
 mạng xài thoải_mái phòng cáp sinh_viên nhu_cầu cáp mạng 
 phòng thiết_kế kiểu châu hiện_đại gần_gũi 
-đầy_đủ phòng đáp_ứng thường_xuyên chạy phòng 
+đầy_đủ phòng đáp_ứng không thường_xuyên chạy phòng 
 phòng cách_âm 
 phòng thiết_kế không_gian 
 phòng bố_trí linh_động tùy số_lượng sinh_viên lớp phòng 
@@ -125,7 +125,7 @@ xây_dựng đẹp phòng_ốc sạch_sẽ máy_lạnh máy_chiếu đầy_đủ
 đẹp khang_trang 
 phòng_ốc sạch_sẽ máy_lạnh máy_chiếu loa 
 phòng khang_trang 
-cơ_sở vật_chất xứng_đáng giá tiền thất_vọng 
+cơ_sở vật_chất xứng_đáng giá tiền không thất_vọng 
 tận chào an uống thoải_mái 
 quán cà_phê ổn chổ sinh_viên nghỉ trưa 
 bật nhạc máy_lạnh nhạc 
@@ -144,7 +144,7 @@ cơ_sở vật_chất nhà_trường cải_thiện liên_tục phục_vụ dạy
 phòng lab hiện_đại 
 phòng máy hoàn_hảo mạng máy 
 mạng 
-thư_viện online thư_viện chen_chúc thư_viện 
+thư_viện online thư_viện không chen_chúc thư_viện 
 thư_viện đầu_sách ý_nghĩa 
 hệ_thống liên thư viên giúp sinh_viên mượn sách 
 tranh_tường sống ảo 
@@ -163,3 +163,4 @@ nhà_thi_đấu lớn
 hồ bơi hồ 
 cơ_sở vật_chất đáp_ứng đầy_đủ nhu_cầu dạy hài_lòng 
 thất_vọng cơ_sở vật_chất 
+xanh sạch đẹp 
