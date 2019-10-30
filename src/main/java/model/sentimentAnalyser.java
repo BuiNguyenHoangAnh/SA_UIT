@@ -40,7 +40,7 @@ public class sentimentAnalyser {
 	 * // // Declare variables //
 	 */
 	// Location to save and extract the training/testing data
-    public static final String DATA_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data"; // need to replace this path. Ex: /path/to/data/train/
+    public static final String DATA_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/aspect"; // need to replace this path. Ex: /path/to/data/train/
     // Location for the model word2vector
     public static final String WORD_VECTORS_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/word2vecModel/vector.txt"; //need to replace this path. Ex: /path/to/data/w2v.bin
     // Directory save checkpoint MultiLayerNetwork. 
@@ -48,7 +48,7 @@ public class sentimentAnalyser {
     //
     public static final String VALIDATE_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/file";
     //
-    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model.zip";
+    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-aspect.zip";
 
     
     public static sentimentIterator train;
@@ -57,7 +57,7 @@ public class sentimentAnalyser {
     
     private static final int batchSize = 50; //Number of examples in each minibatch
     private static final int vectorSize = 300; //Size of the word vectors. 300 in the model.
-    private static final int nEpochs = 12; //Number of epochs (full passes of training data) to train on
+    private static final int nEpochs = 5; //Number of epochs (full passes of training data) to train on
     private static final int truncateReviewsToLength = 300; ////Truncate reviews with length (# words) greater than this
     
     public sentimentAnalyser() throws IOException {

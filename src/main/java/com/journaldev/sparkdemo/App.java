@@ -33,8 +33,8 @@ import vn.uit.edu.sa.gibbsLDA.*;
  */
 public class App 	
 {	
-    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg";
-    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/pos";
+    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/aspect-dt";
+    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/aspect-csvc";
 
     public static void main( String[] args ) throws IOException
     {
@@ -55,7 +55,7 @@ public class App
 	    //preproccessor.run(null); 
 
     	sentimentAnalyser model = new sentimentAnalyser();
-    	model.sentimentModel();
+    	//model.sentimentModel();
 	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
     	
     	
