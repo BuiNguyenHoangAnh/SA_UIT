@@ -1,0 +1,5318 @@
+log4j:WARN No appenders could be found for logger (org.nd4j.linalg.factory.Nd4jBackend).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh_viên dễ_thương lịch_sự văn_hoá 
+p(positive): 0.4990520775318146
+p(negative): 0.500947892665863
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+moi coi mo thay co va ban be rat hoa dong 
+p(positive): 0.09787333756685257
+p(negative): 0.902126669883728
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tân sinh_viên quả_thực vui ngành mong lớn_mạnh đầu_tư dàn máy_lạnh tuyệt ^^ 
+p(positive): 0.15899576246738434
+p(negative): 0.8410041928291321
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dẫn_đầu an_toàn thông_tin đứng thi an_toàn thông_tin sinh_viên vn 
+p(positive): 0.21888315677642822
+p(negative): 0.7811169028282166
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gieo mầm ước_mơ bay bay iter love 
+p(positive): 0.2910446226596832
+p(negative): 0.7089553475379944
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mái nhà thắp ước_mơ tài_năng nước_nhà 
+p(positive): 0.294953852891922
+p(negative): 0.7050461173057556
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+công đam_mê công_nghệ_thông_tin 
+p(positive): 0.42079418897628784
+p(negative): 0.5792058110237122
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trải ngiệm tuyệt 
+p(positive): 0.40590566396713257
+p(negative): 0.5940942764282227
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ tuyệt_vời tìm_kiếm tài_năng 
+p(positive): 0.48532459139823914
+p(negative): 0.5146753787994385
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chắp_cánh ước_mơ 
+p(positive): 0.4632017910480499
+p(negative): 0.5367981195449829
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi_tiếng giới_thiệu chi 
+p(positive): 0.47026222944259644
+p(negative): 0.5297377705574036
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời ít gái 
+p(positive): 0.4660368859767914
+p(negative): 0.533963143825531
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mơ ướccc 
+p(positive): 0.43765726685523987
+p(negative): 0.5623427629470825
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hài_lòng 
+p(positive): 0.4809122681617737
+p(negative): 0.5190877318382263
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tự_hào sinh_viên học_viên tuyệt_vời đương_nhiên dở tồn_tại duy_trì phát_triển suốt đóng_góp tri_thức xã_hội 
+p(positive): 0.3826203942298889
+p(negative): 0.6173796057701111
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mơ_ước thời chân 
+p(positive): 0.30262526869773865
+p(negative): 0.6973747611045837
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+yêu_mến tiếc học_lực không phép hjx 
+p(positive): 0.3577829599380493
+p(negative): 0.6422170400619507
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+uy_tín tp hồ chí minh 
+p(positive): 0.4736098349094391
+p(negative): 0.5263901352882385
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc gioi nhat 
+p(positive): 0.3158506453037262
+p(negative): 0.6841493844985962
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mot noi tuyet voi 
+p(positive): 0.3369908332824707
+p(negative): 0.6630091667175293
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân_chơi đam_mê sáng_tạo 
+p(positive): 0.4843991994857788
+p(negative): 0.5156008005142212
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sản_sinh tài_năng 
+p(positive): 0.47393035888671875
+p(negative): 0.5260695815086365
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_tiếng sài gòn 
+p(positive): 0.4686908423900604
+p(negative): 0.5313091278076172
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rộng đẹp 
+p(positive): 0.3529319167137146
+p(negative): 0.6470681428909302
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+pro 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tạm 
+p(positive): 0.4592512249946594
+p(negative): 0.5407487750053406
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyet 
+p(positive): 0.4668745994567871
+p(negative): 0.5331253409385681
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+moi chuyne nghiep 
+p(positive): 0.4418662190437317
+p(negative): 0.5581337809562683
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+qúa 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đỉnh 
+p(positive): 0.47861531376838684
+p(negative): 0.5213847160339355
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vĩ_đại 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thời sinh_viên trôi đậu nhân_văn niềm mơ_ước minh tốt_nghiệp cám_ơn thầy dạy_dỗ trang_bị kho_tàng kiến_thức đời khoa_học_xã_hội nhân_văn đào_tạo đa ngành đa lĩnh_vực mong thi 
+p(positive): 0.4264473021030426
+p(negative): 0.5735527276992798
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ước_mơ 
+p(positive): 0.4632017910480499
+p(negative): 0.5367981195449829
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớp_học thú_vị 
+p(positive): 0.4996558725833893
+p(negative): 0.5003441572189331
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo duc hoàn_thiện 
+p(positive): 0.4457583427429199
+p(negative): 0.5542416572570801
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi_tiếng tphcm 
+p(positive): 0.49715128540992737
+p(negative): 0.5028486847877502
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt nâng_cấp thời xưa nâng_cấp loại_bỏ lãng_mạn trường_học khối bê_tông lạnh 
+p(positive): 0.18197715282440186
+p(negative): 0.8180227875709534
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt_đẹp 
+p(positive): 0.4767301678657532
+p(negative): 0.5232698321342468
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hữu_ích 
+p(positive): 0.4995702803134918
+p(negative): 0.5004297494888306
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+có_lẽ dân_lập lớn quy_mô tp hcm chuẩn hệ_thống asean giảng dậy nghiên_cứu ngôn_ngữ dựa chương_trình mỹ thành_lập học_sinh phụ_huynh tham_quan đông 
+p(positive): 0.30717581510543823
+p(negative): 0.6928241848945618
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí cập_nhật tín_chỉ trung_bình tín chỉ/môn môn/năm business chương_trình liên_kết học_phí chính_sách học_bổng nội_dung chương_trình phức_tạp khuyên trực tiếp_phòng đào_tạo anh_chị dễ_thương tư_vấn cặn_kẽ 
+p(positive): 0.3621857762336731
+p(negative): 0.6378142237663269
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bestttttttt 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời giấc mơ sự_thật 
+p(positive): 0.4051763713359833
+p(negative): 0.5948236584663391
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_sắc 
+p(positive): 0.4956924021244049
+p(negative): 0.5043075680732727
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trải_nghiệm học_hỏi tuyệt_vời 
+p(positive): 0.48027727007865906
+p(negative): 0.5197227597236633
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời ^^ 
+p(positive): 0.458797812461853
+p(negative): 0.541202187538147
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hữu_ích ghê 
+p(positive): 0.45258769392967224
+p(negative): 0.5474123358726501
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt khu_vực đồng_bằng sông cửu long 
+p(positive): 0.49747398495674133
+p(negative): 0.5025259852409363
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nét ấn_tượng kiến_thức vững_chắc kinh_tế học_viên không thể_nào lỡ 
+p(positive): 0.46511727571487427
+p(negative): 0.5348827242851257
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tot dao tao nhieu cu nhan xh phuc vu tot sach se 
+p(positive): 0.1655670553445816
+p(negative): 0.8344329595565796
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thời sinh_viên sách quanh_đi_quẩn_lại chục hồi tự_hào lắm đậu tiếng hihi 
+p(positive): 0.14547677338123322
+p(negative): 0.8545231819152832
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tự_hào tốt_nghiệp 
+p(positive): 0.4990178346633911
+p(negative): 0.5009821653366089
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời lắm 
+p(positive): 0.4935184121131897
+p(negative): 0.5064816474914551
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyet voi 
+p(positive): 0.42792385816574097
+p(negative): 0.572076141834259
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tạm 
+p(positive): 0.4592512249946594
+p(negative): 0.5407487750053406
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+yêu tài_năng 
+p(positive): 0.4848749339580536
+p(negative): 0.515125036239624
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+uy_tín cũ thị_trấn bãi xe nhỏ ưu_tiên giáo_viên 
+p(positive): 0.21646729111671448
+p(negative): 0.7835327386856079
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+noi dao tao doi ngu nhung nguoi hiat dong limh vuc luat phap 
+p(positive): 0.17841219902038574
+p(negative): 0.8215878009796143
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi_tiếng sài gòn 
+p(positive): 0.4637777805328369
+p(negative): 0.5362222194671631
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh tieng 
+p(positive): 0.4281686842441559
+p(negative): 0.5718312859535217
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nghiêm_túc 
+p(positive): 0.4876379072666168
+p(negative): 0.5123620629310608
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trãi nghiệm 
+p(positive): 0.40939226746559143
+p(negative): 0.5906077027320862
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+luat tôt nhat 
+p(positive): 0.47144827246665955
+p(negative): 0.5285517573356628
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn không chỉnh 
+p(positive): 0.441447913646698
+p(negative): 0.558552086353302
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt nhì hồ chí minh 
+p(positive): 0.40795934200286865
+p(negative): 0.5920405983924866
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt ~~~ 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời gái xinh 
+p(positive): 0.4032837748527527
+p(negative): 0.5967162251472473
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rat tuyet 
+p(positive): 0.4125099778175354
+p(negative): 0.5874900221824646
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất_lượng tương_đối ủy ban nhân_dân 
+p(positive): 0.46841949224472046
+p(negative): 0.5315805673599243
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao da nganh 
+p(positive): 0.305768758058548
+p(negative): 0.6942312717437744
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoc nhắn_tin luong tốt 
+p(positive): 0.4316297769546509
+p(negative): 0.5683702230453491
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+that thu vi 
+p(positive): 0.38703519105911255
+p(negative): 0.6129647493362427
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thich 
+p(positive): 0.48584771156311035
+p(negative): 0.5141523480415344
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt công tình_yêu nhân_viên lằm 
+p(positive): 0.46619969606399536
+p(negative): 0.5338003039360046
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+con_người pro toàn con_người tài_năng sinh_viên đăng_ký chảnh nhà tuyển_dụng 
+p(positive): 0.3679516613483429
+p(negative): 0.6320483088493347
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tài_năng 
+p(positive): 0.49343612790107727
+p(negative): 0.5065638422966003
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+toàn tài_giỏi năng_động khuôn_viên hơi nhỏ 
+p(positive): 0.3777726888656616
+p(negative): 0.6222273111343384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thành_công 
+p(positive): 0.48511984944343567
+p(negative): 0.5148801803588867
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+moi hoc tap tốt 
+p(positive): 0.47120004892349243
+p(negative): 0.5287999510765076
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao da nganh dang truyen thong va tu 
+p(positive): 0.1966097354888916
+p(negative): 0.8033903241157532
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+con_người thành_tựu 
+p(positive): 0.48007622361183167
+p(negative): 0.5199238061904907
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+da dang hinh thuc hoc moi nguoi 
+p(positive): 0.2259518802165985
+p(negative): 0.7740481495857239
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí tầm rớt môn xong tầm nhẩm tầm triệu coa vô trườmg nêau không lớp tiếng không môn chuyên_ngành văn raat ainh viên mãi tận luật toiec đồ ân tốt_nghiệp coa quăng game quê hạn 
+p(positive): 0.12541383504867554
+p(negative): 0.8745861649513245
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rat tốt hoc tap nghien cuu 
+p(positive): 0.4505285322666168
+p(negative): 0.5494714975357056
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vô_cùng tuyệt_vời ước 
+p(positive): 0.4744183123111725
+p(negative): 0.5255816578865051
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tôn đức thắng đường nguyễn hữu thọ lớn môi_trường học_tập chuyên_nghiệp sở_trường khang_trang 
+p(positive): 0.2566239535808563
+p(negative): 0.7433760166168213
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân_chơi hữu_ích sinh_viên giao_lưu giải_trí thảo_luận học_tập lẫn liên_kết sinh_viên thành_viên đại_gia_đình tôn đức thắng 
+p(positive): 0.1805470734834671
+p(negative): 0.8194529414176941
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_tập sự_kiện trưởng_thành từ_trường tôn đức thắng 
+p(positive): 0.2833605408668518
+p(negative): 0.7166394591331482
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong tuyet 
+p(positive): 0.35998544096946716
+p(negative): 0.6400145292282104
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lý_tưởng 
+p(positive): 0.4603244364261627
+p(negative): 0.5396755933761597
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ra_đời chủ_trương xã_hội hóa giáo_dục nguyễn tất thành không ngừng đầu_tư xây_dựng phát_triển đẳng_cấp quốc_gia hội_nhập quốc_tế bước_tiến vượt_trội công_tác đào_tạo khoa chương_trình đào_tạo bậc khối ngành sức khỏe kinh_tế xã_hội nhân_văn kỹ_thuật công_nghệ nghệ_thuật mỹ_thuật nttu định_hướng ứng_dụng thực_hành nguyễn tất thành hướng mục_tiêu môi_trường học_tập tích_cực trải_nghiệm thực_tiễn sinh_viên trang_bị năng_lực tinh_thần sáng_tạo khởi_nghiệp trách_nhiệm cộng_đồng phát_triển tiềm_năng việc_làm tốt_nghiệp thích_ứng thế_giới thực_học thực_hành thực danh thực_nghiệp thực_học hướng đào_tạo cá_thể hóa nhu_cầu gắn giải_quyết tình_huống ngữ_cảnh môi_trường làm_việc tạo_dựng năng_lực làm_việc sáng_tạo tập_thể thực_hành môi_trường giả_định giúp ứng_dụng kiến_thức rút bài_học kinh_nghiệm hoàn_thiện kiến_thức thực danh kiến_tạo phát_triển chuyên_môn tạo_dựng uy_tín đích_thực công_việc thực_nghiệp lập_nghiệp khởi_nghiệp thành_công năng_lực kỹ_năng tích lũy 
+p(positive): 0.32187044620513916
+p(negative): 0.6781295537948608
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+noi day tu lau da co tieng dao tao nhung sinh vien uu tu tai gioi de giup ich dat nuoc luon dat duoc nhung hieu suat rat 
+p(positive): 0.06526511907577515
+p(negative): 0.9347348809242249
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hung dân toc nhắn_tin giao dục tốt 
+p(positive): 0.4288143515586853
+p(negative): 0.5711856484413147
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong tam 
+p(positive): 0.36269092559814453
+p(negative): 0.6373090744018555
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_tiếng sài gòn 
+p(positive): 0.4686908423900604
+p(negative): 0.5313091278076172
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi_tiếng sài gòn 
+p(positive): 0.4637777805328369
+p(negative): 0.5362222194671631
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đao tao nganh dieu duong 
+p(positive): 0.4172225296497345
+p(negative): 0.5827775001525879
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trái_tim giáo_dục trái_tim chúc dược hoàn_thành sứ_mệnh sự_nghiệp trồng 
+p(positive): 0.3649435043334961
+p(negative): 0.6350565552711487
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+quý thầy lãnh_đạo giảng_dạy thời_kỳ tu_luyện từ_trường hôm_nay xinh nêu chào tuyệt_vời "!... dược tp hcm 
+p(positive): 0.19429799914360046
+p(negative): 0.8057019710540771
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mot dai hoc uy tinh nhat viet nam noi nhung bac si thanh_danh 
+p(positive): 0.21593597531318665
+p(negative): 0.7840640544891357
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc duoc co kham suc khoe tong quat 
+p(positive): 0.2949758470058441
+p(negative): 0.7050241827964783
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tiếng tp hồ chí minh 
+p(positive): 0.4218032956123352
+p(negative): 0.57819664478302
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xây tòa đào_tạo tốt 
+p(positive): 0.4930497407913208
+p(negative): 0.506950318813324
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nối tiếng sài gòn 
+p(positive): 0.4785739481449127
+p(negative): 0.5214260816574097
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+than yeu 
+p(positive): 0.48555079102516174
+p(negative): 0.5144492387771606
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+that tuyet voi 
+p(positive): 0.40725085139274597
+p(negative): 0.5927491188049316
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kính 
+p(positive): 0.42155200242996216
+p(negative): 0.5784479975700378
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dẫn_đầu 
+p(positive): 0.49097567796707153
+p(negative): 0.5090242624282837
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+duoc 
+p(positive): 0.4782997667789459
+p(negative): 0.5217001438140869
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_sắc 
+p(positive): 0.4956924021244049
+p(negative): 0.5043075680732727
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vui hại não 
+p(positive): 0.48461824655532837
+p(negative): 0.5153817534446716
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xinh nè 
+p(positive): 0.39404192566871643
+p(negative): 0.605958104133606
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+công_nghiệp thành_phố hồ chí minh tương_lai gặp_gỡ doanh_nghiệp đệm đời không kiếm bay_nhảy học_tập 
+p(positive): 0.2838439643383026
+p(negative): 0.7161560654640198
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cở sở vật_chất trang_thiết_bị tốt học_phí hơi 
+p(positive): 0.35378700494766235
+p(negative): 0.6462129354476929
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí tạm ổn giáo_viên đa_số độ thang_máy tu_sửa hoạt_động giải_trí không_gian clb cơ_sở_hạ_tầng tốt 
+p(positive): 0.17580100893974304
+p(negative): 0.8241989612579346
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh_viên vui_vẻ thân_thiện xung_quanh đồ_ăn vặt tối đông vui 
+p(positive): 0.20074185729026794
+p(negative): 0.7992581725120544
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+yêu lắm mặc_dù không sức vinh_quang không chất_lượng giảng_dạy miễn bàn tùy giảng_viên không siết chặt kỹ luật đề_cao kỹ luật càn mách nhỏ coi_chừng lạc khuôn_viên lạc 
+p(positive): 0.12773741781711578
+p(negative): 0.8722625374794006
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hài_lòng 
+p(positive): 0.4809122681617737
+p(negative): 0.5190877318382263
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rat thich 
+p(positive): 0.4296897053718567
+p(negative): 0.5703103542327881
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kien truc dao tao rat nhieu kts gioi cua tp va vietnam 
+p(positive): 0.18113300204277039
+p(negative): 0.818867027759552
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc danh tieng 
+p(positive): 0.31732502579689026
+p(negative): 0.6826750040054321
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thay rat gioi 
+p(positive): 0.31308016180992126
+p(negative): 0.6869198679924011
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nghiên_cứu giấc mơ 
+p(positive): 0.45445704460144043
+p(negative): 0.5455429553985596
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+an giang tọa lạc thành_phố long xuyên ký_túc_xá thư_viện lớn sân rộng_lớn xanh xung_quanh xe_buýt sẵn nhân_viên bảo_vệ kiểm_tra danh_tính nhân_viên giảng_viên sinh_viên báo_cáo 
+p(positive): 0.0746852308511734
+p(negative): 0.9253147840499878
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_xe nhỏ xung_quanh chỗ gửi xe_máy đối_diện cổng chỗ hồ rùa hành_lang rộng ghế dọc hành_lang sát cửa_sổ chỗ ổ_cắm sạc laptop đt nhà_vệ_sinh nhạc khu_vực xe lắm nhân_viên giảng_viên bảo_vệ thân_thiện 
+p(positive): 0.06799465417861938
+p(negative): 0.9320053458213806
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chỗ tốt nè 
+p(positive): 0.4141826629638672
+p(negative): 0.5858173370361328
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mot nhung lua chon tốt de hoc ve tai chinh ngan hang rộng rai sach se xanh nhieu chuong trinh dao tao tốt 
+p(positive): 0.10182920843362808
+p(negative): 0.8981707692146301
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cô_giáo đẹp hê 
+p(positive): 0.4380466938018799
+p(negative): 0.5619533061981201
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+oke 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tui nè khoa tui nè thầy khoa tui duyên_dáng lắm nha nhiệt_tình sinh_viên tâm_huyết yêu nghề cực tình_cảm chắt_chiu giảng truyền sinh_viên tui gãy giò không hết_nổi hihi nông_lâm không phí giảng_đường loài hoa phượng vỹ rạng_đông cẩm_tú cát tường hướng_dương câu_lạc_bộ tổ_chức đội huấn_luyện hướng_dẫn sinh_viên kĩ_năng cần_thiết ban_giám_hiệu nhà_trường sinh_viên phát_triển tham quan_trường 
+p(positive): 0.08955615013837814
+p(negative): 0.910443902015686
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đào_tạo nhân_lực kinh_tế nam nam_trung thế_hệ sinh_viên học_hành đào_tạo đầu học_phí rẻ may_mắn giảng_viên tâm thành_công vang_dội giúp_đỡ cơ_sở hơi phân_tán chút bất_tiện giúp sinh_viên tỉnh trải_nghiệm đường thành_phố thi đầu_vào đầu_ra không kém nâng_cấp phát_triển dự_án hợp_tác đào_tạo quốc_tế 
+p(positive): 0.48372501134872437
+p(negative): 0.5162749886512756
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_gia 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chua hoc nhung dao tao ki thuat rat tốt 
+p(positive): 0.2971288859844208
+p(negative): 0.7028711438179016
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời mơ thành_đạt 
+p(positive): 0.43849506974220276
+p(negative): 0.5615049004554749
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kiếm việc_làm 
+p(positive): 0.45855534076690674
+p(negative): 0.5414446592330933
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+spkt hang dau tai tphcm 
+p(positive): 0.3109145164489746
+p(negative): 0.6890854835510254
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyet lun 
+p(positive): 0.4437493085861206
+p(negative): 0.5562507510185242
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngoi kha noi tieng 
+p(positive): 0.3379998803138733
+p(negative): 0.6620001792907715
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyện 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chị_gái mặc_dù nhỏ tổng_thể tốt lựa_chọn nghiên_cứu 
+p(positive): 0.37770822644233704
+p(negative): 0.6222918033599854
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoàn_hảo 
+p(positive): 0.45211338996887207
+p(negative): 0.5478866100311279
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời chúc tập_thể thầy khỏe 
+p(positive): 0.4166070818901062
+p(negative): 0.5833929181098938
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tung la sinh vien cua toi cam thay giang vien dai hoc da deu tot khong vu loi chi it giang vien thuc dung co tu tuong vu loi ca nhan nhan vien bao ve rat tot giup sinh vien 
+p(positive): 0.05266013741493225
+p(negative): 0.9473398327827454
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+văn 
+p(positive): 0.47624659538269043
+p(negative): 0.5237534046173096
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ tạm ổn 
+p(positive): 0.4705628454685211
+p(negative): 0.5294371247291565
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+noi dao tao tốt 
+p(positive): 0.44447198510169983
+p(negative): 0.5555280447006226
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chào ngành tâm_lý_học quản_lý khoa giáo_dục trụ_sở cs3 ngô thời nhiệm q3 hcm khoa vương cuộc_sống :” giảng_viên dễ_thương nhiệt_tình tâm_lý sinh_viên dễ_dãi gia_hạn tận thấu_hiểu tâm_lý sinh_viên ham chơi/ham giảng_viên ví_dụ lý_thuyết hình_ảnh minh họa sinh_viên sinh_viên quyền đề đề đóng môn chuyên_ngành kiểu đề hại lợi cẩn_trọng chọn_lựa kiểu thi đề đóng đề kỳ :” nhược_điểm xíu khâu tìm_kiếm tài_liệu cực môn bọn giảng_viên bắt dịch sách tiếng tiếng việt nha liên_hệ sinh_viên khóa xinh tài_liệu photo đỡ mất_công lục tung nhà_sách 
+p(positive): 0.09605509042739868
+p(negative): 0.9039449095726013
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nề niếp 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời kiến_trúc bắt_mắt 
+p(positive): 0.48068493604660034
+p(negative): 0.5193151235580444
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt thành_phố hồ chí minh động_lực nghiên_cứu cung_cấp dự_án đời_sống 
+p(positive): 0.46858227252960205
+p(negative): 0.531417727470398
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+la ngoi lon dao tao da nganh 
+p(positive): 0.22864793241024017
+p(negative): 0.7713520526885986
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kiến_trúc tiêu_chuẩn quốc_tế hệ_thống cơ_sở_hạ_tầng cao_cấp tiện_lợi phục_vụ nhu_cầu học_tập sinh_hoạt sinh_viên quốc_tế hồng bàng hiu bình_chọn trẻ trung_tâm toàn_cầu_hoá bối_cảnh hệ_thống giáo_dục nhân_bản cung_cấp môi_trường học_tập hạnh_phúc hôm_nay thịnh_vượng ngày_mai quan_hệ toàn_cầu xuyên suốt tiến_trình thúc_đẩy thực_học giáo_dục nhân_bản 
+p(positive): 0.30453234910964966
+p(negative): 0.6954675912857056
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thành lập_là ơn lớn thầy huỳnh thế_cuộc nhà_giáo tận_tâm nghề thầy mẫu_mực nhân_cách tự_nhiên sức hút kính_trọng yêu_quý học_trò tiên_đoán ngoại_ngữ tin_học chào chìa_khoá mở_cửa mảng trọg yếu kinh_tế tương_lai vận_động ngoại_ngữ tin_học tầm chứng_thực không nghi_ngờ thế_hệ giảng_sư xuất_thân từ_trường kế_thừa tâm_huyết truyền lửa tận_tâm sinh_viên thỉnh_giảng hoàn_thành nhiệm_vụ sinh vien tốt_nghiệp từ_trường doanh_nghiệp góc_độ nhanh_nhạy hoà_nhập năng_động 
+p(positive): 0.22737696766853333
+p(negative): 0.7726230621337891
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+không hối_hận lựa_chọn thầy tận_tâm giáo_viên "..." bãi xe_hơi nhỏ thang_máy truyền_thống vụ đứng xếp_hàng chờ nhường thầy 
+p(positive): 0.12055746465921402
+p(negative): 0.8794425129890442
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đậu học_phí nản 
+p(positive): 0.43117982149124146
+p(negative): 0.5688201785087585
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong dao tao tốt 
+p(positive): 0.3854350447654724
+p(negative): 0.6145649552345276
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ok học_phí hơi 
+p(positive): 0.4830262362957001
+p(negative): 0.5169737339019775
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tạm 
+p(positive): 0.4592512249946594
+p(negative): 0.5407487750053406
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_sắc 
+p(positive): 0.4956924021244049
+p(negative): 0.5043075680732727
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+moi ly tuong tuoi đẹp tuong lai 
+p(positive): 0.26547372341156006
+p(negative): 0.7345262765884399
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy dễ_thương thân_thiện lắm nha tổ_chức hoạt_động thú_vị sinh_viên tham_gia kiểu niềm vui 
+p(positive): 0.48079150915145874
+p(negative): 0.5192084312438965
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đẳng_cấp 
+p(positive): 0.46306949853897095
+p(negative): 0.5369305610656738
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tư_thục khômg giản dạy hutech tốt cải_thiện tốt học_phí giá chuẩn_mực chất_lượng hơi 
+p(positive): 0.4538765251636505
+p(negative): 0.5461235046386719
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mến_yêu trãi rưỡi giúp tình tình thầy thân_thương 
+p(positive): 0.4524137079715729
+p(negative): 0.5475862622261047
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất_lượng tốt học_phí hơi mắc nhìu than lắm 
+p(positive): 0.4872824549674988
+p(negative): 0.5127175450325012
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đầu_tư tốt khai_thác mqh doanh_nghiệp tối_đa đem lợi_ích sinh_viên 
+p(positive): 0.37753304839134216
+p(negative): 0.6224669218063354
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+co tieng không hcm ve cong 
+p(positive): 0.3176797926425934
+p(negative): 0.6823201775550842
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoc cung duoc 
+p(positive): 0.35382065176963806
+p(negative): 0.6461793184280396
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tư_thục uy_tín 
+p(positive): 0.46982893347740173
+p(negative): 0.5301710367202759
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rat chuyen nghiep 
+p(positive): 0.38149160146713257
+p(negative): 0.6185083985328674
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời đẹp 
+p(positive): 0.4702078104019165
+p(negative): 0.5297921895980835
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ươm mầm đất_nước 
+p(positive): 0.47076719999313354
+p(negative): 0.5292328000068665
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nghệ_thuật 
+p(positive): 0.4584035277366638
+p(negative): 0.5415964126586914
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí mặt_bằng tình_hình hoàn_thành thư_viện lớn đẹp hoạt_động xây tòa nhà giảng_viên giảng đa_số giảng_dạy tốt tâm không khuyến_khích ngành vd nna sinh_viên ngành cũ dần phát_triển chương_trình độc_đáo 
+p(positive): 0.2479722797870636
+p(negative): 0.752027690410614
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tự_hào chât 
+p(positive): 0.46912065148353577
+p(negative): 0.5308793187141418
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất 
+p(positive): 0.46968868374824524
+p(negative): 0.5303113460540771
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kêu tiền quá_trời đổi tốt chất_lượng kiến thúc nhà mong nhà thế_kỉ 
+p(positive): 0.24414066970348358
+p(negative): 0.755859375
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mot ngoi tuyet voi 
+p(positive): 0.33855730295181274
+p(negative): 0.6614426970481873
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phân_hiệu lê trọng sinh_viên đông đa_dạng ngành_nghề nằm đường lớn thuận_tiện lưu_thông sinh_viên giảng_viên chất_lượng cải_thiện sinh_viên đăng_kí 
+p(positive): 0.35871514678001404
+p(negative): 0.6412848234176636
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_tiếng hà nội xung_quanh quán vặt ngon 
+p(positive): 0.35392752289772034
+p(negative): 0.646072506904602
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ươm mầm bao ưu_tú dân_tộc 
+p(positive): 0.39354610443115234
+p(negative): 0.6064539551734924
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ươm mầm trải_nghiệm 
+p(positive): 0.4188862144947052
+p(negative): 0.5811138153076172
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao nhiu hoc vien gioi 
+p(positive): 0.24714446067810059
+p(negative): 0.7528554797172546
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cần_thiết 
+p(positive): 0.46736183762550354
+p(negative): 0.5326381921768188
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vang danh 
+p(positive): 0.46565261483192444
+p(negative): 0.5343473553657532
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong rat tốt 
+p(positive): 0.4471287727355957
+p(negative): 0.5528712272644043
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ hài_lòng 
+p(positive): 0.4809122681617737
+p(negative): 0.5190877318382263
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+noi dao tao thay thuoc tot 
+p(positive): 0.2274979203939438
+p(negative): 0.7725021243095398
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rộng khóa 
+p(positive): 0.48634421825408936
+p(negative): 0.5136557817459106
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+không câgn 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhấn tượng bệnh_viện quang_cảnh bác_sĩ 
+p(positive): 0.3131968379020691
+p(negative): 0.6868031620979309
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mong_muốn sinh_viên tâm đức cứu chữa bệnh_nhân 
+p(positive): 0.3979168236255646
+p(negative): 0.602083146572113
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nể trai dị gái ngoa giỏi 
+p(positive): 0.4612100422382355
+p(negative): 0.5387899875640869
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ghé thăm cảm_nhận nhân_tài 
+p(positive): 0.30950847268104553
+p(negative): 0.6904914975166321
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hằng mong_ước em_trai 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+noi dao tao cac bac sy dau nghanh cua vn 
+p(positive): 0.25185275077819824
+p(negative): 0.748147189617157
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt bao chất_lượng 
+p(positive): 0.4978432059288025
+p(negative): 0.5021567344665527
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớn hà nội sân bóng thuê 
+p(positive): 0.3900255560874939
+p(negative): 0.6099744439125061
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hn la khoi nguon cuoc song toa niem 
+p(positive): 0.4191122055053711
+p(negative): 0.5808877944946289
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+truyền_thống 
+p(positive): 0.48175621032714844
+p(negative): 0.5182437896728516
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+quản_lí nghiêm_ngặt 
+p(positive): 0.43562474846839905
+p(negative): 0.5643752217292786
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bề dày lịch sữ chất_lượng đào_tạo tốt đa ngành_nghề nông sâu văn_phòng khuôn_viên rộng cây_xanh đội_ngũ đông_đảo giảng_viên phòng quạt máy_chiếu phòng lạnh rộng chất_lượng đào_tạo tốt 
+p(positive): 0.22795787453651428
+p(negative): 0.7720420956611633
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đào_tạo tốt chỉ_tiêu đầu_vào chất_lượng hoạt_động thể_thao sân bóng bể_bơi sân cầu_lông tennis 
+p(positive): 0.27998000383377075
+p(negative): 0.720020055770874
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nghiêm_túc 
+p(positive): 0.4876379072666168
+p(negative): 0.5123620629310608
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời đào_tạo kinh_tế hàng_đầu việt nam đào_tạo kiến_thức lẫn kĩ_năng mềm năng_động bao tất sinh_viên hơi buồn hơi bé đấy niềm vui không lo trễ điểm_danh tuyệt_vời 
+p(positive): 0.4231474995613098
+p(negative): 0.5768525004386902
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+năm_học trải_nghiệm cảm_xúc tự_hào lựa_chọn 
+p(positive): 0.3931654691696167
+p(negative): 0.6068345904350281
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên rộng rộng tham_quan sơ vật_chất đầy_đủ phòng máy_lạnh quạt_trần giảng_viên micro trợ_giảng máy_chiếu phòng ghế xếp không lượn vòng phòng thư_viện sân bóng phòng nghỉ trưa ministop phòng xưởng thực_hành rộng hoành_tráng không cảnh 
+p(positive): 0.029905105009675026
+p(negative): 0.9700948596000671
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hộc 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cảm_nhận khác_biệt năng_động màu_sắc ngoại_thương tuyệt 
+p(positive): 0.4800929129123688
+p(negative): 0.5199071168899536
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt sinh_viên chất_lượng sân đá banh ngon sân giảng_viên uy_tín chất_lượng chất_lượng lâu_đời 
+p(positive): 0.37912553548812866
+p(negative): 0.6208744645118713
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời ^_^ cám_ơn ftu tuyệt_vời 
+p(positive): 0.44998666644096375
+p(negative): 0.5500133037567139
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cuộc_đời gắn tiếc lỡ không cống_hiến sức trẻ năng_động môi_trường lý_tưởng 
+p(positive): 0.3933449685573578
+p(negative): 0.6066550016403198
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đào_tạo ổn xung_quanh hàng_quán khụ trọ sinh_viên 
+p(positive): 0.47968876361846924
+p(negative): 0.520311176776886
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhân_tài ^^ 
+p(positive): 0.4538552761077881
+p(negative): 0.5461447238922119
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh tieng 
+p(positive): 0.4281686842441559
+p(negative): 0.5718312859535217
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt lắm gái xinh 
+p(positive): 0.411155641078949
+p(negative): 0.588844358921051
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+la dai hoc chuan co nhieu hoc sinh gioi không_trung tam thu ha noi 
+p(positive): 0.09484491497278214
+p(negative): 0.9051550626754761
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngoi 
+p(positive): 0.45361876487731934
+p(negative): 0.5463811755180359
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyet voi moi hoc nang dong het suc svien gioi nhieu nhu nam không fai nhắn_tin vat tim kiem 
+p(positive): 0.14835183322429657
+p(negative): 0.8516481518745422
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đấy 
+p(positive): 0.43051499128341675
+p(negative): 0.5694849491119385
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gioi lam 
+p(positive): 0.4034450352191925
+p(negative): 0.5965549945831299
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tốt_nghiệp tư_duy khoa_học logic thiết_lập vững trãi đời 
+p(positive): 0.47896167635917664
+p(negative): 0.521038293838501
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt vn tài_năng sản_sinh thế_hệ hàng truyền_thống lễ_hội beer độc_đáo ấm âp 
+p(positive): 0.41954150795936584
+p(negative): 0.5804585218429565
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thân_yêu gắn_bó năm_học cánh cổng parabol gắn liền kỷ_niệm sinh_viên quân trà đá đường lê duẩn thế_hệ sinh_viên ưu_tú đầu_vào điểm_cao chót_vót giảng_đường bạn_bè nhà c3 c5 d3 d4 trốn tiết thầy cô_giáo điểm_danh thế_hệ k50 mãi con_người ưu_tú bách_khoa hà nội 
+p(positive): 0.09586029499769211
+p(negative): 0.9041396975517273
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trang_thiết_bị vật_chất tốt cải_thiện nhà cũ chất_lượng dạy_học giảng_viên tốt khoa marketing kiến_thức giúp_ích công_việc 
+p(positive): 0.25757044553756714
+p(negative): 0.7424294948577881
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+to kinh_khủng công_viên xe_đạp phương_tiện phép di_chuyển 
+p(positive): 0.12316280603408813
+p(negative): 0.8768372535705566
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ước_mơ nợi đồng_cam_cộng_khổ đầu thời bữa cơm sinh_viên bùng net 
+p(positive): 0.4578319489955902
+p(negative): 0.5421680808067322
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+triển_khai ước_mơ nợi đồng_cam_cộng_khổ đầu thời 
+p(positive): 0.45725956559181213
+p(negative): 0.5427404046058655
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cao_đẳng kĩ_thuật công_nghệ kĩ_thuật điện_tử bách_khoa khoái uống căng_tin nhà nấm 
+p(positive): 0.27181529998779297
+p(negative): 0.7281847596168518
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc bach khoa ha noi la lón day hoc chát đi_lại thuận_tiện sinh_viên hoc hoi mệt kho kiếm việc_làm 
+p(positive): 0.0765543058514595
+p(negative): 0.9234456419944763
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc tốt 
+p(positive): 0.4999825656414032
+p(negative): 0.5000174045562744
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nời sản_sinh nhân_tài it 
+p(positive): 0.4873887300491333
+p(negative): 0.5126112699508667
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thế_giới 
+p(positive): 0.49510154128074646
+p(negative): 0.5048984885215759
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ok 
+p(positive): 0.49361908435821533
+p(negative): 0.5063808560371399
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mot ngoi trung that tuyet 
+p(positive): 0.3025716543197632
+p(negative): 0.6974283456802368
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xịn đấy 
+p(positive): 0.37785604596138
+p(negative): 0.6221439242362976
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trải_nghiệm dịch_vụ mãi 
+p(positive): 0.4110085368156433
+p(negative): 0.5889914631843567
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất lừ 
+p(positive): 0.46968868374824524
+p(negative): 0.5303113460540771
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tui lý_thuyết 
+p(positive): 0.43617257475852966
+p(negative): 0.5638274550437927
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cntt 
+p(positive): 0.4838722348213196
+p(negative): 0.5161277055740356
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hi_vọng thầy vui tinh 
+p(positive): 0.42099907994270325
+p(negative): 0.5790008902549744
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+danh_giá 
+p(positive): 0.4937434494495392
+p(negative): 0.5062565207481384
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cán_bộ giảng_dạy công_chức viên_chức cán_bộ trình_độ sau_đại_học giáo_sư phó_giáo_sư tiến_sĩ thạc_sĩ bsckii bscki cán_bộ cán_bộ cao_đẳng cán_bộ trung_học bác_sĩ bệnh_viện tuyến trung_ương bạch_mai nhi trung_ương việt đức ,... giảng_viên kiệm nhiệm giảng_dạy thực hành_tại bệnh_viện hiệu_trưởng thời_kỳ hồ đắc di nguyễn trinh nguyễn năng an hoàng đình cầu nguyễn thụ tôn_thất bách nguyễn lân việt nguyễn đức hinh )[ 
+p(positive): 0.12556298077106476
+p(negative): 0.8744370341300964
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lâu_đời 
+p(positive): 0.4967753291130066
+p(negative): 0.5032247304916382
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất 
+p(positive): 0.46968868374824524
+p(negative): 0.5303113460540771
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy yêu chân trọng_trường love hus 
+p(positive): 0.4389120936393738
+p(negative): 0.5610879063606262
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bảo khô_khan ngược_lại 
+p(positive): 0.43051016330718994
+p(negative): 0.5694898962974548
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh_viên ulis tài_năng kinh_khủng sinh_viên tham_quan hôm tổ_chức sự_kiện đón tân sinh_viên đỉnh 
+p(positive): 0.2127881497144699
+p(negative): 0.7872118353843689
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+la la đào_tạo ra_trò phết nhể 
+p(positive): 0.45387083292007446
+p(negative): 0.5461292266845703
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ok 
+p(positive): 0.49361908435821533
+p(negative): 0.5063808560371399
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đội_ngũ đào_tạo chuyên_nghiệp tận_tâm k63 bách_khoa hà nội tự_hào giảng_viên trình_độ thạc_sĩ trở du_học nước_ngoài thầy quản_lý doanh_nghiệp lớn ngành kĩ_thuật dạy đam_mê nghề viết phấn tổng diện_tích hecta giảng_đường phòng hội_trường lớn phòng hội_thảo phòng_thí_nghiệm phòng_thí_nghiệm trọng_điểm quốc_gia 
+p(positive): 0.15813691914081573
+p(negative): 0.8418630361557007
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hai sp điểm_cao 
+p(positive): 0.4049667418003082
+p(negative): 0.5950332283973694
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gắn_bó bao kỷ_niệm bồi_hồi nhắc thầy bạn_bè 
+p(positive): 0.3667859137058258
+p(negative): 0.6332141160964966
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất 
+p(positive): 0.46968868374824524
+p(negative): 0.5303113460540771
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong 
+p(positive): 0.39491522312164307
+p(negative): 0.6050847768783569
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trọng_điểm 
+p(positive): 0.4898854196071625
+p(negative): 0.5101145505905151
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tao mo pham cong hien 
+p(positive): 0.4126511812210083
+p(negative): 0.5873487591743469
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+luon đao tao nhung hoc tro gioi đeu va lam 
+p(positive): 0.20504865050315857
+p(negative): 0.794951319694519
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy yêu trò đọc thông_tin báo giám_đốc bàn bóng_bàn đông chúc_mừng khai_trương cơ_sở 
+p(positive): 0.1560281217098236
+p(negative): 0.8439719080924988
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_vời khuôn_viên rộng cây_xanh sinh_viên thanh_lịch giảng_viên giỏi nhiệt_tình 
+p(positive): 0.4631015360355377
+p(negative): 0.5368984937667847
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gắn_bó 
+p(positive): 0.47811320424079895
+p(negative): 0.5218867063522339
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lò sinh_sát 
+p(positive): 0.47180208563804626
+p(negative): 0.5281978249549866
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nuce số_một khổ 
+p(positive): 0.49529948830604553
+p(negative): 0.5047004222869873
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tàm_tạm 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+năng_động đổi_mới bắt kịp nhu_cầu doanh_nghiệp sinh_viên 
+p(positive): 0.45488888025283813
+p(negative): 0.5451111197471619
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xinh không học_phí dân_lập dạy ít tín_chỉ chục tiết 
+p(positive): 0.25822538137435913
+p(negative): 0.7417746782302856
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thành_tích lao_động thi_đua trường_học mơ_ước ngành điện_tử cơ_khí sinh_viên 
+p(positive): 0.4690259099006653
+p(negative): 0.5309740900993347
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi 
+p(positive): 0.4265559911727905
+p(negative): 0.5734439492225647
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tầng nhà a1 robocon khoa điện_tử hình_thành vươn thành_công 
+p(positive): 0.17212781310081482
+p(negative): 0.8278722167015076
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hình_thành ấn tướng không phai 
+p(positive): 0.45197200775146484
+p(negative): 0.5480280518531799
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+toan nhan tai quy bau 
+p(positive): 0.4279273748397827
+p(negative): 0.5720726847648621
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+công_nghiệp đẳng_cấp 
+p(positive): 0.41134652495384216
+p(negative): 0.5886535048484802
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất xác 
+p(positive): 0.4751986861228943
+p(negative): 0.5248013138771057
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đỉnh 
+p(positive): 0.47861531376838684
+p(negative): 0.5213847160339355
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+day va hoc tốt 
+p(positive): 0.40202099084854126
+p(negative): 0.597978949546814
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xịn 
+p(positive): 0.4533926844596863
+p(negative): 0.546607255935669
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trở_lại đổi phát_triển 
+p(positive): 0.45908311009407043
+p(negative): 0.540916919708252
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vợ bảo tốt lắm 
+p(positive): 0.49065884947776794
+p(negative): 0.5093411803245544
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+doanh_nhân chính_trị_gia học_tập giảng_dạy quản_lý nguyên phó chủ_tịch nguyễn thị doan hiệu_trưởng 
+p(positive): 0.4154925048351288
+p(negative): 0.5845075249671936
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thương_hiệu lớn 
+p(positive): 0.47598230838775635
+p(negative): 0.5240176916122437
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hạng 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ấn_tượng 
+p(positive): 0.43002229928970337
+p(negative): 0.5699777007102966
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mơ_ước kiến_trúc_sư 
+p(positive): 0.44045713543891907
+p(negative): 0.5595428943634033
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lí_tưởng sinh_viên đam_mê thiết_kế 
+p(positive): 0.47522595524787903
+p(negative): 0.5247740149497986
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mơ_ước thời top hàng_đầu 
+p(positive): 0.4806661605834961
+p(negative): 0.5193338394165039
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nôi kiến_trúc 
+p(positive): 0.49141713976860046
+p(negative): 0.5085828900337219
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngoi nhắn_tin luong 
+p(positive): 0.3485940396785736
+p(negative): 0.6514059901237488
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tạm 
+p(positive): 0.4592512249946594
+p(negative): 0.5407487750053406
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc y_khoa pham ngoc thach dao tao bac si da khoa nhắn_tin luong hang dau viet nam 
+p(positive): 0.1989765763282776
+p(negative): 0.8010234236717224
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_sắc 
+p(positive): 0.4956924021244049
+p(negative): 0.5043075680732727
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thuốc tốt thành_phố hồ chí minh đồng_bằng sông cửu long 
+p(positive): 0.22957473993301392
+p(negative): 0.7704253196716309
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt_diệu 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+uy đồng_bằng sông cửu long 
+p(positive): 0.3101205825805664
+p(negative): 0.6898794174194336
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngoi dao tao nhieu the he gop phan dong gop su phat trien dong bang song cuu long noi rieng va ca nuoc noi hanh dien mot lan nuoc den ngoi tuoi mai da hon nam tuoi nho mai thoi sinh vien voi nhung dua ban an không hoc va ngu noi den la long la dau nhoi không day dien tich rộng rai thoang mat nhieu cay xanh la moi dao tao chuyen nghiep )))))))))))))) 
+p(positive): 0.05207034572958946
+p(negative): 0.9479296803474426
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+quy_mô lớn tầm_cỡ khu_vực đồng_bằng sông cửu long chât đào_tạo nâng_cấp thời_kỳ thu_hút đối_tượng sinh_viên khắp 
+p(positive): 0.38619521260261536
+p(negative): 0.613804817199707
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lâu_đời chất_lượng đồng_bằng sống cửu long 
+p(positive): 0.47448745369911194
+p(negative): 0.5255125164985657
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớn đồng_bằng sông cửu long 
+p(positive): 0.401970773935318
+p(negative): 0.5980291962623596
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dai hoc uy tinh nhat vung 
+p(positive): 0.27231457829475403
+p(negative): 0.7276854515075684
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao nhieu nhan tai 
+p(positive): 0.2736263573169708
+p(negative): 0.7263736128807068
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyet voi 
+p(positive): 0.42792385816574097
+p(negative): 0.572076141834259
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tiêu_chuẩn quốc_gia 
+p(positive): 0.4790349006652832
+p(negative): 0.5209650993347168
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+troy công_lập tốt hoa kỳ bình_chọn ý_kiến tạp_chí forbes phối_hợp trung_tâm năng_suất khả_năng chi_trả center for college affordability and productivity tiến_hành thăm_dò toàn lãnh_thổ hoa kỳ tiêu_chí xếp_hạng tạp_chí chủ_yếu dựa sinh_viên thành_công công_việc sinh_viên tốt_nghiệp khoản nợ sinh_viên tỷ_lệ tốt_nghiệp xinh sinh_viên mỹ vay tiền ngân_hàng khoản nợ sinh_viên ngân_hàng ít tốt 
+p(positive): 0.1622633934020996
+p(negative): 0.8377366662025452
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giao vien gioi lam 
+p(positive): 0.30186304450035095
+p(negative): 0.6981369256973267
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khoa lựa trọn truyền_thống day 
+p(positive): 0.46879899501800537
+p(negative): 0.5312010049819946
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh_viên trách_nhiệm hoàn_thành học_phần đăng_kí trách_nhiệm học_phần quy_trình học_phần thơ thông_qua giấy tiêu tốn công_sức nhu_cầu tin_học hóa quy_trình học_phần cần_thiết giải_quyết website học_phần ra_đời website đáp_ứng đa_phần chức_năng quy_trình học_phần kết_quả sinh_viên thống_kê giảng_viên thống_kê theo_dõi ban cnk thống_kê báo_cáo cập_nhật cán_bộ trung_tâm đbcl website xây_dựng ngôn_ngữ php hệ quản_trị cơ_sở_dữ_liệu mysql đề_tài tin_học hóa tuyệt_đối công_tác học_phần thơ hoàn_chỉnh bổ_sung chức_năng hướng phát_triển đề_tài 
+p(positive): 0.07853881269693375
+p(negative): 0.9214612245559692
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khoa khoa ngoại_ngữ trung hàn nga thường_xuyên tổ_chức ca_múa nhạc khoa gái hanu xinh năng_động 
+p(positive): 0.34475430846214294
+p(negative): 0.6552457213401794
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngoi tuyet voi 
+p(positive): 0.3774569034576416
+p(negative): 0.6225430965423584
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+truyền_thống 
+p(positive): 0.48175621032714844
+p(negative): 0.5182437896728516
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn 
+p(positive): 0.4921706020832062
+p(negative): 0.5078293681144714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gắn thanh_xuân xưa chẳng dược bảo cơ_duyên định thi dược thái nguyên sức dược hồi đầu gửi hồ_sơ thi đấy bố_mẹ không bảo con_gái nứa bố_mẹ nhì_nhằng mãi quyết_định nộp hồ_sơ dược chả điểm_cao không không quyết_định nộp hồ_sơ vòng chào cao_đẳng tự_ti hệ cao_đẳng yêu dược yêu thầy hết_lòng học_sinh yêu thực_tập lo_lắng không yên mong đừng gọi yêu nhận_thức dược_liệu thực_hành vân_vân mây mây yêu cổ_kính bé ti ti vòng yêu huyền_thoại nhà bát_giác yêu cổ_vũ bóng_đá lớp xót ruột yêu cắm trại dịp yêu con_người không hình_như quyết_định sai yêu dược vô tình_yêu dược 
+p(positive): 0.05008393153548241
+p(negative): 0.9499160647392273
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cua nhan tai 
+p(positive): 0.3745878040790558
+p(negative): 0.6254121661186218
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thich noi 
+p(positive): 0.4376593232154846
+p(negative): 0.5623406767845154
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cổ_kính 
+p(positive): 0.402160108089447
+p(negative): 0.597839891910553
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt ahii 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+uy 
+p(positive): 0.4660619795322418
+p(negative): 0.5339379906654358
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_phát từ_trường cao_đẳng lao_động thương_binh xã_hội nâng_cấp thành không ngừng nâng chất_lượng đào_tạo cung_cấp nhân_lực khối hành_chính sự_nghiệp doanh_nghiệp 
+p(positive): 0.40877801179885864
+p(negative): 0.5912219882011414
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nha 
+p(positive): 0.4510968327522278
+p(negative): 0.5489031672477722
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trường_học văn_minh 
+p(positive): 0.49642401933670044
+p(negative): 0.5035759806632996
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hn 
+p(positive): 0.4881342947483063
+p(negative): 0.5118657350540161
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nghệ_thuật dân_gian dạy cảm_giác tuyệt 
+p(positive): 0.4112839996814728
+p(negative): 0.5887160301208496
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lựa_chọn tân sinh_viên 
+p(positive): 0.495404452085495
+p(negative): 0.5045955777168274
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao gioi 
+p(positive): 0.3554736375808716
+p(negative): 0.6445263624191284
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+văn hóa học_sinh văn hóa lắm 
+p(positive): 0.44296208024024963
+p(negative): 0.5570379495620728
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuyền thống giảng_dạy chất_lượng giảng_viên giỏi học_viên lịch_sự chiến đa_phần nữ đooin ngũ quản_lý tâm_huyết cơ_sở vất chất tốt sân nóng rổ max ngầu bến_xe bus khu hàn quốc khu kinh_tế chính_trị 
+p(positive): 0.152055025100708
+p(negative): 0.847944974899292
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_viện toát mùi văn_thơ tuyên_truyền sinh_viên nố câu câu 
+p(positive): 0.35501474142074585
+p(negative): 0.6449851989746094
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cây_bút sắc_sảo sinh_viên báo_chí nổi tiếng_là sắc_sảo 
+p(positive): 0.48147138953208923
+p(negative): 0.5185285806655884
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoc vien bao chi va tuyen truyen la rat can thiet va quan voi hoi 
+p(positive): 0.10560405254364014
+p(negative): 0.8943958878517151
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao bao chi va tuyen truyen tai viet nam 
+p(positive): 0.22842001914978027
+p(negative): 0.7715799808502197
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dạy cầu giấy tắc đường 
+p(positive): 0.2841935455799103
+p(negative): 0.7158064842224121
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt 
+p(positive): 0.45114362239837646
+p(negative): 0.5488563776016235
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hữu_dụng 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ngành_nghề địa_chỉ tin_tưởng tương_lai 
+p(positive): 0.4378628730773926
+p(negative): 0.5621371269226074
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất_lượng xịn giá học_phí hơi chát 
+p(positive): 0.4118136763572693
+p(negative): 0.5881863832473755
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dân_lập trẻ lựa_chọn 
+p(positive): 0.43518492579460144
+p(negative): 0.5648150444030762
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thăng long danh_tiếng không ít nội_bộ đương_nhiên ngoại_đạo nữ sinh_viên tlu xinh xinh tiếng công_nhận tlu mô_hình chất thi bộ_môn đa_dạng thú_vị không gò_bó kiểu truyền_thống cổng phong thủy 
+p(positive): 0.08415299654006958
+p(negative): 0.9158470034599304
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xuất_thân dân_lập đầu_tư đúng_đắn tâm_huyết thăng long đa dần chỗ_đứng xứng_đáng danh_sách việt nam ps gái thăng long xinh dã_man 
+p(positive): 0.20325887203216553
+p(negative): 0.7967411875724792
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hn 
+p(positive): 0.4881342947483063
+p(negative): 0.5118657350540161
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đề_cao 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thợ tay_nghề ổn luyện tàu 
+p(positive): 0.38688239455223083
+p(negative): 0.6131176352500916
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tay_nghề tương_đương thợ bậc thu_nhập kiếm việc_làm ngành điện_tử kiếm lắm thợ sửa máy_giặt máy_lạnh sống lắm không xinh được_việc tiệm thợ dạo sống khỏe 
+p(positive): 0.05718420073390007
+p(negative): 0.9428157806396484
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ôi màu áo thân_thuộc đời sinh_viên công_việc ổn_định không tiền bằng_lòng cuộc_sống thầy hành_trang cuộc_sống tự_lập 
+p(positive): 0.18620769679546356
+p(negative): 0.81379234790802
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+địa_lý chảnh giao_thông thuận_lợi thành_phố nằm trạm xe bus bến thành hàm nghi xe bus trạm 
+p(positive): 0.05232410505414009
+p(negative): 0.947675883769989
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+la mot nhung dao tao nganh kj thuat co tieng nhat mjen nam nhung hoc ctrai nhieu nen kha pun ak cdoto10 
+p(positive): 0.12480376660823822
+p(negative): 0.8751962184906006
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dao tao kha noi tieng 
+p(positive): 0.28413981199264526
+p(negative): 0.7158601880073547
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong dao tao ky thuat rat tot la cac cao_đẳng hang dau không mien nam 
+p(positive): 0.16314855217933655
+p(negative): 0.8368514180183411
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoc nhung danh dả lau nhắn_tin luong 
+p(positive): 0.1975303292274475
+p(negative): 0.8024696707725525
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+laf tốt nhât thành phô hồ chí minh 
+p(positive): 0.4036951959133148
+p(negative): 0.5963047742843628
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+la noi hoc tap ly tuong 
+p(positive): 0.25920164585113525
+p(negative): 0.7407983541488647
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong day va hoc tot co day chuong trinh quoc te 
+p(positive): 0.13175541162490845
+p(negative): 0.8682446479797363
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh vien than thien thay co nhiet tinh 
+p(positive): 0.17854832112789154
+p(negative): 0.8214516639709473
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+day rat chất_lượng 
+p(positive): 0.4972943961620331
+p(negative): 0.5027055740356445
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuyết_điểm nằm giáo_trình môn_học đổi dạy tín_chỉ năm_học 
+p(positive): 0.4182012975215912
+p(negative): 0.5817987322807312
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên tận_tâm sinh_viên khuôn_viên rộng_rãi xanh sạch đẹp cơ_sở vật_chất hiện_đại 
+p(positive): 0.17226684093475342
+p(negative): 0.8277331590652466
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kì kết_thúc học_phần sinh_viên khảo_sát cảm_nhận sinh_viên giảng_viên 
+p(positive): 0.48521339893341064
+p(negative): 0.5147866010665894
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xứng_đáng để_dành tuổi_trẻ quý_giá cuộc_đời 
+p(positive): 0.41810300946235657
+p(negative): 0.5818970203399658
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+doi ngu can bo nhan vien nhiet tinh va than thien 
+p(positive): 0.18065224587917328
+p(negative): 0.8193476796150208
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thay co giang day rat nhiet tinh 
+p(positive): 0.15673725306987762
+p(negative): 0.843262791633606
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong dao tốt 
+p(positive): 0.44261837005615234
+p(negative): 0.5573816299438477
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giao vien rat nhiet tình cong viec nheiu thưỡng rat hấp_dẫn 
+p(positive): 0.24055300652980804
+p(negative): 0.7594469785690308
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong dao tao cuc tốt 
+p(positive): 0.3854350447654724
+p(negative): 0.6145649552345276
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên độ tuổi_trẻ xong dạy không_khí thoải_mái dạy môn kiến_trúc kinh_tế y_khoa spa thẩm_mỹ học_phí top công_lập 
+p(positive): 0.440274178981781
+p(negative): 0.5597257614135742
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhắn_tin luong sinh vien tốt 
+p(positive): 0.3829557001590729
+p(negative): 0.6170443296432495
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hai trở_lại chương_trình đào_tạo cải_thiện rõ_rệt 
+p(positive): 0.48837199807167053
+p(negative): 0.5116279721260071
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ đẹp nhà_ăn phục_vụ chuyên_nghiệp 
+p(positive): 0.3197527229785919
+p(negative): 0.6802472472190857
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+môi_trường môn_học hơi thừa môi trường_học tốt sing viên thoải_mái thực_tiễn hướng cọ_xát sinh_viên trải_nghiệm vô_cùng thú_vị 
+p(positive): 0.39590984582901
+p(negative): 0.60409015417099
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí đắt thầy vui_vẻ hòa đồng 
+p(positive): 0.48762938380241394
+p(negative): 0.5123706459999084
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_trình tạm ổn bất_cập học_phí 
+p(positive): 0.4596737325191498
+p(negative): 0.5403262972831726
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy_giáo chuần mực 
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sinh_viên thực_tập bệnh_viện lớn uy_tín sinh_viên cọ sát tiếp_xúc bệnh_nhân góp_phần nâng tay_nghề kĩ_năng giao_tiếp sinh_viên có_ích cần_thiết tương llai 
+p(positive): 0.47526103258132935
+p(negative): 0.5247389674186707
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nổi ngành 
+p(positive): 0.49698406457901
+p(negative): 0.50301593542099
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy toàn trùm môn_học thiết_kế hợp_lý sinh_viên thực_tập môn sinh_viên cọ sát sofftware engineering 
+p(positive): 0.378447562456131
+p(negative): 0.6215524673461914
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy thoải_mái hình_như không tiền 
+p(positive): 0.4875810146331787
+p(negative): 0.5124190449714661
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ít tiêu_cực ít chạy 
+p(positive): 0.35264331102371216
+p(negative): 0.6473566293716431
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cân_bằng lý_thuyết thực_hành thiên lý_thuyết không 
+p(positive): 0.41305676102638245
+p(negative): 0.5869432091712952
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên đầy_đủ già trẻ đa_phần tận_tâm nhiệt_tình kiến_thức rộng trường_thiên nghiên_cứu giảng_viên đề_tài xã_hội nhân_văn thầy nói_chuyện thâm thúy ít bậy đọc thơ đỡ chán 
+p(positive): 0.31483742594718933
+p(negative): 0.6851626038551331
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhàn thi_cử chịu_khó chút 
+p(positive): 0.4461938738822937
+p(negative): 0.5538061261177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_trường khẩu_hiệu sinh_viên ", thầy lắng_nghe mạng chém_gió sinh_viên ầm_ầm giải_quyết giúp sinh_viên nhanh_chóng tai_mắt thầy khắp phàn_nàn sửa_đổi 
+p(positive): 0.3363400399684906
+p(negative): 0.6636599898338318
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thầy không ngủ ngáp nói_chuyện ngu lơ_ngơ dấu đỏ xác_định hiêu 
+p(positive): 0.43269452452659607
+p(negative): 0.5673054456710815
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_tập không để_ý giảng lớp bài_tập kì tryhard tuần 
+p(positive): 0.38162025809288025
+p(negative): 0.6183797121047974
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hàng_loạt giáo_sư pgs kiến_thức hàn_lâm sâu_rộng tên_tuổi hàng_đầu biên_soạn sgk sách tuyển_sinh sách tham_khảo môn 
+p(positive): 0.48400312662124634
+p(negative): 0.5159968137741089
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_viện sức hút sinh_viên đầu_vào chân_thực đầu_ra sinh_viên 
+p(positive): 0.47106701135635376
+p(negative): 0.528933048248291
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thực_hành bám sát lý_thuyết phân_bố môn_học hợp_lý 
+p(positive): 0.37904635071754456
+p(negative): 0.6209536194801331
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cung_cấp tài_liệu tham_khảo hướng_dẫn chi_tiết khúc_mắc sinh_viên 
+p(positive): 0.47736290097236633
+p(negative): 0.5226370692253113
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tài_liệu photo tiết_kiệm nhu_cầu 
+p(positive): 0.48716533184051514
+p(negative): 0.5128346681594849
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hình_thức tiến_bộ 
+p(positive): 0.4768499433994293
+p(negative): 0.5231500267982483
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớp_học ít tài_liệu vô_cùng quý_giá hữu_ích thiết_thực giảng_viên giảng_dạy chú_ý học_sinh 
+p(positive): 0.4756354093551636
+p(negative): 0.5243645310401917
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cung_cấp tài_liệu tham_khảo hướng_dẫn chi_tiết khúc_mắc sinh_viên 
+p(positive): 0.47736290097236633
+p(negative): 0.5226370692253113
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hình_thức tiến_bộ 
+p(positive): 0.4768499433994293
+p(negative): 0.5231500267982483
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đội_ngũ giáo_viên giỏi không_gian thỏai mái mát_mẻ 
+p(positive): 0.49767524003982544
+p(negative): 0.5023247599601746
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_trường sinh_viên phát_huy năng_lực giao_tiếp 
+p(positive): 0.4848504066467285
+p(negative): 0.5151496529579163
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_tập chuyên_môn sâu môn không cần_thiết xong tiêu_chuẩn công_dân quốc_tế 
+p(positive): 0.48405125737190247
+p(negative): 0.5159487724304199
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+moi tốt da giang vien tan tinh 
+p(positive): 0.3286599814891815
+p(negative): 0.6713399887084961
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sắp_xếp lịch cơ_sở tiện_lợi sinh_viên thuận_tiện đi_lại giảng_viên tốt tận_tình sinh_viên 
+p(positive): 0.43185296654701233
+p(negative): 0.5681470632553101
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên tâm_huyết không hề thua_kém trình_độ bonus thầy cực_kì tâm_lý công_tác hành_chính nhanh_chóng ổn_định thầy sẵn_sàng giải_đáp thắc_mắc công_tác đoàn hội đứng đầu địa_bàn tp hcm 
+p(positive): 0.4624533951282501
+p(negative): 0.5375465750694275
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên thương sinh_viên thầy khoa gần_gũi sinh_viên không khoa khoa cố_vấn học_tập tụi hồi phòng trọ sinh_viên coi ăn_ở hoạt_động văn_nghệ clb thể_thao lựa_chọn môi_trường lành_mạnh ít bon_chen 
+p(positive): 0.23365233838558197
+p(negative): 0.7663475871086121
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên tận_tình xung_quanh toàn dân it tâp 
+p(positive): 0.43307822942733765
+p(negative): 0.5669217705726624
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cảm_nhận hoa hầu giảng_viên ưu_tú giảng_dạy phong_phú giáo_trình đa_dạng phương_pháp 
+p(positive): 0.4717530906200409
+p(negative): 0.5282468795776367
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+môi_trường học_tập tốt không_gian thoáng mát chỗ sinh_viên giảng_viên giàu kinh_nghiệm hoạt_động diễn sôi_nổi 
+p(positive): 0.3136104345321655
+p(negative): 0.6863895058631897
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đội_ngũ giảng_viên tâm_huyết gần_gũi sinh_viên phòng hệ_thống quạt máy_lạnh mát_mẻ 
+p(positive): 0.34831860661506653
+p(negative): 0.6516813635826111
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên nhiệt_tình tâm_huyết khả_năng giảng_dạy tốt giảng_đường phòng thực_tập hòa học_tập thuận_lợi thoải_mái truyền_thống giảng_dạy tốt thường_xuyên tổ_chức hoạt_động học_thuật thiện nguyện hoạt_động xã_hội tích_cực sôi_nổi ,... 
+p(positive): 0.44113439321517944
+p(negative): 0.5588656663894653
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+gặp_gỡ bạn_bè cập_nhật kiến_thức thư_viện sách thư_viện sinh_viên thuận_tiện tra_cứu tài_liệu giảng_viên nhiệt_tình dễ_thương hoạt_động ngoại khóa nâng kỹ_năng sinh_viên 
+p(positive): 0.3703223466873169
+p(negative): 0.6296775937080383
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớp_học ít tài_liệu vô_cùng quý_giá hữu_ích thiết_thực giảng_viên giảng_dạy chú_ý học_sinh 
+p(positive): 0.4756354093551636
+p(negative): 0.5243645310401917
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cơ_sở trang_thiết_bị tiện_nghi thoải_mái sinh_viên học_tập môi_trường clb đội năng_động sinh_viên học_tập trải_nghiệm giảng_đường clb/đội giảng_viên tâm_huyết giảng_dạy truyền_đạt sáng_tạo mới_mẻ tương_tác hai chiều rèn_luyện năng_động kỹ_năng thảo_luận tư_duy phản_biện sv 
+p(positive): 0.2650567591190338
+p(negative): 0.7349432110786438
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_trình cập_nhật bắt kịp giảng_viên sẵn_sàng động_lực sinh_viên khám_phá học_hỏi thời khóa biểu thuận_tiện môn tuần tuần không 
+p(positive): 0.13786476850509644
+p(negative): 0.8621352910995483
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_phí đồ_ăn ngon giảng_viên vui_vẻ 
+p(positive): 0.383088618516922
+p(negative): 0.6169114112854004
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên siêu siêu nhiệt_tình giảng cập_nhật thích_hợp sinh_viên nghiên_cứu sâu bài_tập thích_hợp sinh_viên thực_hành 
+p(positive): 0.4766958951950073
+p(negative): 0.5233041048049927
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hoạt_động đoàn hội đặc_sắc truyền_thống mùa hè xanh văn_nghệ giải_trí sinh_viên va_chạm kĩ_năng giảng_viên vui_vẻ sinh_viên 
+p(positive): 0.21552111208438873
+p(negative): 0.7844788432121277
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+anh_chị tư_vấn nhiệt_tình hỏi_thăm học_viên giảng_viên tận_tình giải câu chi_tiết đề thi 
+p(positive): 0.4899909496307373
+p(negative): 0.5100091099739075
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên trình_độ truyền_đạt phòng máy_lạnh mát_mẻ quy_mô viên/lớp_học vừa_phải tài_liệu bổ_ích chương_trình 
+p(positive): 0.2566601634025574
+p(negative): 0.7433398365974426
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+học_tập giảng_viên bản_xứ suốt khóa lớp_học không trợ_giảng giảng_viên việt nam lớp phòng thiết_kế số_lượng vừa_phải môi trường_học thân_thiện giáo_viên nắm tình_hình học_tập thầy đẹp chai lắm nhaaaaaaaaaaaaaaa )))))) khóa party chụp hình lưu_niệm event ...^.^ 
+p(positive): 0.23097780346870422
+p(negative): 0.7690222263336182
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tận_tình trung_tâm kì thi toeic thi hiệu_quả chất_lượng trung_tâm tốt chuyên toeic giảng_viên nhiệt_tình sẵn_sàng giải_đáp thắc_mắc tặng khóa luyện chào tuần cải_thiện kĩ_năng sách tiểu_thuyết toeic giúp từ_vựng tốt nâng khả_năng đọc cam_kết đầu_ra học_bổng thi mục_tiêu nha 
+p(positive): 0.2183552384376526
+p(negative): 0.7816448211669922
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chất_lượng tuyệt_vời giảng_viên tốt sinh_viên không hề xảy hối_lộ sinh_viên làm_quen sinh_viên phòng cao_cấp tòa b1 d1 ,... sinh_viên tham_gia video đội work câu_lạc_bộ sôi_nổi 
+p(positive): 0.2715589702129364
+p(negative): 0.728441059589386
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên trợ_giảng tận_tâm nhiệt_tình phối_hợp tốt trợ_giảng giáo_viên nước_ngoài trí biên phiên_dịch lớp học_sinh nhỏ_tuổi ghi sổ liên_lạc nhà_trường phụ_huynh nắm_bắt tình_hình dễ_dàng 
+p(positive): 0.3204428553581238
+p(negative): 0.6795571446418762
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên dạy nhiệt_tình tư_vấn kĩ lộ_trình đăng_kí lớp_học kèm luyện miễn_phí linh_động 
+p(positive): 0.4990784823894501
+p(negative): 0.5009214878082275
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp giáo_trình trung_tâm giảng_viên thường_xuyên thi cập_nhật đề đề sát đề thi giáo_viên tận_tình lắm câu thầy tận_tình giải_đáp nha tư_vấn cực dễ_thương nghỉ bữa nhắc_nhở 
+p(positive): 0.2033868432044983
+p(negative): 0.7966131567955017
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên thân thiên chi sinh_viên giúp_đỡ hoạt_động giao_lưu bổ_ích tân sinh_viên tụi bảo_vệ vui_tính 
+p(positive): 0.3696974515914917
+p(negative): 0.6303025484085083
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tiếng tiếp_cận tài_liệu hiện_đại mới_mẻ giáo_viên trẻ_trung thoải_mái môi trường_học thân_thiện hoạt_động câu_lạc_bộ phát_huy năng_lực sở_trường 
+p(positive): 0.49857914447784424
+p(negative): 0.5014209151268005
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nhiệt_tình thân_thiện môi trường_học rộng_rãi năng_động hòa đồng giúp cải_thiện nâng tự_tin khả_năng diễn_thuyết làm_việc kỹ_năng giao_tiếp 
+p(positive): 0.4115641415119171
+p(negative): 0.5884358286857605
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nhiệt_tình thân_thiện môi trường_học rộng_rãi năng_động hòa đồng giúp cải_thiện nâng tự_tin khả_năng diễn_thuyết làm_việc 
+p(positive): 0.4694909453392029
+p(negative): 0.5305090546607971
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nguyện_vọng sẳn sàng giúp đở sinh hết_sức giúp cởi_mở giao_tiếp tâm_lý thoái mái 
+p(positive): 0.3917504847049713
+p(negative): 0.6082495450973511
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cảm_nhận sở_hữu kinh_khủng số_lượng học_sinh kinh_khủng đội_ngũ giáo_viên giảng_dạy phá_cách tiết trở_nên kinh_khủng trai xinh gái đẹp kinh khùng 
+p(positive): 0.14132963120937347
+p(negative): 0.8586703538894653
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cực ưu_điểm giáo_viên nước_ngoài cực thân_thiện xinh xong cực dễ_dàng 
+p(positive): 0.30222809314727783
+p(negative): 0.6977719664573669
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên viện du_lịch đa_phần nhiệt_huyết sẵn_lòng thú_vị ngành cuộc_sống lắng_nghe sinh_viên trao_đổi giảng_đường đông không máy_lạnh vui giảng_đường xôm quen 
+p(positive): 0.20142623782157898
+p(negative): 0.7985737323760986
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nhiệt_tình hoc phí hợp_lí linh_hoạt 
+p(positive): 0.4854978322982788
+p(negative): 0.5145021677017212
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nhiệt_tình lớp_học thoáng mát môi_trường chuyên_nghiệp 
+p(positive): 0.4751857817173004
+p(negative): 0.5248141884803772
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giá thuận_lợi tiết giáo_viên bản_xứ 
+p(positive): 0.33229371905326843
+p(negative): 0.667706310749054
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên nhiệt_tình bổ_sung kiến_thức kỹ_năng chia luyện tăng rõ_rệt trung_tâm lớp_học vui_vẻ tiếp_thu cam_kết đầu_ra 
+p(positive): 0.3094446361064911
+p(negative): 0.6905553340911865
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+dạy ielts sáng_tạo không rập_khuôn học_vẹt mẹo hướng học_viên phát_triển kỹ_năng logical thinking môi_trường học_tập năng_động dàn giáo_viên trẻ_trung nhiệt_huyết tận_tâm gần_gũi học_viên cụm_từ ít trung_tâm có_lẽ ". không câu chữ văn mẫu tự_tin đề không sợ trường_hợp lệch tủ học_vẹt mẹo 
+p(positive): 0.4188328981399536
+p(negative): 0.5811671018600464
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp phương_pháp thi hiệu_quả không ôn tủ dạng đề giảng_dạy rút ngắn ôn_luyện nâng đội_ngũ giáo_viên trẻ đẹp năng_động không_khí cởi_mở thân_thiện tiếp_sức học_viên ly trà sữa lớp đầu_ra không đầu_ra đăng_ký đầy_đủ 
+p(positive): 0.20952904224395752
+p(negative): 0.7904710173606873
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp hiệu_quả tư_duy logic ielts vận_dụng không dừng chiến_lược thi ielts sửa cực_kỳ kỹ phân_tích kỹ lỗi sai học_viên liên_kết writing reading collocation ứng_dụng chuyên từ_vựng tiện_dụng giáo_viên siêu nhiệt_tình phương_pháp giải dạy tiếp_thu 
+p(positive): 0.2749131917953491
+p(negative): 0.7250868678092957
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp dạy_học không lan_man không dàn_trải không học_vẹt công_việc xong tư_duy logic rõ_ràng mạch_lạc dám ước_mơ vươn ielts giáo_viên nhiệt_tình tận_tâm học_viên cũ khóa đồ_ăn ngon lực chia học_sinh ăn_uống kiểu thành_viên lớp gần_gũi 
+p(positive): 0.08537124842405319
+p(negative): 0.9146287441253662
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp dạy_học hiệu_quả không dạy mẹo -> giúp học_viên nắm giải_quyết chủ_đề kết_hợp giảng_dạy writing essay reading -> từ_vựng mẫu câu reading áp_dụng writing giáo_viên nhiệt_tình giải_đáp thắc_mắc học_viên sửa kỹ writing học_viên 
+p(positive): 0.24886012077331543
+p(negative): 0.7511398792266846
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp tư_duy mới_lạ không tủ mẹo nắm đầy_đủ dạng không từ_vựng giáo_viên thân_thiện đẹp_trai đẹp gái luân nha 
+p(positive): 0.23278182744979858
+p(negative): 0.7672181725502014
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên vui_vẻ hoà_đồng nhiệt_huyết lớp_học số_lượng học_viên giải_quyết tiếp_thu cô_giáo xinh 
+p(positive): 0.44001907110214233
+p(negative): 0.5599809288978577
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+linh_động không lo không lớp giáo_viên xinh_đẹp nhiệt_tình tư_vấn thường_xuyên hỏi_han động_viên cố_gắng tài_liệu trọng_tâm siêu quyển tiểu_thuyết toeic thầy hiệp sách màu sinh_động siêu từ_vựng tặng free khóa ôn căn_bản 
+p(positive): 0.1201244667172432
+p(negative): 0.8798754811286926
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giáo_viên dạy xinh_đẹp học_viên lớp_học sôi_động học_tập linh_hoạt dễ_dàng điều_chỉnh tài_liệu bám sát đề thi sách thầy hiệp viết siêu 
+p(positive): 0.22656528651714325
+p(negative): 0.7734346985816956
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phương_pháp giáo_trình trung_tâm giảng_viên thường_xuyên thi cập_nhật đề đề sát đề thi giáo_viên tận_tình lắm câu thầy tận_tình giải_đáp nha tư_vấn cực dễ_thương nghỉ bữa nhắc_nhở 
+p(positive): 0.2033868432044983
+p(negative): 0.7966131567955017
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_viên trợ_giảng tận_tâm nhiệt_tình phối_hợp tốt trợ_giảng giáo_viên nước_ngoài trí biên phiên_dịch lớp học_sinh nhỏ_tuổi ghi sổ liên_lạc nhà_trường phụ_huynh nắm_bắt tình_hình dễ_dàng 
+p(positive): 0.3204428553581238
+p(negative): 0.6795571446418762
+CALCAULATE 
+Positive: 4498/4972 => 0.9046661
+Negative: 474/4972 => 0.09533387
+==================================================================
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trung_tâm ngoại_ngữ phục_vụ hơi 
+p(positive): 0.5275440812110901
+p(negative): 0.4724559783935547
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nhân_viên thất_vọng không chuyên_nghiệp mà_còn thô_lỗ sinh_viên vệ_sĩ dọn_dẹp 
+p(positive): 0.6452431678771973
+p(negative): 0.35475677251815796
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ngooi nằm khối quốc_gia giảng_dạy chương_trình tiếng nhung chất_lượng không nhà_trường giới_thiệu 
+p(positive): 0.8118542432785034
+p(negative): 0.18814575672149658
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo nhân_sự tỉnh xứng tầm chính_trị tỉnh nâng tầm 
+p(positive): 0.5253522396087646
+p(negative): 0.47464773058891296
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+cải_thiện chất_lượng đào_tạo 
+p(positive): 0.6550465822219849
+p(negative): 0.34495335817337036
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ không thầy hùng khơi 
+p(positive): 0.579545259475708
+p(negative): 0.4204546809196472
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chú_trọng đào_tạo thực_tiễn sa_đà lý_thuyết suông 
+p(positive): 0.6473111510276794
+p(negative): 0.35268884897232056
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đầu_tư chất_lượng tương_xứng 
+p(positive): 0.5065333843231201
+p(negative): 0.4934666156768799
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_phí dạy dở 
+p(positive): 0.5970494151115417
+p(negative): 0.40295058488845825
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng tệ 
+p(positive): 0.527946949005127
+p(negative): 0.47205302119255066
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_viên cứng_nhắc 
+p(positive): 0.6011152863502502
+p(negative): 0.39888474345207214
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đạo giáo_viên chất_lượng giỏi ít thi sư_phạm 
+p(positive): 0.8128536939620972
+p(negative): 0.18714630603790283
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nâng chất_lượng giáo_dục 
+p(positive): 0.6873890161514282
+p(negative): 0.31261101365089417
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ngành trường_học xong không 
+p(positive): 0.5802295804023743
+p(negative): 0.41977041959762573
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đạo không tốt lắm 
+p(positive): 0.6093695759773254
+p(negative): 0.3906303942203522
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+khoa máy_tính chương_trình không hiệu_quả khuyên định thi khoa máy_tính khoa_học_tự_nhiên tốt 
+p(positive): 0.6082437038421631
+p(negative): 0.3917562961578369
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+áp_lực lớn 
+p(positive): 0.5253100991249084
+p(negative): 0.47468987107276917
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo tràn_lan 
+p(positive): 0.5903497338294983
+p(negative): 0.4096502661705017
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng trung_bình 
+p(positive): 0.5885718464851379
+p(negative): 0.41142815351486206
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hi_vọng hệ nghề không cđ không môi_trường tốt giáo_viên sỉ_nhục sinh_viên tức_giận hạ sinh_viên thất_vọng 
+p(positive): 0.7461320757865906
+p(negative): 0.2538679242134094
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng kém 
+p(positive): 0.5766552090644836
+p(negative): 0.42334482073783875
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+coi_thường sinh_viên 
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+làm_việc không chuyên_nghiệp thi_cử bận la hoãn hoãn bó_tay 
+p(positive): 0.5536138415336609
+p(negative): 0.4463861882686615
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phục_vụ nhân_viên không tốt 
+p(positive): 0.5757380127906799
+p(negative): 0.42426198720932007
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tiền học_phí chất_lượng giảng_dạy không tương_xứng học_phí 
+p(positive): 0.687144935131073
+p(negative): 0.3128550052642822
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng kém 
+p(positive): 0.5766552090644836
+p(negative): 0.42334482073783875
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_phí chất_lượng 
+p(positive): 0.643496572971344
+p(negative): 0.356503427028656
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+khoa luật chào lớp đào_tạo hệ chính_quy toàn tối không chính_quy tại_chức dự_định kỹ 
+p(positive): 0.5755032300949097
+p(negative): 0.42449671030044556
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tốt đừng cực_kì hối_hận 
+p(positive): 0.5223283171653748
+p(negative): 0.47767171263694763
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không kĩ luật nghiêm_khắc 
+p(positive): 0.5007055997848511
+p(negative): 0.4992944002151489
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo tồi_tệ không chất_lượng giảng_dạy 
+p(positive): 0.7783495783805847
+p(negative): 0.2216503769159317
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tốt 
+p(positive): 0.613558292388916
+p(negative): 0.38644176721572876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dạy chất_lượng không tốt 
+p(positive): 0.7713731527328491
+p(negative): 0.22862684726715088
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chèn_ép học_sinh 
+p(positive): 0.5712028741836548
+p(negative): 0.4287971258163452
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trường_học không tốt giáo_viên chất_lượng kém cán_bộ không nghiêm_túc hutech tốt 
+p(positive): 0.7605834007263184
+p(negative): 0.23941661417484283
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không tốt 
+p(positive): 0.613558292388916
+p(negative): 0.38644176721572876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_viên dễ_dãi 
+p(positive): 0.6011152863502502
+p(negative): 0.39888474345207214
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tốt địa_phương chất_lượng giáo_dục khủng_khiếp sách_giáo_khoa cung_cấp sinh_viên không giáo_viên trình_độ kém lười_biếng slide tồi_tệ vô_nghĩa rác_rưởi ghét ngàn đô lãng_phí tiền_bạc 
+p(positive): 0.7281685471534729
+p(negative): 0.2718314528465271
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đội_ngũ giáo_viên nghèo tốt hai vô_trách_nhiệm demotivated nghỉ ốm bận_rộn không giảng nghiên_cứu không giảng không đồng_ý ghét vui kết_thúc 
+p(positive): 0.6420972943305969
+p(negative): 0.3579026758670807
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng càng_ngày_càng 
+p(positive): 0.6052034497261047
+p(negative): 0.3947964906692505
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên kì_cục 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_phí thái_độ giảng_viên trách_nhiệm giảng_dạy 
+p(positive): 0.6122494339942932
+p(negative): 0.3877505362033844
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trường_học dạy không kỷ_cương thầy không trình_độ 
+p(positive): 0.756645917892456
+p(negative): 0.24335412681102753
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_phí chất_lượng không lắm 
+p(positive): 0.6086370944976807
+p(negative): 0.39136290550231934
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tồi_tệ nghiên_cứu lĩnh_vực khách_sạn buộc sinh_viên photoshop tiền chủ_đề giảng trách_nhiệm không báo_cáo báo_cáo giảng_viên ngạc_nhiên mất_mặt giảng nhảm_nhí 
+p(positive): 0.5170710682868958
+p(negative): 0.48292893171310425
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_sinh dạy chán khoa_học thực_hành toàn lý_thuyết đại_cương giảng_viên kỹ_năng chuyên_môn truyền_đạt sinh_viên 
+p(positive): 0.8121773600578308
+p(negative): 0.1878226101398468
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không chú_trọng sinh_viên đào_tạo không chuyên_sâu 
+p(positive): 0.6899652481079102
+p(negative): 0.31003475189208984
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng kém tham_nhũng corruption low quality 
+p(positive): 0.5766552090644836
+p(negative): 0.42334482073783875
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nhân_viên làm_việc chậm tận_tâm 
+p(positive): 0.5651735663414001
+p(negative): 0.43482646346092224
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không không kiến_thức sâu_rộng nghiên_cứu quy_tắc cách_thức hoạt_động tiêu hóa thích_nghi ", tương_thích nerds hết_mình khắc_nghiệt sinh_viên hoàn tiền không tiền_của tiền_của 
+p(positive): 0.7154543995857239
+p(negative): 0.28454557061195374
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không tốt 
+p(positive): 0.613558292388916
+p(negative): 0.38644176721572876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trường_học học_phí không dân_lập tuyển_sinh ồ_ạt không chất_lượng đào_tạo 
+p(positive): 0.625691294670105
+p(negative): 0.3743087649345398
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng dạy_học kém 
+p(positive): 0.579818069934845
+p(negative): 0.4201819598674774
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo tràn_lan 
+p(positive): 0.5903497338294983
+p(negative): 0.4096502661705017
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo kém 
+p(positive): 0.6723397970199585
+p(negative): 0.3276602029800415
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dạy chất_lượng không tốt 
+p(positive): 0.7713731527328491
+p(negative): 0.22862684726715088
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo không tốt 
+p(positive): 0.7824622988700867
+p(negative): 0.21753771603107452
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+kiểm_chứng chất_lượng đào_tạo 
+p(positive): 0.6950197219848633
+p(negative): 0.3049803078174591
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo kém sinh_viên không xinh được_việc tầm sinh_viên khoa công_tác 
+p(positive): 0.6189583539962769
+p(negative): 0.38104164600372314
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo tệ sinh_viên thụ_động kiến_thức kém 
+p(positive): 0.6943910121917725
+p(negative): 0.3056090176105499
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên không xinh việc_làm 
+p(positive): 0.5008489489555359
+p(negative): 0.4991510510444641
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng kém mặt_bằng 
+p(positive): 0.5393083691596985
+p(negative): 0.4606916308403015
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không tốt 
+p(positive): 0.613558292388916
+p(negative): 0.38644176721572876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo có_lẽ chất_lượng đầu_vào chất_lượng giảng_viên hy_vọng chuyển_biến cơ_cấu tổ_chức 
+p(positive): 0.8495692014694214
+p(negative): 0.1504307985305786
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên luật_học đằng nẻo 
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phong giáo_sư giảng_viên không thông_qua hội_đồng tiêu_chuẩn quốc_tế nhà_nước việt nam 
+p(positive): 0.624961256980896
+p(negative): 0.375038743019104
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+áp_lực mệt_mỏi 
+p(positive): 0.5137224197387695
+p(negative): 0.48627758026123047
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+công_nghiệp đào_tạo bách_khoa chất_lượng không tốt 
+p(positive): 0.7787315249443054
+p(negative): 0.22126853466033936
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thành nhộn_nhịp cao_cấp hẳn chất_lượng giảng_dạy tốt `` 
+p(positive): 0.6439477205276489
+p(negative): 0.3560522198677063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dân_lập học_phí chất_lượng đào_tạo không tốt lắm dạy tốt chương_trình kỹ_năng sống phong_trào đoàn chuyên_môn đào_tạo không chất_lượng sinh_viên vừa_phải số_lượng giảng_viên chính_thức ít chủ_yếu thuê xát đào_tạo học_viên không chiến_lược tầm_nhìn_xa tập sinh_viên tập kinh_doanh giáo_dục 
+p(positive): 0.7691425085067749
+p(negative): 0.2308574765920639
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môi_trường đào_tạo yếu_kém chuyên_môn lẫn nghiệp_vụ thu tiền sinh_viên giỏi 
+p(positive): 0.7869412302970886
+p(negative): 0.2130587100982666
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_dạy tồi_tệ đội_ngũ giảng_viên yếu_kém chuyên_môn vụ sinh_viên chết sân bộc_lộ bất_cập hạn_chế 
+p(positive): 0.5484477877616882
+p(negative): 0.4515521824359894
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đội_ngũ giáo_viên đào_tạo nghiệp_vụ lẫn khả_năng chuyên_môn hạn_chế thực_hành sinh_viên lóng_ngóng bỡ_ngỡ va_chạm 
+p(positive): 0.8128383755683899
+p(negative): 0.18716168403625488
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hi_vọng đổi_mới nội_dung phương_pháp giáo_dục khóa bất_cập phương_pháp giảng_dạy kết_quả kiến_thức sách_vở không áp_dụng mặc_dù đội_ngũ giáo_viên toàn bậc tên_tuổi ngành hán 
+p(positive): 0.7235223650932312
+p(negative): 0.2764776349067688
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+cơ_sở vật_chất đầu_tư đổi_mới chất_lượng giảng_dạy 
+p(positive): 0.5944328308105469
+p(negative): 0.4055671691894531
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo càng_ngày_càng đầu 
+p(positive): 0.7517092227935791
+p(negative): 0.2482907921075821
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trường_học không tốt 
+p(positive): 0.6486439108848572
+p(negative): 0.3513560891151428
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môi trường_học tốt 
+p(positive): 0.6652300357818604
+p(negative): 0.33476996421813965
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+kiến_thức chuyên_ngành sơ_sài 
+p(positive): 0.6256337761878967
+p(negative): 0.3743661642074585
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đổi_mới giảng_viên việt nam sinh_viên quốc_tế cải_thiện giá rẻ hiệu_quả 
+p(positive): 0.7480016350746155
+p(negative): 0.25199833512306213
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tăng_cường chất_lượng đào_tạo quản_lý sinh_viên 
+p(positive): 0.7723146080970764
+p(negative): 0.2276853770017624
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo chất_lượng sinh_viên tốt lắm 
+p(positive): 0.8429120182991028
+p(negative): 0.157088041305542
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo chả 
+p(positive): 0.6562914252281189
+p(negative): 0.3437085747718811
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo xong sinh_viên thất_nghiệp làm_việc trái ngành 
+p(positive): 0.5988280773162842
+p(negative): 0.40117189288139343
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo kém 
+p(positive): 0.5627821683883667
+p(negative): 0.4372178018093109
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dân_lập việt nam chất_lượng đào_tạo không tốt sinh_viên kỹ_năng kém 
+p(positive): 0.8679912090301514
+p(negative): 0.13200877606868744
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo hợp_lí 
+p(positive): 0.6680564284324646
+p(negative): 0.3319436013698578
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng tốt 
+p(positive): 0.7146587371826172
+p(negative): 0.2853412330150604
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đầu_vào đầu_ra vẽ không 
+p(positive): 0.6421325206756592
+p(negative): 0.3578674793243408
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo tầm trung 
+p(positive): 0.6792066097259521
+p(negative): 0.32079336047172546
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng tốt 
+p(positive): 0.7146587371826172
+p(negative): 0.2853412330150604
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+số_lượng ngành đào_tạo ít 
+p(positive): 0.6285574436187744
+p(negative): 0.3714425265789032
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không hài_lòng voi thái_độ thầy phụ_trách khoa không tốt sinh_viên phụ_huynh 
+p(positive): 0.5104849934577942
+p(negative): 0.4895150065422058
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giáo_viên không đồng_đều 
+p(positive): 0.6694132685661316
+p(negative): 0.33058667182922363
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên dạy tâm nội_dung môn không 
+p(positive): 0.6943431496620178
+p(negative): 0.30565688014030457
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo không hẳn tốt sinh_viên trái ngành tất_nhiên giáo_viên dạy không tâm có_lẽ tiết thực_hành hình_thức 
+p(positive): 0.7231900095939636
+p(negative): 0.276809960603714
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo không 
+p(positive): 0.6950197219848633
+p(negative): 0.3049803078174591
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo hài_lòng 
+p(positive): 0.5942542552947998
+p(negative): 0.40574580430984497
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên công_nghệ_thông_tin nhiệt_huyết lắm 
+p(positive): 0.643086314201355
+p(negative): 0.35691365599632263
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình giảng_dạy vướng mắ 
+p(positive): 0.683871328830719
+p(negative): 0.3161286413669586
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình giảng_dạy bám sát lắm 
+p(positive): 0.6413276195526123
+p(negative): 0.3586724102497101
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên dạy tiếng chất_lượng 
+p(positive): 0.7782925367355347
+p(negative): 0.22170746326446533
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không môn duy_nhất giảng_viên dki lịch tư_tưởng giảng_viên thỉnh_giảng đa_phần so_sánh sinh_viên giảng_viên không tâm_huyết mày thiện_cảm ảnh_hưởng khâu tuyển_dụng mục không bôi_nhọ sinh_viên hợp_lý 
+p(positive): 0.5292269587516785
+p(negative): 0.47077301144599915
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+kĩ_năng mềm đa_phần dạy qua_loa sinh_viên thực_hành 
+p(positive): 0.667944610118866
+p(negative): 0.33205538988113403
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên trình_độ chuyên_môn tâm_huyết học_sinh bài_tập nhà giao hơi 
+p(positive): 0.7519745826721191
+p(negative): 0.24802543222904205
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo không định_hướng nghề_nghiệp sinh_viên không rõ_ràng 
+p(positive): 0.7496366500854492
+p(negative): 0.25036340951919556
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên 
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+top đầu chất_lượng đầu_vào đầu_ra sinh_viên 
+p(positive): 0.8390793800354004
+p(negative): 0.1609206646680832
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ sinh_viên 
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dạy không thực_thụ chân_lý 
+p(positive): 0.5945508480072021
+p(negative): 0.40544912219047546
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo kém hiệu_quả 
+p(positive): 0.6981020569801331
+p(negative): 0.30189797282218933
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đạo yếu_kém 
+p(positive): 0.5988826751708984
+p(negative): 0.40111732482910156
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chuyên 
+p(positive): 0.5423975586891174
+p(negative): 0.45760244131088257
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình 
+p(positive): 0.585390567779541
+p(negative): 0.414609432220459
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không sinh_viên sai ngành 
+p(positive): 0.5886936783790588
+p(negative): 0.41130638122558594
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phương_pháp giảng_dạy giáo_viên thân_thiện sinh_viên 
+p(positive): 0.8085453510284424
+p(negative): 0.1914546936750412
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_viên không đồng_đều 
+p(positive): 0.6650161743164062
+p(negative): 0.33498379588127136
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sau_đại_học trở cảm_giác chất_lượng giảng_dạy 
+p(positive): 0.6488651633262634
+p(negative): 0.35113486647605896
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên hơi hơi tào_lao 
+p(positive): 0.5142666697502136
+p(negative): 0.485733300447464
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên giảng không thái_độ thua sinh_viên thầy khoa môi_trường lếch dép giảng 
+p(positive): 0.7277771234512329
+p(negative): 0.2722229063510895
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thầy chuyên_ngành dạy dở giấu nghề 
+p(positive): 0.7389892339706421
+p(negative): 0.2610107660293579
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên thất_nghiệp 
+p(positive): 0.5580492615699768
+p(negative): 0.4419507384300232
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo trung_bình 
+p(positive): 0.6830915212631226
+p(negative): 0.31690847873687744
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môi_trường sinh_viên phát_triển hoàn_thiện kỹ_năng nhồi_nhét nặng_nề không cần_thiết sv 
+p(positive): 0.546259880065918
+p(negative): 0.45374011993408203
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thơ giáo_viên làng_nhàng 
+p(positive): 0.5675626397132874
+p(negative): 0.43243736028671265
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sẵn chương_trình gợi_ý không sát đầu nhẹ cực_kỳ 
+p(positive): 0.5763227343559265
+p(negative): 0.4236772358417511
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môn chuyên_ngành thầy căng 
+p(positive): 0.6115071773529053
+p(negative): 0.3884928524494171
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_dạy không tương_xứng tiền 
+p(positive): 0.6701445579528809
+p(negative): 0.32985547184944153
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tiếng thầy không mơ 
+p(positive): 0.5750393867492676
+p(negative): 0.4249606132507324
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nhọc môi_trường học_tập cạnh_tranh cực 
+p(positive): 0.6745298504829407
+p(negative): 0.32547008991241455
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+quân_nhân dạy môi_trường học_tập là_hơi cứng tùy thầy thầy đặc nét quân_nhân lớp_học đôi_chút hơi nghiêm_túc tí 
+p(positive): 0.621343731880188
+p(negative): 0.3786562383174896
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+khoa không dạy tiếng tệ đày_ải học_sinh cảm_tình 
+p(positive): 0.6413556337356567
+p(negative): 0.3586443364620209
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+truyền_đạt không tốt đâm_ra nản 
+p(positive): 0.622657060623169
+p(negative): 0.37734296917915344
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đại_cương đồ_án chấm chặt 
+p(positive): 0.5196790099143982
+p(negative): 0.4803209900856018
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_viên xuống_cấp trầm cmn trọng 
+p(positive): 0.5374777317047119
+p(negative): 0.4625222682952881
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_viên chủ_nhiệm không care học_sinh chủ_nhiệm giảng_viên không care học_sinh dạy 
+p(positive): 0.8039595484733582
+p(negative): 0.19604048132896423
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dạy tiếng lol thi dạy 
+p(positive): 0.7263117432594299
+p(negative): 0.27368828654289246
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên ít 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình đầy_đủ enhlish cày bừa không thi 
+p(positive): 0.517654538154602
+p(negative): 0.48234546184539795
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ngành kế_toán tương_đối vất_vả chương_trình 
+p(positive): 0.6532394289970398
+p(negative): 0.346760630607605
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo chuyên_ngành môi_trường dạy ok giảng_viên nhiệt_tình thoáng vụ cúp ít điểm_danh trừ môn chuyên_ngành sinh_viên ít 
+p(positive): 0.6309824585914612
+p(negative): 0.3690175414085388
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môi trường_học năng_động 
+p(positive): 0.6674810647964478
+p(negative): 0.33251893520355225
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình thiết_kế tào_lao môn không dạy 
+p(positive): 0.6388149857521057
+p(negative): 0.3611849844455719
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+định_hướng nghiên_cứu không khái_niệm thay chương_trình dạy kiểu nhồi_nhét 
+p(positive): 0.5816844701766968
+p(negative): 0.4183155298233032
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thầy lớp hơi bảo_thủ 
+p(positive): 0.5253287553787231
+p(negative): 0.47467121481895447
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thả_nổi bơi không dạy đầu toàn slide 
+p(positive): 0.5266923308372498
+p(negative): 0.47330766916275024
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình cũ dạy bảo_thủ hàn_lâm trọng điểm_số 
+p(positive): 0.5307347774505615
+p(negative): 0.4692651927471161
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình giảng_dạy vướng mắt lớp_học số_lượng sinh_viên đông 
+p(positive): 0.5456446409225464
+p(negative): 0.45435529947280884
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng đào_tạo tốt hơi va_chạm thực_tập kiến_thức lý_thuyết áp_dụng nản hụt_hẫng 
+p(positive): 0.7063114047050476
+p(negative): 0.2936885356903076
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng gv tùy dạy hay_ho vững chuyên_môn ít tacs tín giảng_viên dạy siêu chán dĩ_nhiên tâm chuyên_ngành thầy đa_phần nhiệt_tình đầu_ra bấp_bênh sinh_viên trái ngành vụ cớ năng_động ngành lương khởi_điểm không chất_lượng đào_tạo triển_vọng việc_làm đầu_ra không tương_xứng độ hot ftu hn 
+p(positive): 0.8335980176925659
+p(negative): 0.1664019227027893
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tâm_huyết sinh_viên sáng_tạo khả_năng 
+p(positive): 0.7482028603553772
+p(negative): 0.2517971098423004
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tâm_huyết sinh_viên sáng_tạo khả_năng 
+p(positive): 0.7482028603553772
+p(negative): 0.2517971098423004
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đội_ngũ giảng_viên tốt sắp_xếp lịch tốt vô_lý ảnh_hưởng trở_ngại thời_gian_biểu sinh_viên thất_vọng công_tác chấm thi 
+p(positive): 0.5727591514587402
+p(negative): 0.42724084854125977
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tâm dạy cán_bộ nhà trương không thân_thiện phong_trào tổ_chức không vui clb tổ_chức 
+p(positive): 0.7924676537513733
+p(negative): 0.20753230154514313
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tận_tâm nghề giảng không dạy 
+p(positive): 0.7843934297561646
+p(negative): 0.21560649573802948
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tùy tận_tâm môi_trường nhạt 
+p(positive): 0.7539188861846924
+p(negative): 0.2460811734199524
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+cán_bộ giảng_viên không tâm làm_việc 
+p(positive): 0.72271329164505
+p(negative): 0.27728670835494995
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên ít sinh_viên 
+p(positive): 0.6530303359031677
+p(negative): 0.3469696342945099
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tin_đồn dạy dở 
+p(positive): 0.5748347640037537
+p(negative): 0.42516523599624634
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trình_độ giảng_viên lơp không đồng_đều 
+p(positive): 0.650153398513794
+p(negative): 0.34984657168388367
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên khoa lí_luận chính_trị kiến_thức sinh_viên xã_hội trọng_tâm 
+p(positive): 0.7111007571220398
+p(negative): 0.2888992428779602
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_sinh đông khả_năng tương_tác hạn_chế chương_trình tương_tác giảng_viên sinh_viên 
+p(positive): 0.6195489168167114
+p(negative): 0.3804510533809662
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tâm dạy cán_bộ nhà trương không thân_thiện phong_trào tổ_chức không vui clb tổ_chức 
+p(positive): 0.7924676537513733
+p(negative): 0.20753230154514313
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tùy tận_tâm môi_trường nhạt 
+p(positive): 0.7539188861846924
+p(negative): 0.2460811734199524
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+cán_bộ giảng_viên không tâm làm_việc 
+p(positive): 0.72271329164505
+p(negative): 0.27728670835494995
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên thực_hành kỹ_năng giao_tiếp giảng_viên bản_ngữ chương_trình ngành ngôn_ngữ linh_hoạt sinh_viên chuyên_ngành khoa ngoại_ngữ thông_qua học_phần nâng mở_rộng chuyên_môn lĩnh_vực nghề_nghiệp 
+p(positive): 0.8208342790603638
+p(negative): 0.17916573584079742
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên hời_hợt 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+gắn_kết sinh_viên giảng_viên 
+p(positive): 0.6522539258003235
+p(negative): 0.3477460443973541
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên kỹ_thuật dạy 
+p(positive): 0.7227845191955566
+p(negative): 0.27721551060676575
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tùy 
+p(positive): 0.591385006904602
+p(negative): 0.40861496329307556
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thái_độ giảng_viên sinh_viên khó_chịu 
+p(positive): 0.5255817174911499
+p(negative): 0.4744183123111725
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên nước_ngoài khoa ngoại_ngữ chương_trình đào_tạo liên_kết quốc_tế quản_lí sinh_viên lỏng ví_dụ tác_phong thẻ sinh_viên đeo không kiểm 
+p(positive): 0.7800236940383911
+p(negative): 0.2199763059616089
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên thạc sỹ tiến sỹ toàn lý_thuyết không môn môn không cần_thiết 
+p(positive): 0.5300773978233337
+p(negative): 0.46992263197898865
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên hơi chấm không học_phí thông_thường đào_tạo tiếng không 
+p(positive): 0.6416100263595581
+p(negative): 0.3583899438381195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+vấn đè phát_âm giảng_viên sinh_viên 
+p(positive): 0.6513999700546265
+p(negative): 0.34860000014305115
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng đào_tạo chậm_trễ thông_báo thi khúc_mắc sinh_viên giải_quyết giảng_viên việt phát_âm tiếng chuẩn thiểu_số 
+p(positive): 0.5823075175285339
+p(negative): 0.41769248247146606
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không hẳn giảng_viên tiếng tốt 
+p(positive): 0.6501883864402771
+p(negative): 0.3498116433620453
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên kém thân_thiện 
+p(positive): 0.6296104788780212
+p(negative): 0.370389461517334
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chỉ_tiêu đầu_vào hạ giảng_viên tốt lắm 
+p(positive): 0.6167333126068115
+p(negative): 0.3832666873931885
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thi_cử giảng_viên sinh_viên 
+p(positive): 0.6418626308441162
+p(negative): 0.3581373989582062
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên ít sinh_viên môn kiểm_tra vô_lí 
+p(positive): 0.5344654321670532
+p(negative): 0.4655345380306244
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên khoa lí_luận chính_trị kiến_thức sinh_viên xã_hội trọng_tâm 
+p(positive): 0.7111007571220398
+p(negative): 0.2888992428779602
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môi_trường năng_động chương_trình đầy_đủ sinh_viên cảm_giác an_nhàn dựa_dẫm tự_giác phàn_nàn giảng_viên trẻ tích lũy kiến_thức kỹ_năng giảng_dạy 
+p(positive): 0.7855737805366516
+p(negative): 0.21442623436450958
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên kĩ_năng chuyên_môn đồng_đều lạnh_nhạt sinh_viên 
+p(positive): 0.7081835269927979
+p(negative): 0.29181644320487976
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_sinh đông khả_năng tương_tác hạn_chế chương_trình tương_tác giảng_viên sinh_viên 
+p(positive): 0.6195489168167114
+p(negative): 0.3804510533809662
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên truyền_thụ sinh_viên 
+p(positive): 0.6530303359031677
+p(negative): 0.3469696342945099
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tâm dạy cán_bộ nhà trương không thân_thiện phong_trào tổ_chức không vui clb tổ_chức 
+p(positive): 0.7924676537513733
+p(negative): 0.20753230154514313
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tận_tâm nghề giảng không dạy 
+p(positive): 0.7843934297561646
+p(negative): 0.21560649573802948
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tùy tận_tâm môi_trường nhạt 
+p(positive): 0.7539188861846924
+p(negative): 0.2460811734199524
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+cán_bộ giảng_viên không tâm làm_việc 
+p(positive): 0.72271329164505
+p(negative): 0.27728670835494995
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+va_chạm cải_thiện quan_hệ sinh_viên giảng_viên 
+p(positive): 0.5309312343597412
+p(negative): 0.46906882524490356
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+số_lượng giảng_viên ít cung_cấp giảng_dạy số_lượng học_sinh tuyển_sinh 
+p(positive): 0.597888708114624
+p(negative): 0.402111291885376
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đội_ngũ giảng_viên phủ khắp 
+p(positive): 0.5625699162483215
+p(negative): 0.43743014335632324
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+số_lượng giảng_viên ít cung_cấp giảng_dạy số_lượng học_sinh tuyển_sinh 
+p(positive): 0.597888708114624
+p(negative): 0.402111291885376
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+học_sinh đông chất_lượng khả_năng tương_tác giảng_viên giảm_sút 
+p(positive): 0.7197515368461609
+p(negative): 0.2802484631538391
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+lớp_học đông học_sinh khả_năng tương_tác học_sinh giảng_viên hạn_chế 
+p(positive): 0.5317724347114563
+p(negative): 0.4682275950908661
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+sinh_viên ít giảng_viên sinh_viên 
+p(positive): 0.6922860741615295
+p(negative): 0.30771395564079285
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đội_ngũ giảng_viên phủ khắp 
+p(positive): 0.5625699162483215
+p(negative): 0.43743014335632324
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên môn tiếng đem cảm_hứng sinh_viên 
+p(positive): 0.6276980638504028
+p(negative): 0.3723019063472748
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên chất_lượng tốt 
+p(positive): 0.7662689089775085
+p(negative): 0.23373103141784668
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên trình_độ chuyên_môn nhiệt_tình kĩ_năng sư_phạm 
+p(positive): 0.8223515748977661
+p(negative): 0.17764835059642792
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên thân_thiện 
+p(positive): 0.689803957939148
+p(negative): 0.31019607186317444
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+dạy lý_thuyết suông quản_trị không nghiệp_vụ giảng_viên dạy hời_hợt 
+p(positive): 0.7001120448112488
+p(negative): 0.2998879551887512
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên dạy nhàm_chán không sv giảng_đường dạy không sinh_viên ko ứng_dụng bt ko sinh_viên khó_chịu 
+p(positive): 0.5569004416465759
+p(negative): 0.4430995583534241
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tâm_huyết 
+p(positive): 0.680239200592041
+p(negative): 0.31976082921028137
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+tổ_chức hoạt_động ngoại_khoá sinh_viên nâng_cấp phòng sinh_viên giảng_viên dễ_dàng học_tập giảng_dạy 
+p(positive): 0.6374662518501282
+p(negative): 0.3625338077545166
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không nhà_trường không dạy 
+p(positive): 0.6543004512786865
+p(negative): 0.34569960832595825
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên lơ_là giảng_dạy phòng hành_chính kế_toán giải_quyết giấy_tờ sinh_viên 
+p(positive): 0.5065047740936279
+p(negative): 0.49349528551101685
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên cảm_tính 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên lớn_tuổi không cập_nhật kịp kiến_thức sức 
+p(positive): 0.5480461120605469
+p(negative): 0.4519538879394531
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên làm_khó sinh_viên nộp báo_cáo khoa 
+p(positive): 0.5270547866821289
+p(negative): 0.4729451835155487
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hạn_chế giáo_trình bù giảng giảng_viên vui không nhàm_chán đầu_vào hơi chất_lượng học_sinh không tốt lắm 
+p(positive): 0.553787112236023
+p(negative): 0.4462128281593323
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên tiếng lắm 
+p(positive): 0.5989940762519836
+p(negative): 0.40100595355033875
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hoạt_động hấp_dẫn sinh_viên giao_tiếp giảng_viên nước_ngoài 
+p(positive): 0.7195689082145691
+p(negative): 0.2804310917854309
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên môn tiếng đem cảm_hứng sinh_viên học_phí 
+p(positive): 0.6336628198623657
+p(negative): 0.36633723974227905
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thông_báo chương_trình lịch trễ phòng đào_tạo nhiệt_tình giảng_viên không tận_tâm 
+p(positive): 0.5947946310043335
+p(negative): 0.4052053689956665
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên chuyên_môn không 
+p(positive): 0.6950406432151794
+p(negative): 0.30495935678482056
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+thông_báo chương_trình lịch trễ giảng_viên nhiệt_tình 
+p(positive): 0.5443485975265503
+p(negative): 0.4556514322757721
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không chương_trình tiếng lắm trau_dồi kỹ_năng .- đôi_khi giảng_viên hợp_đồng không giảng_viên chính_thức giảng_viên không dạy 
+p(positive): 0.6431043744087219
+p(negative): 0.3568955957889557
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên chất_lượng tốt 
+p(positive): 0.7662689089775085
+p(negative): 0.23373103141784668
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_viên 
+p(positive): 0.7027429938316345
+p(negative): 0.2972570061683655
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_dạy giảng_viên bám sát lý_thuyết ý_thức sinh_viên kém 
+p(positive): 0.6024694442749023
+p(negative): 0.39753055572509766
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên sinh_viên lớp 
+p(positive): 0.6291530132293701
+p(negative): 0.3708469271659851
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phát_triển quy_mô giảng_dạy sáng_tạo quy_cách giảng_dạy giảng_viên 
+p(positive): 0.8271664977073669
+p(negative): 0.17283351719379425
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trao_đổi giảng_viên ít học_viên đông 
+p(positive): 0.5900081396102905
+p(negative): 0.40999189019203186
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ngắn giảng_viên bao_quát học_viên 
+p(positive): 0.647250235080719
+p(negative): 0.3527497947216034
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên nâng trình_độ 
+p(positive): 0.6824674010276794
+p(negative): 0.31753259897232056
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hơi giao_tiếp giảng_viên nước_ngoài 
+p(positive): 0.5560298562049866
+p(negative): 0.4439701437950134
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trình_độ giảng_viên đồng_đều 
+p(positive): 0.650153398513794
+p(negative): 0.34984657168388367
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên kĩ_năng chuyên_môn tâm_huyết sinh_viên 
+p(positive): 0.7973676323890686
+p(negative): 0.20263239741325378
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên trình_độ chuyên_môn kĩ_năng sư_phạm hơi kém lung túng giải_quyết tình_huống sư_phạm 
+p(positive): 0.6690918803215027
+p(negative): 0.3309081196784973
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên bánh_bèo 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên trình_độ chuyên_môn tâm_huyết học_sinh bài_tập nhà giao hơi 
+p(positive): 0.7519745826721191
+p(negative): 0.24802543222904205
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên nhiệt_tình linh_hoạt 
+p(positive): 0.659602165222168
+p(negative): 0.34039783477783203
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo lý_thuyết nhàm_chán mau xuống_cấp xây bức_xúc sinh_viên 
+p(positive): 0.5212678909301758
+p(negative): 0.4787321090698242
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môn không cần_thiết chương_trình đào_tạo cử_nhân luật thi thực_lực 
+p(positive): 0.7240385413169861
+p(negative): 0.2759614884853363
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên nước_ngoài khoa ngoại_ngữ chương_trình đào_tạo liên_kết quốc_tế quản_lí sinh_viên lỏng ví_dụ tác_phong thẻ sinh_viên đeo không kiểm 
+p(positive): 0.7800236940383911
+p(negative): 0.2199763059616089
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_dạy không tốt chương_trình đào_tạo lạc_hậu thái_độ bộ_phận hành_chính công_tác hssv tệ 
+p(positive): 0.7403081655502319
+p(negative): 0.2596918046474457
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo cập_nhật cải_thiện nâng thương_hiệu 
+p(positive): 0.6330260634422302
+p(negative): 0.3669739067554474
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chấp_nhận chất_lượng nỗ_lực chịu_khó học_tập nhà_trường chương_trình đào_tạo dày sinh_viên hợp_lý 
+p(positive): 0.8035314679145813
+p(negative): 0.1964685618877411
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đòi_hỏi chủ_động sinh_viên 
+p(positive): 0.6501489281654358
+p(negative): 0.3498510420322418
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+kiến_thức 
+p(positive): 0.5803465247154236
+p(negative): 0.41965344548225403
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình học_tập áp_lực 
+p(positive): 0.7002028822898865
+p(negative): 0.29979705810546875
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tâm tầm 
+p(positive): 0.6345656514167786
+p(negative): 0.36543431878089905
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+trình_độ giảng_viên 
+p(positive): 0.6887878179550171
+p(negative): 0.31121212244033813
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tôn_trọng 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên dạy 
+p(positive): 0.6734126210212708
+p(negative): 0.32658740878105164
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên khô_khan 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên giỏi truyền_đạt 
+p(positive): 0.7117812037467957
+p(negative): 0.28821873664855957
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên khó_tính 
+p(positive): 0.5764450430870056
+p(negative): 0.4235549569129944
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên lạc_hậu 
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không bám sát nội_dung môn_học 
+p(positive): 0.5264658331871033
+p(negative): 0.47353410720825195
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình lỗi_thời 
+p(positive): 0.5516188740730286
+p(negative): 0.44838109612464905
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình không sát 
+p(positive): 0.5541552901268005
+p(negative): 0.44584470987319946
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình không ứng dung 
+p(positive): 0.5318467617034912
+p(negative): 0.4681532382965088
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo lạc_hậu 
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo lỗi_thời 
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đằng thi nẻo 
+p(positive): 0.5092795491218567
+p(negative): 0.4907204806804657
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không truyền cảm_hứng sinh_viên 
+p(positive): 0.64919114112854
+p(negative): 0.3508087992668152
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên trẻ kinh_nghiệm 
+p(positive): 0.7227033376693726
+p(negative): 0.27729663252830505
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình liên_kết quốc_tế 
+p(positive): 0.6292784810066223
+p(negative): 0.3707214891910553
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ít chương_trình liên_kết khu_vực thế_giới 
+p(positive): 0.6062682271003723
+p(negative): 0.3937317728996277
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+lí_thuyết không đi_đôi thực_hành 
+p(positive): 0.5033491253852844
+p(negative): 0.49665090441703796
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng khô_khan tiếp_thu 
+p(positive): 0.530812680721283
+p(negative): 0.46918728947639465
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không sinh_viên 
+p(positive): 0.6530303359031677
+p(negative): 0.3469696342945099
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chất_lượng giảng_dạy kém 
+p(positive): 0.6716498136520386
+p(negative): 0.32835015654563904
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+kỹ_năng sư_phạm giảng_viên kém 
+p(positive): 0.617027759552002
+p(negative): 0.3829723000526428
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giáo_trình không cập_nhật 
+p(positive): 0.5365394949913025
+p(negative): 0.4634605646133423
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nội_dung thực_hành không lý_thuyết 
+p(positive): 0.5000473260879517
+p(negative): 0.4999527037143707
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo toàn món lý_thuyết 
+p(positive): 0.6225718855857849
+p(negative): 0.3774280846118927
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo kéo_dài toàn môn đại_cương 
+p(positive): 0.6687133312225342
+p(negative): 0.3312866687774658
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không tận_tâm sinh_viên 
+p(positive): 0.7214547395706177
+p(negative): 0.2785452902317047
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình đào_tạo lỗi_thời 
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đào_tạo phân_tán 
+p(positive): 0.5903497338294983
+p(negative): 0.4096502661705017
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không hệ đào_tạo mạng không 
+p(positive): 0.5188028216362
+p(negative): 0.48119714856147766
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+chương_trình không hiệu_quả 
+p(positive): 0.6164708733558655
+p(negative): 0.38352909684181213
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+giảng_viên không nhiệt_tình 
+p(positive): 0.6884011626243591
+p(negative): 0.31159886717796326
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không tương_tác giảng_viên sinh_viên 
+p(positive): 0.6468019485473633
+p(negative): 0.3531980514526367
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+môn chuyên_ngành 
+p(positive): 0.5257412195205688
+p(negative): 0.47425875067710876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ít sinh_viên tinh_thần nghiên_cứu trì lý_thuyết lớp 
+p(positive): 0.5616205930709839
+p(negative): 0.43837934732437134
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không sinh_viên 
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+ít workshop chuyên_ngành 
+p(positive): 0.5474978089332581
+p(negative): 0.45250222086906433
+CALCAULATE 
+Positive: 284/451 => 0.62971175
+Negative: 167/451 => 0.37028825
+----- Example complete -----
+

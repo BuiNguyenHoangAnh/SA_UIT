@@ -48,7 +48,11 @@ public class sentimentAnalyser {
     //
     public static final String VALIDATE_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/file";
     //
-    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-aspect.zip";
+    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-csvc.zip";
+    //
+    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-dt.zip";
+    //
+    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-aspect.zip";
 
     
     public static sentimentIterator train;
@@ -157,16 +161,20 @@ public class sentimentAnalyser {
 		        long timeSeriesLength = networkOutput.size(2);
 		        INDArray probabilitiesAtLastWord = networkOutput.get(NDArrayIndex.point(0), NDArrayIndex.all(), NDArrayIndex.point((int) (timeSeriesLength - 1)));
 
-		        System.out.println("\n\n-------------------------------");
-		        System.out.println("Short positive review: \n" + line);
-		        System.out.println("\n\nProbabilities at last time step:");
-		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+
+		        //System.out.println("\n\nProbabilities at last time step:");
 		        
-		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1))
+		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
 		        	countPos++;
-		        else 
+		        }
+		        else {
 		        	countNeg++;
+			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
+			        System.out.println("WRONG Short positive review: \n" + line);
+			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+
+		        }
 			}
 			
 			System.out.println("CALCAULATE ");
@@ -190,14 +198,19 @@ public class sentimentAnalyser {
 		        long timeSeriesLength = networkOutput.size(2);
 		        INDArray probabilitiesAtLastWord = networkOutput.get(NDArrayIndex.point(0), NDArrayIndex.all(), NDArrayIndex.point((int) (timeSeriesLength - 1)));
 
-		        System.out.println("\n\n-------------------------------");
-		        System.out.println("Short negative review: \n" + line);
-		        System.out.println("\n\nProbabilities at last time step:");
-		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+		        //System.out.println("\n\n-------------------------------");
+		        //System.out.println("Short negative review: \n" + line);
+		        //System.out.println("\n\nProbabilities at last time step:");
+		       //System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+		       // System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
 		        
-		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1))
+		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
 		        	countPos++;
+			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
+			        System.out.println("WRONG Short negative review: \n" + line);
+			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+		        }
 		        else 
 		        	countNeg++;
 			}
