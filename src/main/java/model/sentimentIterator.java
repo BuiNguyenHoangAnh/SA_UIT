@@ -54,8 +54,12 @@ public class sentimentIterator implements DataSetIterator {
 		 * test/neg/...
 		 * test/pos/...
 		*/
-        File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/dt/") + "/");
-        File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/csvc/") + "/");
+        File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/pos/") + "/");
+        File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/neg/") + "/");
+        
+        //File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/dt/") + "/");
+        //File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/csvc/") + "/");
+        
         positiveFiles = positiveFile.listFiles();
         negativeFiles = negativeFile.listFiles();
 
