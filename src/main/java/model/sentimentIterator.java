@@ -6,7 +6,8 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
-import org.deeplearning4j.datasets.iterator.DataSetIterator;
+
+import org.deeplearning4j.datasets.iterator.*;
 import org.deeplearning4j.models.embeddings.wordvectors.WordVectors;
 import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.CommonPreprocessor;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
@@ -14,6 +15,7 @@ import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.api.DataSetPreProcessor;
+import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.indexing.INDArrayIndex;
 import org.nd4j.linalg.indexing.NDArrayIndex;
@@ -54,6 +56,10 @@ public class sentimentIterator implements DataSetIterator {
 		*/
         File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/pos/") + "/");
         File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/neg/") + "/");
+        
+        //File positiveFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/dt/") + "/");
+        //File negativeFile = new File(FilenameUtils.concat(dataDirectory, (train ? "train" : "test") + "/csvc/") + "/");
+        
         positiveFiles = positiveFile.listFiles();
         negativeFiles = negativeFile.listFiles();
 
@@ -62,6 +68,7 @@ public class sentimentIterator implements DataSetIterator {
 
         tokenizerFactory = new DefaultTokenizerFactory();
         tokenizerFactory.setTokenPreProcessor(new CommonPreprocessor());
+
         
         int fileLength = positiveFiles.length + negativeFiles.length;
         mapIndexRandom = genRandomMapIndex(0, fileLength);
@@ -246,4 +253,70 @@ public class sentimentIterator implements DataSetIterator {
     public boolean isPositiveReview(int index){
         return index%2 == 0;
     }
+    
+    /**
+     * Used post training to load a review from a file to a features INDArray that can be passed to the network output method
+     *
+     * @param file      File to load the review from
+     * @param maxLength Maximum length (if review is longer than this: truncate to maxLength). Use Integer.MAX_VALUE to not nruncate
+     * @return          Features array
+     * @throws IOException If file cannot be read
+     */
+    public INDArray loadFeaturesFromFile(File file, int maxLength) throws IOException {
+        String review = FileUtils.readFileToString(file);
+        return loadFeaturesFromString(review, maxLength);
+    }
+    
+
+    /**
+     * Used post training to convert a String to a features INDArray that can be passed to the network output method
+     *
+     * @param reviewContents Contents of the review to vectorize
+     * @param maxLength Maximum length (if review is longer than this: truncate to maxLength). Use Integer.MAX_VALUE to not nruncate
+     * @return Features array for the given input String
+     */
+    public INDArray loadFeaturesFromString(String reviewContents, int maxLength){
+        List<String> tokens = tokenizerFactory.create(reviewContents).getTokens();
+        List<String> tokensFiltered = new ArrayList<>();
+        for(String t : tokens ){
+            if(wordVectors.hasWord(t)) tokensFiltered.add(t);
+        }
+        int outputLength = Math.min(maxLength,tokensFiltered.size());
+        if (outputLength == 0 ) outputLength = 1;
+        INDArray features = Nd4j.create(1, vectorSize, outputLength);
+
+        int count = 0;
+        for( int j=0; j<tokensFiltered.size() && count<maxLength; j++ ){
+            String token = tokensFiltered.get(j);
+            INDArray vector = wordVectors.getWordVectorMatrix(token);
+            if(vector == null){
+                continue;   //Word not in word vectors
+            }
+            features.put(new INDArrayIndex[]{NDArrayIndex.point(0), NDArrayIndex.all(), NDArrayIndex.point(j)}, vector);
+            count++;
+        }
+
+        return features;
+    }
+
+
+	@Override
+	public boolean resetSupported() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public boolean asyncSupported() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+	@Override
+	public DataSetPreProcessor getPreProcessor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

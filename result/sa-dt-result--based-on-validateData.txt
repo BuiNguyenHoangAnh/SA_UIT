@@ -1,0 +1,497 @@
+log4j:WARN No appenders could be found for logger (org.nd4j.linalg.factory.Nd4jBackend).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không tâm tầm 
+
+
+Probabilities at last time step:
+p(positive): 0.6345656514167786
+p(negative): 0.36543431878089905
+
+
+-------------------------------
+Short positive review: 
+trình_độ giảng_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.6887878179550171
+p(negative): 0.31121212244033813
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không 
+
+
+Probabilities at last time step:
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không tôn_trọng 
+
+
+Probabilities at last time step:
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+-------------------------------
+Short positive review: 
+giảng_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+-------------------------------
+Short positive review: 
+giảng_viên dạy 
+
+
+Probabilities at last time step:
+p(positive): 0.6734126210212708
+p(negative): 0.32658740878105164
+
+
+-------------------------------
+Short positive review: 
+giảng_viên khô_khan 
+
+
+Probabilities at last time step:
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+-------------------------------
+Short positive review: 
+giảng_viên giỏi truyền_đạt 
+
+
+Probabilities at last time step:
+p(positive): 0.7117812037467957
+p(negative): 0.28821873664855957
+
+
+-------------------------------
+Short positive review: 
+giảng_viên khó_tính 
+
+
+Probabilities at last time step:
+p(positive): 0.5764450430870056
+p(negative): 0.4235549569129944
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không cập_nhật thông_tin thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.41443467140197754
+p(negative): 0.5855653285980225
+
+
+-------------------------------
+Short positive review: 
+giảng_viên lạc_hậu 
+
+
+Probabilities at last time step:
+p(positive): 0.5985131859779358
+p(negative): 0.4014868140220642
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không bám sát nội_dung môn_học 
+
+
+Probabilities at last time step:
+p(positive): 0.5264658331871033
+p(negative): 0.47353410720825195
+
+
+-------------------------------
+Short positive review: 
+giáo_trình lỗi_thời 
+
+
+Probabilities at last time step:
+p(positive): 0.5516188740730286
+p(negative): 0.44838109612464905
+
+
+-------------------------------
+Short positive review: 
+giáo_trình không cập_nhật thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.4973304271697998
+p(negative): 0.5026695728302002
+
+
+-------------------------------
+Short positive review: 
+giáo_trình cũ 
+
+
+Probabilities at last time step:
+p(positive): 0.4761538505554199
+p(negative): 0.5238461494445801
+
+
+-------------------------------
+Short positive review: 
+giáo_trình không sát 
+
+
+Probabilities at last time step:
+p(positive): 0.5541552901268005
+p(negative): 0.44584470987319946
+
+
+-------------------------------
+Short positive review: 
+giáo_trình không ứng dung 
+
+
+Probabilities at last time step:
+p(positive): 0.5318467617034912
+p(negative): 0.4681532382965088
+
+
+-------------------------------
+Short positive review: 
+toàn lí_thuyết suông không áp_dụng thực_tiễn 
+
+
+Probabilities at last time step:
+p(positive): 0.48132309317588806
+p(negative): 0.5186768770217896
+
+
+-------------------------------
+Short positive review: 
+thời khóa biểu không hợp_lí 
+
+
+Probabilities at last time step:
+p(positive): 0.46459659934043884
+p(negative): 0.5354034304618835
+
+
+-------------------------------
+Short positive review: 
+thời khóa biểu công_bố trễ 
+
+
+Probabilities at last time step:
+p(positive): 0.42328622937202454
+p(negative): 0.5767137408256531
+
+
+-------------------------------
+Short positive review: 
+chương_trình đào_tạo lạc_hậu 
+
+
+Probabilities at last time step:
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+-------------------------------
+Short positive review: 
+chương_trình đào_tạo lỗi_thời 
+
+
+Probabilities at last time step:
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+-------------------------------
+Short positive review: 
+đằng thi nẻo 
+
+
+Probabilities at last time step:
+p(positive): 0.5092795491218567
+p(negative): 0.4907204806804657
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không truyền cảm_hứng sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.64919114112854
+p(negative): 0.3508087992668152
+
+
+-------------------------------
+Short positive review: 
+giảng_viên trẻ kinh_nghiệm 
+
+
+Probabilities at last time step:
+p(positive): 0.7227033376693726
+p(negative): 0.27729663252830505
+
+
+-------------------------------
+Short positive review: 
+chương_trình liên_kết quốc_tế 
+
+
+Probabilities at last time step:
+p(positive): 0.6292784810066223
+p(negative): 0.3707214891910553
+
+
+-------------------------------
+Short positive review: 
+ít chương_trình liên_kết khu_vực thế_giới 
+
+
+Probabilities at last time step:
+p(positive): 0.6062682271003723
+p(negative): 0.3937317728996277
+
+
+-------------------------------
+Short positive review: 
+lí_thuyết không đi_đôi thực_hành 
+
+
+Probabilities at last time step:
+p(positive): 0.5033491253852844
+p(negative): 0.49665090441703796
+
+
+-------------------------------
+Short positive review: 
+giảng khô_khan tiếp_thu 
+
+
+Probabilities at last time step:
+p(positive): 0.530812680721283
+p(negative): 0.46918728947639465
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.6530303359031677
+p(negative): 0.3469696342945099
+
+
+-------------------------------
+Short positive review: 
+chất_lượng giảng_dạy kém 
+
+
+Probabilities at last time step:
+p(positive): 0.6716498136520386
+p(negative): 0.32835015654563904
+
+
+-------------------------------
+Short positive review: 
+kỹ_năng sư_phạm giảng_viên kém 
+
+
+Probabilities at last time step:
+p(positive): 0.617027759552002
+p(negative): 0.3829723000526428
+
+
+-------------------------------
+Short positive review: 
+giáo_trình không cập_nhật 
+
+
+Probabilities at last time step:
+p(positive): 0.5365394949913025
+p(negative): 0.4634605646133423
+
+
+-------------------------------
+Short positive review: 
+nội_dung thực_hành không lý_thuyết 
+
+
+Probabilities at last time step:
+p(positive): 0.5000473260879517
+p(negative): 0.4999527037143707
+
+
+-------------------------------
+Short positive review: 
+chương_trình đào_tạo toàn món lý_thuyết 
+
+
+Probabilities at last time step:
+p(positive): 0.6225718855857849
+p(negative): 0.3774280846118927
+
+
+-------------------------------
+Short positive review: 
+chương_trình đào_tạo kéo_dài toàn môn đại_cương 
+
+
+Probabilities at last time step:
+p(positive): 0.6687133312225342
+p(negative): 0.3312866687774658
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không tận_tâm sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.7214547395706177
+p(negative): 0.2785452902317047
+
+
+-------------------------------
+Short positive review: 
+chương_trình đào_tạo lỗi_thời 
+
+
+Probabilities at last time step:
+p(positive): 0.6675533056259155
+p(negative): 0.33244675397872925
+
+
+-------------------------------
+Short positive review: 
+môn_học không cập_nhật 
+
+
+Probabilities at last time step:
+p(positive): 0.4533873200416565
+p(negative): 0.5466126799583435
+
+
+-------------------------------
+Short positive review: 
+đào_tạo phân_tán 
+
+
+Probabilities at last time step:
+p(positive): 0.5903497338294983
+p(negative): 0.4096502661705017
+
+
+-------------------------------
+Short positive review: 
+không hệ đào_tạo mạng không 
+
+
+Probabilities at last time step:
+p(positive): 0.5188028216362
+p(negative): 0.48119714856147766
+
+
+-------------------------------
+Short positive review: 
+chương_trình không hiệu_quả 
+
+
+Probabilities at last time step:
+p(positive): 0.6164708733558655
+p(negative): 0.38352909684181213
+
+
+-------------------------------
+Short positive review: 
+giảng_viên không nhiệt_tình 
+
+
+Probabilities at last time step:
+p(positive): 0.6884011626243591
+p(negative): 0.31159886717796326
+
+
+-------------------------------
+Short positive review: 
+không tương_tác giảng_viên sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.6468019485473633
+p(negative): 0.3531980514526367
+
+
+-------------------------------
+Short positive review: 
+môn chuyên_ngành 
+
+
+Probabilities at last time step:
+p(positive): 0.5257412195205688
+p(negative): 0.47425875067710876
+
+
+-------------------------------
+Short positive review: 
+thời_khoá_biểu dày_đặc không thở 
+
+
+Probabilities at last time step:
+p(positive): 0.4909733235836029
+p(negative): 0.5090267062187195
+
+
+-------------------------------
+Short positive review: 
+ít sinh_viên tinh_thần nghiên_cứu trì lý_thuyết lớp 
+
+
+Probabilities at last time step:
+p(positive): 0.5616205930709839
+p(negative): 0.43837934732437134
+
+
+-------------------------------
+Short positive review: 
+không sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.5730373859405518
+p(negative): 0.42696264386177063
+
+
+-------------------------------
+Short positive review: 
+ít workshop chuyên_ngành 
+
+
+Probabilities at last time step:
+p(positive): 0.5474978089332581
+p(negative): 0.45250222086906433
+CALCAULATE 
+Positive: 41/49 => 0.8367347
+Negative: 8/49 => 0.1632653
+==================================================================

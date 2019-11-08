@@ -33,8 +33,10 @@ import vn.uit.edu.sa.gibbsLDA.*;
  */
 public class App 	
 {	
+    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg-training";
+    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg-training";
 
-    public static void main( String[] args )
+    public static void main( String[] args ) throws IOException
     {
 /*
  * 
@@ -58,10 +60,14 @@ public class App
    
 	    sparkConfigure sparkConfig = new sparkConfigure();
 	    
-	    languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
-	    preproccessor.run(null); 
-    
-    	//sentimentAnalyser model = new sentimentAnalyser();
+	    //languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
+	    //preproccessor.run(null); 
+
+    	sentimentAnalyser model = new sentimentAnalyser();
+    	//model.sentimentModel();
+	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
+    	
+    	
     	
 
 
@@ -70,14 +76,16 @@ public class App
  * GIAI DOAN: TIEN XU LI (RUN MANUALLY)
  * 
  * 
- *     	//segmentationBUS segmentation = new segmentationBUS();
+
+    	
+    	taggingBUS tagging = new taggingBUS();
+ */ 	
+     	//segmentationBUS segmentation = new segmentationBUS();
     	
     	//standardizeBUS standardize = new standardizeBUS();
     	
     	//removeStopWordsBUS removeStopWords = new removeStopWordsBUS();
     	
-    	//taggingBUS tagging = new taggingBUS();
- */ 	
     	/*
 		 * STANDARDIZE DATA
 		 */
@@ -109,7 +117,7 @@ public class App
 		 * REMOVE STOP WORD
 		 */
 		
-		 //try { removeStopWords.correctData(sparkConfig); } catch (IOException e) { 
+		// try { removeStopWords.correctData(sparkConfig); } catch (IOException e) { 
 		 // e.printStackTrace(); }
     			 
     	//helpFunction.removeEmptyLine("");		

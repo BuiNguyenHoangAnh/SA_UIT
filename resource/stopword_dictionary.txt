@@ -154,7 +154,6 @@ bởi_vì
 bởi_vậy
 bởi_đâu
 bức
-cao
 cao_lâu
 cao_ráo
 cao_răng
@@ -231,7 +230,6 @@ chăng_chắc
 chăng_nữa
 chơi
 chơi_họ
-chưa
 chưa_bao_giờ
 chưa_chắc
 chưa_có
@@ -327,7 +325,6 @@ cái_đã
 cái_đó
 cái_ấy
 câu_hỏi
-cây
 cây_nước
 còn
 còn_như
@@ -457,7 +454,6 @@ dùng_cho
 dùng_hết
 dùng_làm
 dùng_đến
-dưới
 dưới_nước
 dạ
 dạ_bán
@@ -473,7 +469,6 @@ dẫu
 dẫu_mà
 dẫu_rằng
 dẫu_sao
-dễ
 dễ_dùng
 dễ_gì
 dễ_khiến
@@ -532,7 +527,6 @@ gặp
 gặp_khó_khăn
 gặp_phải
 gồm
-hay
 hay_biết
 hay_hay
 hay_không
@@ -543,7 +537,6 @@ hay_nói
 hay_sao
 hay_tin
 hay_đâu
-hiểu
 hiện_nay
 hiện_tại
 hoàn_toàn
@@ -584,8 +577,6 @@ khiến
 khoảng
 khoảng_cách
 khoảng_không
-khá
-khá_tốt
 khác
 khác_gì
 khác_khác
@@ -594,18 +585,13 @@ khác_nào
 khác_thường
 khác_xa
 khách
-khó
 khó_biết
 khó_chơi
-khó_khăn
 khó_làm
 khó_mở
-khó_nghe
 khó_nghĩ
 khó_nói
-khó_thấy
 khó_tránh
-không
 không_ai
 không_bao_giờ
 không_bao_lâu
@@ -613,14 +599,12 @@ không_biết
 không_bán
 không_chỉ
 không_còn
-không_có
 không_có_gì
 không_cùng
 không_cần
 không_cứ
 không_dùng
 không_gì
-không_hay
 không_khỏi
 không_kể
 không_ngoài
@@ -754,7 +738,6 @@ lần_sau
 lần_theo
 lần_trước
 lần_tìm
-lớn
 lớn_lên
 lớn_nhỏ
 lời
@@ -893,16 +876,13 @@ ngồi_không
 ngồi_sau
 ngồi_trệt
 ngộ_nhỡ
-nhanh
 nhanh_lên
 nhanh_tay
 nhau
 nhiên_hậu
-nhiều
 nhiều_ít
 nhiệt_liệt
 nhung_nhăng
-nhà
 nhà_chung
 nhà_khó
 nhà_làm
@@ -971,8 +951,8 @@ nhằm_lúc
 nhằm_vào
 nhằm_để
 nhỉ
-nhỏ
 nhỏ_người
+nơi
 nhớ
 nhớ_bập_bõm
 nhớ_lại
@@ -1045,7 +1025,6 @@ nước_xuống
 nước_ăn
 nước_đến
 nấy
-nặng
 nặng_căn
 nặng_mình
 nặng_về
@@ -1081,7 +1060,6 @@ phía_trên
 phía_trước
 phóc
 phót
-phù_hợp
 phăn_phắt
 phương_chi
 phải
@@ -1274,14 +1252,12 @@ thanh_thanh
 thanh_tính
 thanh_điều_kiện
 thanh_điểm
-thay_đổi
 thay_đổi_tình_trạng
 theo
 theo_bước
 theo_như
 theo_tin
 thi_thoảng
-thiếu
 thiếu_gì
 thiếu_điểm
 thoạt
@@ -1316,7 +1292,6 @@ thì_phải
 thì_ra
 thì_thôi
 thình_lình
-thích
 thích_cứ
 thích_thuộc
 thích_tự
@@ -1426,7 +1401,6 @@ tránh_khỏi
 tránh_ra
 tránh_tình_trạng
 tránh_xa
-trên
 trên_bộ
 trên_dưới
 trước
@@ -1500,7 +1474,6 @@ tôi_con
 tông_tốc
 tù_tì
 tăm_tắp
-tăng
 tăng_chúng
 tăng_cấp
 tăng_giảm
@@ -1540,7 +1513,6 @@ tỏ_ra
 tỏ_vẻ
 tốc_tả
 tối_ư
-tốt
 tốt_bạn
 tốt_bộ
 tốt_hơn
@@ -1720,7 +1692,6 @@ yêu_cầu
 áng
 áng_như
 âu_là
-ít
 ít_biết
 ít_có
 ít_hơn
@@ -3665,3 +3636,37 @@ yêu_cầu
 🇾🇪
 🇿🇲
 🇿🇼
+cl
+..
+...
+....
+.....
+!
+!!
+!!!
+!!!!
+!!!!!
+?
+??
+???
+????
+?????
+//
+:))
+trường
+học
+có
+đi
+đại_học
+một
+)))
+((
+))
+tdt
+uel
+uit
+ussh
+neu
+ufm
+rmit
+pnt

@@ -36,9 +36,11 @@ public class GibbsLDAService {
 		
 		option = new LDACmdOption();
 		option.inf = true;
-		option.dir = Constant.GibbsLDA_optionDir + "/output";
+		option.dir = Constant.GibbsLDA_optionDir;
 		option.modelName = Constant.LDAmodelName;
 		option.niters = Constant.GibbsNiters;
+		
+		
 	}
 	
 	public void generateInpuFromDirtFile(String fileName) {
@@ -102,7 +104,7 @@ public class GibbsLDAService {
 		inferencer.init(option);
 		
 		option.dfile = Constant.GibbsLDA_input_dataFileName;
-		Model gibbsLDAModel = inferencer.inference(array);
+		Model newModel = inferencer.inference(array);
 	}
 	
 	private String getFileName() {
@@ -150,6 +152,5 @@ public class GibbsLDAService {
 	private void generateInputFile(String fileName) {
 		JavaRDD<String> rdd = this.sparkContext.textFile(fileName);
 		addNumberToDocument(Long.toString(rdd.count()) + "\n", this.getFileName() );
-
 	}
 }

@@ -1,0 +1,2386 @@
+log4j:WARN No appenders could be found for logger (org.nd4j.linalg.factory.Nd4jBackend).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf0.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet0.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf1.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet1.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf2.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet2.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf3.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet3.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf4.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet4.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf5.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet5.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf6.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet6.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf7.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet7.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf8.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet8.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf9.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet9.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf10.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet10.bin
+Save file conf: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/conf11.json
+Save sentimentNet: /home/tranhamduong/project-sa-uit/workspace/project/checkpoint/sentimentNet11.bin
+
+
+-------------------------------
+Short positive review: 
+thang_máy cao_điểm quá_tải 
+
+
+Probabilities at last time step:
+p(positive): 0.37352195382118225
+p(negative): 0.6264780163764954
+
+
+-------------------------------
+Short positive review: 
+mạng chập_chờn 
+
+
+Probabilities at last time step:
+p(positive): 0.36539092659950256
+p(negative): 0.6346091032028198
+
+
+-------------------------------
+Short positive review: 
+nhà_vệ_sinh thường_xuyên cúp 
+
+
+Probabilities at last time step:
+p(positive): 0.39013803005218506
+p(negative): 0.6098620295524597
+
+
+-------------------------------
+Short positive review: 
+cơ_sở vật_chất thể_dục không trang_bị đầy_đủ sân bóng ổ_gà 
+
+
+Probabilities at last time step:
+p(positive): 0.320158988237381
+p(negative): 0.6798409819602966
+
+
+-------------------------------
+Short positive review: 
+phòng máy_lạnh máy sưởi 
+
+
+Probabilities at last time step:
+p(positive): 0.43618351221084595
+p(negative): 0.563816487789154
+
+
+-------------------------------
+Short positive review: 
+phòng máy ít toàn bụi 
+
+
+Probabilities at last time step:
+p(positive): 0.6090010404586792
+p(negative): 0.3909989893436432
+
+
+-------------------------------
+Short positive review: 
+nhà không thang_máy leo_thang không tinh_thần 
+
+
+Probabilities at last time step:
+p(positive): 0.5009723901748657
+p(negative): 0.4990276098251343
+
+
+-------------------------------
+Short positive review: 
+nhà_xe quá_tải cao_điểm không mái che 
+
+
+Probabilities at last time step:
+p(positive): 0.31886953115463257
+p(negative): 0.6811304688453674
+
+
+-------------------------------
+Short positive review: 
+nhà_xe không mái che 
+
+
+Probabilities at last time step:
+p(positive): 0.38118651509284973
+p(negative): 0.6188134551048279
+
+
+-------------------------------
+Short positive review: 
+mạng không 
+
+
+Probabilities at last time step:
+p(positive): 0.4125836491584778
+p(negative): 0.5874162912368774
+
+
+-------------------------------
+Short positive review: 
+phòng tòa nhà không kết_nối mạng 
+
+
+Probabilities at last time step:
+p(positive): 0.5777558088302612
+p(negative): 0.422244131565094
+
+
+-------------------------------
+Short positive review: 
+phòng nhỏ tối không ánh_sáng 
+
+
+Probabilities at last time step:
+p(positive): 0.46353453397750854
+p(negative): 0.5364655256271362
+
+
+-------------------------------
+Short positive review: 
+quạt_trần phòng xuống_cấp tiếng ù_ù khó_chịu 
+
+
+Probabilities at last time step:
+p(positive): 0.5904151201248169
+p(negative): 0.4095848798751831
+
+
+-------------------------------
+Short positive review: 
+phòng lớn hai quạt_trần không mát 
+
+
+Probabilities at last time step:
+p(positive): 0.4610418677330017
+p(negative): 0.5389581322669983
+
+
+-------------------------------
+Short positive review: 
+máy_lạnh quạt cũ hoạt_động tiếng kêu tập trung_học 
+
+
+Probabilities at last time step:
+p(positive): 0.5542066693305969
+p(negative): 0.4457933306694031
+
+
+-------------------------------
+Short positive review: 
+bàn học_sinh tiểu_học khó_chịu vô_cùng 
+
+
+Probabilities at last time step:
+p(positive): 0.49756118655204773
+p(negative): 0.5024388432502747
+
+
+-------------------------------
+Short positive review: 
+công_trình xây_dựng ồn_ào 
+
+
+Probabilities at last time step:
+p(positive): 0.6254077553749084
+p(negative): 0.37459224462509155
+
+
+-------------------------------
+Short positive review: 
+phòng xuống_cấp sơn tróc rơi phòng 
+
+
+Probabilities at last time step:
+p(positive): 0.5882876515388489
+p(negative): 0.41171231865882874
+
+
+-------------------------------
+Short positive review: 
+phòng máy cũ_kĩ cấu_hình yếu 
+
+
+Probabilities at last time step:
+p(positive): 0.462884783744812
+p(negative): 0.5371151566505432
+
+
+-------------------------------
+Short positive review: 
+máy phòng thực_hành yếu không chạy nổi office 
+
+
+Probabilities at last time step:
+p(positive): 0.503750205039978
+p(negative): 0.496249794960022
+
+
+-------------------------------
+Short positive review: 
+đa_số máy phòng thực_hành thực_hành laptop 
+
+
+Probabilities at last time step:
+p(positive): 0.679178774356842
+p(negative): 0.32082119584083557
+
+
+-------------------------------
+Short positive review: 
+phòng lớn loa nhỏ lớp không giảng_viên giảng 
+
+
+Probabilities at last time step:
+p(positive): 0.8014802932739258
+p(negative): 0.19851970672607422
+
+
+-------------------------------
+Short positive review: 
+hệ_thống loa lớp_học tiếng kêu khó_chịu 
+
+
+Probabilities at last time step:
+p(positive): 0.6034284830093384
+p(negative): 0.3965715765953064
+
+
+-------------------------------
+Short positive review: 
+phòng nhỏ sinh_viên đông nóng vô_cùng 
+
+
+Probabilities at last time step:
+p(positive): 0.6271541714668274
+p(negative): 0.3728458285331726
+
+
+-------------------------------
+Short positive review: 
+lớp_học đông không bàn chen_chúc 
+
+
+Probabilities at last time step:
+p(positive): 0.384380966424942
+p(negative): 0.6156190037727356
+
+
+-------------------------------
+Short positive review: 
+bàn ghế cũ vẻ lung_lay 
+
+
+Probabilities at last time step:
+p(positive): 0.20865319669246674
+p(negative): 0.7913468480110168
+
+
+-------------------------------
+Short positive review: 
+máy_chiếu thời xa_xưa không 
+
+
+Probabilities at last time step:
+p(positive): 0.4303049147129059
+p(negative): 0.5696950554847717
+
+
+-------------------------------
+Short positive review: 
+máy_chiếu thường_xuyên sự_cố không kết_nối máy_tính 
+
+
+Probabilities at last time step:
+p(positive): 0.4444134831428528
+p(negative): 0.5555864572525024
+
+
+-------------------------------
+Short positive review: 
+phòng lớn không loa micro giảng_viên dạy 
+
+
+Probabilities at last time step:
+p(positive): 0.8305783271789551
+p(negative): 0.16942164301872253
+
+
+-------------------------------
+Short positive review: 
+bảng phấn => gió thổi bụi bay phòng 
+
+
+Probabilities at last time step:
+p(positive): 0.42058125138282776
+p(negative): 0.5794187784194946
+
+
+-------------------------------
+Short positive review: 
+giảng_đường nongd lò bát_quái 
+
+
+Probabilities at last time step:
+p(positive): 0.3952101171016693
+p(negative): 0.6047898530960083
+
+
+-------------------------------
+Short positive review: 
+không chổ sinh_viên nghỉ trưa 
+
+
+Probabilities at last time step:
+p(positive): 0.4488600194454193
+p(negative): 0.5511400103569031
+
+
+-------------------------------
+Short positive review: 
+máy lọc tòa nhà chạy 
+
+
+Probabilities at last time step:
+p(positive): 0.33265388011932373
+p(negative): 0.667346179485321
+
+
+-------------------------------
+Short positive review: 
+đường tòa nhà không mái che 
+
+
+Probabilities at last time step:
+p(positive): 0.33823007345199585
+p(negative): 0.6617699265480042
+
+
+-------------------------------
+Short positive review: 
+sần nắng 
+
+
+Probabilities at last time step:
+p(positive): 0.4454253911972046
+p(negative): 0.5545745491981506
+
+
+-------------------------------
+Short positive review: 
+phòng nhỏ không phục_vụ nhu_cầu sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.6728941202163696
+p(negative): 0.32710590958595276
+
+
+-------------------------------
+Short positive review: 
+thư_viện sức chứa ít 
+
+
+Probabilities at last time step:
+p(positive): 0.2896457612514496
+p(negative): 0.710354208946228
+
+
+-------------------------------
+Short positive review: 
+thư_viện nóng 
+
+
+Probabilities at last time step:
+p(positive): 0.2745889127254486
+p(negative): 0.725411057472229
+
+
+-------------------------------
+Short positive review: 
+phòng không ổ_cắm điện 
+
+
+Probabilities at last time step:
+p(positive): 0.4898737072944641
+p(negative): 0.5101262927055359
+
+
+-------------------------------
+Short positive review: 
+phòng không cách_âm âm_thanh nhiễu 
+
+
+Probabilities at last time step:
+p(positive): 0.5521355867385864
+p(negative): 0.4478644132614136
+
+
+-------------------------------
+Short positive review: 
+máy_lạnh nóng lò_sưởi 
+
+
+Probabilities at last time step:
+p(positive): 0.28024789690971375
+p(negative): 0.7197520732879639
+
+
+-------------------------------
+Short positive review: 
+cơ_sở vật_chất tệ phòng_ốc bàn ghế máy_chiếu loa 
+
+
+Probabilities at last time step:
+p(positive): 0.4322112500667572
+p(negative): 0.5677887201309204
+
+
+-------------------------------
+Short positive review: 
+phòng bụi không quét_dọn thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.5765294432640076
+p(negative): 0.4234705865383148
+
+
+-------------------------------
+Short positive review: 
+ổ_cắm điện lớp_học cũ không an_toàn 
+
+
+Probabilities at last time step:
+p(positive): 0.20385143160820007
+p(negative): 0.7961485385894775
+
+
+-------------------------------
+Short positive review: 
+không_gian phòng nhỏ không không_gian di_chuyển 
+
+
+Probabilities at last time step:
+p(positive): 0.21095408499240875
+p(negative): 0.7890459895133972
+
+
+-------------------------------
+Short positive review: 
+băng ghế đá sân gãy thay 
+
+
+Probabilities at last time step:
+p(positive): 0.12271522730588913
+p(negative): 0.877284824848175
+
+
+-------------------------------
+Short positive review: 
+hành_lang hẹp không đèn 
+
+
+Probabilities at last time step:
+p(positive): 0.28913068771362305
+p(negative): 0.7108693718910217
+
+
+-------------------------------
+Short positive review: 
+hội_trường sức chứa nhỏ chứa sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.27625328302383423
+p(negative): 0.7237467169761658
+
+
+-------------------------------
+Short positive review: 
+không hội_trường tổ_chức tổ_chức hội_trường nhà điều_hành 
+
+
+Probabilities at last time step:
+p(positive): 0.4432428777217865
+p(negative): 0.5567571520805359
+
+
+-------------------------------
+Short positive review: 
+hệ_thống loa thường_xuyên nhiễu 
+
+
+Probabilities at last time step:
+p(positive): 0.5270841121673584
+p(negative): 0.472915917634964
+
+
+-------------------------------
+Short positive review: 
+thư_viện nhỏ ít sách 
+
+
+Probabilities at last time step:
+p(positive): 0.2580079734325409
+p(negative): 0.7419920563697815
+
+
+-------------------------------
+Short positive review: 
+thư_viện ít sách tham_khảo 
+
+
+Probabilities at last time step:
+p(positive): 0.2800133228302002
+p(negative): 0.7199866771697998
+
+
+-------------------------------
+Short positive review: 
+máy_chiếu không laptop 
+
+
+Probabilities at last time step:
+p(positive): 0.40324610471725464
+p(negative): 0.5967538952827454
+
+
+-------------------------------
+Short positive review: 
+máy_chiếu không tín_hiệu 
+
+
+Probabilities at last time step:
+p(positive): 0.4435926675796509
+p(negative): 0.5564073324203491
+
+
+-------------------------------
+Short positive review: 
+máy chiểu dởm 
+
+
+Probabilities at last time step:
+p(positive): 0.4300423264503479
+p(negative): 0.5699576139450073
+
+
+-------------------------------
+Short positive review: 
+phòng máy toàn bụi lắm không 
+
+
+Probabilities at last time step:
+p(positive): 0.5643495321273804
+p(negative): 0.43565040826797485
+
+
+-------------------------------
+Short positive review: 
+phòng máy không đur máy sinh_viên thực_hành 
+
+
+Probabilities at last time step:
+p(positive): 0.7350287437438965
+p(negative): 0.2649713158607483
+
+
+-------------------------------
+Short positive review: 
+máy phòng thực_hành yếu không đáp_ứng thực_hành sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.7492980360984802
+p(negative): 0.25070199370384216
+
+
+-------------------------------
+Short positive review: 
+sân nhỏ cổng che_khuất nhà dân 
+
+
+Probabilities at last time step:
+p(positive): 0.2458084374666214
+p(negative): 0.7541915774345398
+
+
+-------------------------------
+Short positive review: 
+không trồng cây_xanh nắng nóng 
+
+
+Probabilities at last time step:
+p(positive): 0.17934457957744598
+p(negative): 0.8206554651260376
+
+
+-------------------------------
+Short positive review: 
+cân dãy phòng phượt 
+
+
+Probabilities at last time step:
+p(positive): 0.44758838415145874
+p(negative): 0.5524116158485413
+
+
+-------------------------------
+Short positive review: 
+quán cà_phê tệ 
+
+
+Probabilities at last time step:
+p(positive): 0.2521444857120514
+p(negative): 0.747855544090271
+
+
+-------------------------------
+Short positive review: 
+không máy lọc sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.5273818373680115
+p(negative): 0.4726181924343109
+
+
+-------------------------------
+Short positive review: 
+máy lọc nhà chậm chờ 
+
+
+Probabilities at last time step:
+p(positive): 0.43178290128707886
+p(negative): 0.5682170987129211
+
+
+-------------------------------
+Short positive review: 
+đóng học_phí máy quạt hư hư 
+
+
+Probabilities at last time step:
+p(positive): 0.28700703382492065
+p(negative): 0.7129930257797241
+
+
+-------------------------------
+Short positive review: 
+hành_lang bẩn 
+
+
+Probabilities at last time step:
+p(positive): 0.38907673954963684
+p(negative): 0.6109232306480408
+
+
+-------------------------------
+Short positive review: 
+nhà_vệ_sinh bẩn 
+
+
+Probabilities at last time step:
+p(positive): 0.34854742884635925
+p(negative): 0.6514526009559631
+
+
+-------------------------------
+Short positive review: 
+nhà_vệ_sinh có_mùi kinh_khủng 
+
+
+Probabilities at last time step:
+p(positive): 0.3786100745201111
+p(negative): 0.6213899254798889
+
+
+-------------------------------
+Short positive review: 
+phòng không cách_âm ồn ảo 
+
+
+Probabilities at last time step:
+p(positive): 0.5650132298469543
+p(negative): 0.43498674035072327
+CALCAULATE 
+Positive: 22/69 => 0.3188406
+Negative: 47/69 => 0.68115944
+==================================================================
+
+
+-------------------------------
+Short negative review: 
+lớp_học trang_bị đầy_đủ thiết_bị micro máy_chiếu ổ_cắm điện 
+
+
+Probabilities at last time step:
+p(positive): 0.1326344609260559
+p(negative): 0.8673655390739441
+
+
+-------------------------------
+Short negative review: 
+phòng máy_lạnh phòng lớn trang_bị quạt_trần 
+
+
+Probabilities at last time step:
+p(positive): 0.6034648418426514
+p(negative): 0.39653509855270386
+
+
+-------------------------------
+Short negative review: 
+tòa nhà xây_dựng kiến_trúc hiện_đại bố_trí thang_máy 
+
+
+Probabilities at last time step:
+p(positive): 0.39428606629371643
+p(negative): 0.6057139039039612
+
+
+-------------------------------
+Short negative review: 
+máy phòng thực_hành cài_đặt đầy_đủ chương_trình cần_thiết sinh_viên thực_hành 
+
+
+Probabilities at last time step:
+p(positive): 0.8223443627357483
+p(negative): 0.1776556819677353
+
+
+-------------------------------
+Short negative review: 
+quán cà_phê 
+
+
+Probabilities at last time step:
+p(positive): 0.3717837929725647
+p(negative): 0.6282162666320801
+
+
+-------------------------------
+Short negative review: 
+phòng máy_lạnh trang_bị máy_tính sinh_viên mượn 
+
+
+Probabilities at last time step:
+p(positive): 0.5523844361305237
+p(negative): 0.4476155638694763
+
+
+-------------------------------
+Short negative review: 
+hành_lang lầu chào trang_bị thiết_bị sạc điện_thoại sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.36189597845077515
+p(negative): 0.6381040215492249
+
+
+-------------------------------
+Short negative review: 
+tòa nhà bố_trí hệ_thống uống tầng đỡ 
+
+
+Probabilities at last time step:
+p(positive): 0.43573835492134094
+p(negative): 0.5642616152763367
+
+
+-------------------------------
+Short negative review: 
+đường tòa nhà máy che không sợ mưa_nắng 
+
+
+Probabilities at last time step:
+p(positive): 0.34336182475090027
+p(negative): 0.6566382050514221
+
+
+-------------------------------
+Short negative review: 
+mạng miễn_phí sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.5422146320343018
+p(negative): 0.45778533816337585
+
+
+-------------------------------
+Short negative review: 
+nhà_xe máy che 
+
+
+Probabilities at last time step:
+p(positive): 0.40404054522514343
+p(negative): 0.595959484577179
+
+
+-------------------------------
+Short negative review: 
+máy_lạnh 
+
+
+Probabilities at last time step:
+p(positive): 0.353929340839386
+p(negative): 0.6460707187652588
+
+
+-------------------------------
+Short negative review: 
+sân banh sân bóng_chuyền 
+
+
+Probabilities at last time step:
+p(positive): 0.19755896925926208
+p(negative): 0.8024410605430603
+
+
+-------------------------------
+Short negative review: 
+bàn bóng_bàn sinh_viên giảng_viên luyện_tập 
+
+
+Probabilities at last time step:
+p(positive): 0.662338376045227
+p(negative): 0.3376616835594177
+
+
+-------------------------------
+Short negative review: 
+bố_trí phòng sinh_viên nghỉ trưa 
+
+
+Probabilities at last time step:
+p(positive): 0.5761167407035828
+p(negative): 0.42388322949409485
+
+
+-------------------------------
+Short negative review: 
+nhà_xe rộng bãi xe_hơi 
+
+
+Probabilities at last time step:
+p(positive): 0.21971629559993744
+p(negative): 0.7802837491035461
+
+
+-------------------------------
+Short negative review: 
+ổ_cắm điện gắn khắp chổ nghỉ trưa mát 
+
+
+Probabilities at last time step:
+p(positive): 0.09356793761253357
+p(negative): 0.906432032585144
+
+
+-------------------------------
+Short negative review: 
+kí_túc_xá thuận_tiện đi_lại 
+
+
+Probabilities at last time step:
+p(positive): 0.210446298122406
+p(negative): 0.7895536422729492
+
+
+-------------------------------
+Short negative review: 
+phòng gắn ổ_cắm điện dọc tường lớp xài 
+
+
+Probabilities at last time step:
+p(positive): 0.5443751215934753
+p(negative): 0.45562493801116943
+
+
+-------------------------------
+Short negative review: 
+tuyệt phòng máy_lạnh đà lạt 
+
+
+Probabilities at last time step:
+p(positive): 0.3835156559944153
+p(negative): 0.6164842844009399
+
+
+-------------------------------
+Short negative review: 
+máy_chiếu đẹp loa to tuyệt 
+
+
+Probabilities at last time step:
+p(positive): 0.20351998507976532
+p(negative): 0.7964800000190735
+
+
+-------------------------------
+Short negative review: 
+mạng youtube thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.3905574381351471
+p(negative): 0.6094425320625305
+
+
+-------------------------------
+Short negative review: 
+mạng khắp 
+
+
+Probabilities at last time step:
+p(positive): 0.41043147444725037
+p(negative): 0.5895684957504272
+
+
+-------------------------------
+Short negative review: 
+mạng tốc_độ 
+
+
+Probabilities at last time step:
+p(positive): 0.36923494935035706
+p(negative): 0.6307650208473206
+
+
+-------------------------------
+Short negative review: 
+mạng xài thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.36185628175735474
+p(negative): 0.6381437182426453
+
+
+-------------------------------
+Short negative review: 
+hội_trường rộng máy_lạnh 
+
+
+Probabilities at last time step:
+p(positive): 0.18599028885364532
+p(negative): 0.8140097260475159
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên xanh sạch đẹp 
+
+
+Probabilities at last time step:
+p(positive): 0.08924555778503418
+p(negative): 0.9107545018196106
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên mát ghế đá thích_hợp họp 
+
+
+Probabilities at last time step:
+p(positive): 0.0771235004067421
+p(negative): 0.9228765368461609
+
+
+-------------------------------
+Short negative review: 
+nhà_xe lắp camera yên_tâm 
+
+
+Probabilities at last time step:
+p(positive): 0.41676798462867737
+p(negative): 0.5832319855690002
+
+
+-------------------------------
+Short negative review: 
+lắp camera khắp 
+
+
+Probabilities at last time step:
+p(positive): 0.40745237469673157
+p(negative): 0.5925476551055908
+
+
+-------------------------------
+Short negative review: 
+tầng camera an_ninh 
+
+
+Probabilities at last time step:
+p(positive): 0.44537100195884705
+p(negative): 0.5546289682388306
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên cây_xanh 
+
+
+Probabilities at last time step:
+p(positive): 0.2303544282913208
+p(negative): 0.7696455717086792
+
+
+-------------------------------
+Short negative review: 
+nhà_vệ_sinh sạch_sẽ lắp gương sống ảo 
+
+
+Probabilities at last time step:
+p(positive): 0.16521093249320984
+p(negative): 0.8347890377044678
+
+
+-------------------------------
+Short negative review: 
+thư_viện máy_lạnh đầu_sách thư_viện 
+
+
+Probabilities at last time step:
+p(positive): 0.15164172649383545
+p(negative): 0.8483582735061646
+
+
+-------------------------------
+Short negative review: 
+phòng máy cấu_hình chạy mượt 
+
+
+Probabilities at last time step:
+p(positive): 0.48555582761764526
+p(negative): 0.5144441723823547
+
+
+-------------------------------
+Short negative review: 
+trung_tâm ngoại_ngữ thuận_tiện tiếng 
+
+
+Probabilities at last time step:
+p(positive): 0.7331953048706055
+p(negative): 0.26680463552474976
+
+
+-------------------------------
+Short negative review: 
+cơ_sở không di_chuyển 
+
+
+Probabilities at last time step:
+p(positive): 0.5865750908851624
+p(negative): 0.41342487931251526
+
+
+-------------------------------
+Short negative review: 
+xe đưa_đón giảng_viên sinh_viên không sợ trễ 
+
+
+Probabilities at last time step:
+p(positive): 0.6509101986885071
+p(negative): 0.3490898311138153
+
+
+-------------------------------
+Short negative review: 
+sân rộng thích_hợp hoạt_động ngoài_trời 
+
+
+Probabilities at last time step:
+p(positive): 0.24081234633922577
+p(negative): 0.759187638759613
+
+
+-------------------------------
+Short negative review: 
+tâm_lý xây_dựng đường sinh_viên khuyết_tật 
+
+
+Probabilities at last time step:
+p(positive): 0.7129684090614319
+p(negative): 0.2870316505432129
+
+
+-------------------------------
+Short negative review: 
+chuẩn vệ_sinh quán cảnh sống ảo 
+
+
+Probabilities at last time step:
+p(positive): 0.21719323098659515
+p(negative): 0.7828068137168884
+
+
+-------------------------------
+Short negative review: 
+máy điểm_danh tầng mất_công chạy 
+
+
+Probabilities at last time step:
+p(positive): 0.31391388177871704
+p(negative): 0.686086118221283
+
+
+-------------------------------
+Short negative review: 
+điểm_danh ứng_dụng hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.38019755482673645
+p(negative): 0.6198024153709412
+
+
+-------------------------------
+Short negative review: 
+rộng món ngon 
+
+
+Probabilities at last time step:
+p(positive): 0.23042401671409607
+p(negative): 0.7695760130882263
+
+
+-------------------------------
+Short negative review: 
+món thường_xuyên không ngán 
+
+
+Probabilities at last time step:
+p(positive): 0.4191029667854309
+p(negative): 0.5808970928192139
+
+
+-------------------------------
+Short negative review: 
+nhà_xe lane không quá_tải đầu 
+
+
+Probabilities at last time step:
+p(positive): 0.7160707712173462
+p(negative): 0.2839292585849762
+
+
+-------------------------------
+Short negative review: 
+phòng sáng_sủa thoải_mái giúp sinh_viên cảm_hứng học_tập 
+
+
+Probabilities at last time step:
+p(positive): 0.8310940861701965
+p(negative): 0.16890598833560944
+
+
+-------------------------------
+Short negative review: 
+trung_tâm thuận_tiện đi_lại 
+
+
+Probabilities at last time step:
+p(positive): 0.41849926114082336
+p(negative): 0.5815007090568542
+
+
+-------------------------------
+Short negative review: 
+hệ_thống website cập_nhật thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.5959938764572144
+p(negative): 0.40400612354278564
+
+
+-------------------------------
+Short negative review: 
+thư_viện rộng hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.1558007299900055
+p(negative): 0.8441992402076721
+
+
+-------------------------------
+Short negative review: 
+sân rộng cây_xanh thích_hợp hoạt_động ngoại khóa 
+
+
+Probabilities at last time step:
+p(positive): 0.3101198673248291
+p(negative): 0.6898800730705261
+
+
+-------------------------------
+Short negative review: 
+sân lát gạch sạch_sẽ 
+
+
+Probabilities at last time step:
+p(positive): 0.22246482968330383
+p(negative): 0.7775352001190186
+
+
+-------------------------------
+Short negative review: 
+phòng nhà_vệ_sinh quét_dọn thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.5338647961616516
+p(negative): 0.4661352038383484
+
+
+-------------------------------
+Short negative review: 
+làng yên_tĩnh an_ninh 
+
+
+Probabilities at last time step:
+p(positive): 0.30698639154434204
+p(negative): 0.693013608455658
+
+
+-------------------------------
+Short negative review: 
+hội_trường sức chứa lớn thoáng mát 
+
+
+Probabilities at last time step:
+p(positive): 0.1263100802898407
+p(negative): 0.8736899495124817
+
+
+-------------------------------
+Short negative review: 
+bàn ghế mới_tinh thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.2905716001987457
+p(negative): 0.7094284296035767
+
+
+-------------------------------
+Short negative review: 
+chổ nghỉ trưa mát_mẻ yên_tĩnh 
+
+
+Probabilities at last time step:
+p(positive): 0.145782470703125
+p(negative): 0.8542175889015198
+
+
+-------------------------------
+Short negative review: 
+phòng trang_trí đẹp cách_âm 
+
+
+Probabilities at last time step:
+p(positive): 0.393682599067688
+p(negative): 0.6063173413276672
+
+
+-------------------------------
+Short negative review: 
+thang_máy bảo_trì thường_xuyên yên_tâm 
+
+
+Probabilities at last time step:
+p(positive): 0.38633736968040466
+p(negative): 0.6136626601219177
+
+
+-------------------------------
+Short negative review: 
+cơ_sở vật_chất kiểm_định thường_xuyên 
+
+
+Probabilities at last time step:
+p(positive): 0.7087705731391907
+p(negative): 0.2912294268608093
+
+
+-------------------------------
+Short negative review: 
+mạng miễn_phí mạng sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.4796682298183441
+p(negative): 0.5203317999839783
+
+
+-------------------------------
+Short negative review: 
+giảng_đường thiết_kế hiện_đại thoáng 
+
+
+Probabilities at last time step:
+p(positive): 0.15227583050727844
+p(negative): 0.847724199295044
+
+
+-------------------------------
+Short negative review: 
+nhà_vệ_sinh rộng hệ_thống nước_sạch 
+
+
+Probabilities at last time step:
+p(positive): 0.34834593534469604
+p(negative): 0.6516540050506592
+
+
+-------------------------------
+Short negative review: 
+hệ_thống liên thư viên sách đa_dạng dồi_dào 
+
+
+Probabilities at last time step:
+p(positive): 0.5026673674583435
+p(negative): 0.4973325729370117
+
+
+-------------------------------
+Short negative review: 
+phòng bố_trí tòa nhà 
+
+
+Probabilities at last time step:
+p(positive): 0.6330614686012268
+p(negative): 0.3669385313987732
+
+
+-------------------------------
+Short negative review: 
+phòng máy hiện_đại cáp mạng tuyệt_vời 
+
+
+Probabilities at last time step:
+p(positive): 0.44641438126564026
+p(negative): 0.5535856485366821
+
+
+-------------------------------
+Short negative review: 
+xe_buýt đưa_đón sinh_viên bến xe_buýt thuận_tiện sinh_viên đi_lại 
+
+
+Probabilities at last time step:
+p(positive): 0.4192432165145874
+p(negative): 0.5807567834854126
+
+
+-------------------------------
+Short negative review: 
+xe rước sinh_viên thuận tiên 
+
+
+Probabilities at last time step:
+p(positive): 0.5585427284240723
+p(negative): 0.44145724177360535
+
+
+-------------------------------
+Short negative review: 
+nâng_cấp sân bóng phục_vụ giải bóng_đá 
+
+
+Probabilities at last time step:
+p(positive): 0.12920644879341125
+p(negative): 0.8707935810089111
+
+
+-------------------------------
+Short negative review: 
+sân_sau vòng tập lái_xe 
+
+
+Probabilities at last time step:
+p(positive): 0.4123460352420807
+p(negative): 0.5876539945602417
+
+
+-------------------------------
+Short negative review: 
+hệ_thống tưới tự_động hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.372843474149704
+p(negative): 0.6271565556526184
+
+
+-------------------------------
+Short negative review: 
+phòng lab sinh_viên tham_gia nghiên_cứu 
+
+
+Probabilities at last time step:
+p(positive): 0.8468843698501587
+p(negative): 0.1531156301498413
+
+
+-------------------------------
+Short negative review: 
+phòng không_gian 
+
+
+Probabilities at last time step:
+p(positive): 0.4208146035671234
+p(negative): 0.579185426235199
+
+
+-------------------------------
+Short negative review: 
+chổ vẻ tranh_tường sống ảo thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.2924480140209198
+p(negative): 0.7075520157814026
+
+
+-------------------------------
+Short negative review: 
+hồ cá đẹp 
+
+
+Probabilities at last time step:
+p(positive): 0.3013090491294861
+p(negative): 0.6986909508705139
+
+
+-------------------------------
+Short negative review: 
+thư_viện khoa tủ_sách tham_khảo sinh_viên mượn 
+
+
+Probabilities at last time step:
+p(positive): 0.5255294442176819
+p(negative): 0.4744705557823181
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên hồ cá công_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.27909940481185913
+p(negative): 0.7209005355834961
+
+
+-------------------------------
+Short negative review: 
+sân rộng mát hoạt_động khóa thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.274724543094635
+p(negative): 0.7252753973007202
+
+
+-------------------------------
+Short negative review: 
+nhà_ăn món 
+
+
+Probabilities at last time step:
+p(positive): 0.3392913043498993
+p(negative): 0.6607086658477783
+
+
+-------------------------------
+Short negative review: 
+món vặt 
+
+
+Probabilities at last time step:
+p(positive): 0.39006105065345764
+p(negative): 0.60993891954422
+
+
+-------------------------------
+Short negative review: 
+phòng kính sáng_sủa rèm cửa 
+
+
+Probabilities at last time step:
+p(positive): 0.5100008249282837
+p(negative): 0.4899992048740387
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên mát 
+
+
+Probabilities at last time step:
+p(positive): 0.19774430990219116
+p(negative): 0.8022556304931641
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên sạch_sẽ thoáng mát cây_xanh 
+
+
+Probabilities at last time step:
+p(positive): 0.05098986625671387
+p(negative): 0.9490101337432861
+
+
+-------------------------------
+Short negative review: 
+khuôn_viên thoáng_đãng 
+
+
+Probabilities at last time step:
+p(positive): 0.2820337414741516
+p(negative): 0.7179662585258484
+
+
+-------------------------------
+Short negative review: 
+xây_dựng kiến_trúc hiện_đại trang_thiết_bị hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.20949849486351013
+p(negative): 0.7905014753341675
+
+
+-------------------------------
+Short negative review: 
+tòa nhà bản_đồ tầng không sợ lạc 
+
+
+Probabilities at last time step:
+p(positive): 0.4565650224685669
+p(negative): 0.5434349775314331
+
+
+-------------------------------
+Short negative review: 
+trông mùa 
+
+
+Probabilities at last time step:
+p(positive): 0.39055484533309937
+p(negative): 0.6094451546669006
+
+
+-------------------------------
+Short negative review: 
+phòng thiết_kế linh_động thích_hợp hoạt_động lớp 
+
+
+Probabilities at last time step:
+p(positive): 0.7413361668586731
+p(negative): 0.2586638629436493
+
+
+-------------------------------
+Short negative review: 
+phòng thiết_kế hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.47333618998527527
+p(negative): 0.5266637802124023
+
+
+-------------------------------
+Short negative review: 
+phòng đầy_đủ ánh_sáng 
+
+
+Probabilities at last time step:
+p(positive): 0.4311515688896179
+p(negative): 0.5688484311103821
+
+
+-------------------------------
+Short negative review: 
+mạng xài thoải_mái phòng cáp sinh_viên nhu_cầu cáp mạng 
+
+
+Probabilities at last time step:
+p(positive): 0.6487199664115906
+p(negative): 0.3512800931930542
+
+
+-------------------------------
+Short negative review: 
+phòng thiết_kế kiểu châu hiện_đại gần_gũi 
+
+
+Probabilities at last time step:
+p(positive): 0.5886806845664978
+p(negative): 0.4113193452358246
+
+
+-------------------------------
+Short negative review: 
+đầy_đủ phòng đáp_ứng không thường_xuyên chạy phòng 
+
+
+Probabilities at last time step:
+p(positive): 0.4984707832336426
+p(negative): 0.5015292167663574
+
+
+-------------------------------
+Short negative review: 
+phòng cách_âm 
+
+
+Probabilities at last time step:
+p(positive): 0.5392157435417175
+p(negative): 0.46078431606292725
+
+
+-------------------------------
+Short negative review: 
+phòng thiết_kế không_gian 
+
+
+Probabilities at last time step:
+p(positive): 0.4878453016281128
+p(negative): 0.5121546983718872
+
+
+-------------------------------
+Short negative review: 
+phòng bố_trí linh_động tùy số_lượng sinh_viên lớp phòng 
+
+
+Probabilities at last time step:
+p(positive): 0.7865655422210693
+p(negative): 0.21343448758125305
+
+
+-------------------------------
+Short negative review: 
+phòng hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.40767428278923035
+p(negative): 0.5923256874084473
+
+
+-------------------------------
+Short negative review: 
+phòng chuẩn 
+
+
+Probabilities at last time step:
+p(positive): 0.6263786554336548
+p(negative): 0.37362140417099
+
+
+-------------------------------
+Short negative review: 
+máy_chiếu xịn 
+
+
+Probabilities at last time step:
+p(positive): 0.39285051822662354
+p(negative): 0.6071494817733765
+
+
+-------------------------------
+Short negative review: 
+phòng xịn 
+
+
+Probabilities at last time step:
+p(positive): 0.5080650448799133
+p(negative): 0.49193498492240906
+
+
+-------------------------------
+Short negative review: 
+lớp_học hiện_đại trang_thiết_bị chuẩn 
+
+
+Probabilities at last time step:
+p(positive): 0.2371310144662857
+p(negative): 0.7628690004348755
+
+
+-------------------------------
+Short negative review: 
+phòng đầy_đủ thiết_bị dạy 
+
+
+Probabilities at last time step:
+p(positive): 0.5537396669387817
+p(negative): 0.4462602734565735
+
+
+-------------------------------
+Short negative review: 
+vô lớp_học mát lạnh 
+
+
+Probabilities at last time step:
+p(positive): 0.19729948043823242
+p(negative): 0.8027005195617676
+
+
+-------------------------------
+Short negative review: 
+phòng lắp điện dọc vách tường sinh_viên nhà_trường tâm_lí 
+
+
+Probabilities at last time step:
+p(positive): 0.6752222776412964
+p(negative): 0.3247776925563812
+
+
+-------------------------------
+Short negative review: 
+hệ_thống loa to 
+
+
+Probabilities at last time step:
+p(positive): 0.4647686183452606
+p(negative): 0.535231351852417
+
+
+-------------------------------
+Short negative review: 
+nhà_vệ_sinh hiện_đại xà_phòng máy_sấy 
+
+
+Probabilities at last time step:
+p(positive): 0.2474582940340042
+p(negative): 0.752541720867157
+
+
+-------------------------------
+Short negative review: 
+vô lạc vô không_gian kiến_trúc châu âu phòng máy_lạnh cảm_giác pari 
+
+
+Probabilities at last time step:
+p(positive): 0.21722690761089325
+p(negative): 0.7827730774879456
+
+
+-------------------------------
+Short negative review: 
+camera an_ninh khắp yên_tâm 
+
+
+Probabilities at last time step:
+p(positive): 0.4554380178451538
+p(negative): 0.5445619821548462
+
+
+-------------------------------
+Short negative review: 
+thư_viện lắp camera an_ninh 
+
+
+Probabilities at last time step:
+p(positive): 0.27617400884628296
+p(negative): 0.7238260507583618
+
+
+-------------------------------
+Short negative review: 
+thư_viện sách sách tham_khảo mà_còn sách kĩ_năng 
+
+
+Probabilities at last time step:
+p(positive): 0.21559123694896698
+p(negative): 0.7844088077545166
+
+
+-------------------------------
+Short negative review: 
+tài_liệu giấy triển_khai hệ_thống thư_viện cung_cấp tài_nguyên sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.5869074463844299
+p(negative): 0.4130925238132477
+
+
+-------------------------------
+Short negative review: 
+máy cảm_xúc phòng ctsv cute 
+
+
+Probabilities at last time step:
+p(positive): 0.48768940567970276
+p(negative): 0.5123105645179749
+
+
+-------------------------------
+Short negative review: 
+tầng tòa nhà máy hàng tự_động mất_công mua 
+
+
+Probabilities at last time step:
+p(positive): 0.4750243127346039
+p(negative): 0.5249756574630737
+
+
+-------------------------------
+Short negative review: 
+bàn bóng_bàn nhà phục_vụ sinh_viên kí 
+
+
+Probabilities at last time step:
+p(positive): 0.5783254504203796
+p(negative): 0.421674519777298
+
+
+-------------------------------
+Short negative review: 
+triển_khai hệ_thống sinh_viên mượn xe_đạp di_chuyển 
+
+
+Probabilities at last time step:
+p(positive): 0.6202912330627441
+p(negative): 0.37970873713493347
+
+
+-------------------------------
+Short negative review: 
+cổng xây to đẹp 
+
+
+Probabilities at last time step:
+p(positive): 0.16977675259113312
+p(negative): 0.8302232623100281
+
+
+-------------------------------
+Short negative review: 
+cổng đẹp 
+
+
+Probabilities at last time step:
+p(positive): 0.25462666153907776
+p(negative): 0.7453733682632446
+
+
+-------------------------------
+Short negative review: 
+vô màn_hình to đẹp quảng_cáo 
+
+
+Probabilities at last time step:
+p(positive): 0.21498902142047882
+p(negative): 0.7850109934806824
+
+
+-------------------------------
+Short negative review: 
+bảng điện_tử tuyệt 
+
+
+Probabilities at last time step:
+p(positive): 0.41089850664138794
+p(negative): 0.5891015529632568
+
+
+-------------------------------
+Short negative review: 
+lắp đèn tự_hào 
+
+
+Probabilities at last time step:
+p(positive): 0.37886956334114075
+p(negative): 0.6211304068565369
+
+
+-------------------------------
+Short negative review: 
+đầu ngành công_nghệ_thông_tin trang_thiết_bị hiện_đại toàn đồ xịn 
+
+
+Probabilities at last time step:
+p(positive): 0.6780408620834351
+p(negative): 0.32195913791656494
+
+
+-------------------------------
+Short negative review: 
+thư_viện chia thành chào khu_vực khu thiết_kế kiểu nhật 
+
+
+Probabilities at last time step:
+p(positive): 0.5564327836036682
+p(negative): 0.4435672461986542
+
+
+-------------------------------
+Short negative review: 
+hành_lang mát phòng máy_lạnh 
+
+
+Probabilities at last time step:
+p(positive): 0.20141589641571045
+p(negative): 0.7985840439796448
+
+
+-------------------------------
+Short negative review: 
+xây_dựng đẹp phòng_ốc sạch_sẽ máy_lạnh máy_chiếu đầy_đủ mục_đích phục_vụ 
+
+
+Probabilities at last time step:
+p(positive): 0.09658677130937576
+p(negative): 0.9034131765365601
+
+
+-------------------------------
+Short negative review: 
+đẹp khang_trang 
+
+
+Probabilities at last time step:
+p(positive): 0.17134058475494385
+p(negative): 0.8286594152450562
+
+
+-------------------------------
+Short negative review: 
+phòng_ốc sạch_sẽ máy_lạnh máy_chiếu loa 
+
+
+Probabilities at last time step:
+p(positive): 0.145298033952713
+p(negative): 0.8547019362449646
+
+
+-------------------------------
+Short negative review: 
+phòng khang_trang 
+
+
+Probabilities at last time step:
+p(positive): 0.37053585052490234
+p(negative): 0.6294641494750977
+
+
+-------------------------------
+Short negative review: 
+cơ_sở vật_chất xứng_đáng giá tiền không thất_vọng 
+
+
+Probabilities at last time step:
+p(positive): 0.7148399353027344
+p(negative): 0.2851600646972656
+
+
+-------------------------------
+Short negative review: 
+tận chào an uống thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.4992567300796509
+p(negative): 0.5007432699203491
+
+
+-------------------------------
+Short negative review: 
+quán cà_phê ổn chổ sinh_viên nghỉ trưa 
+
+
+Probabilities at last time step:
+p(positive): 0.2631000280380249
+p(negative): 0.7368999123573303
+
+
+-------------------------------
+Short negative review: 
+bật nhạc máy_lạnh nhạc 
+
+
+Probabilities at last time step:
+p(positive): 0.25110748410224915
+p(negative): 0.7488925457000732
+
+
+-------------------------------
+Short negative review: 
+bãi xe rộng 
+
+
+Probabilities at last time step:
+p(positive): 0.21206003427505493
+p(negative): 0.7879399657249451
+
+
+-------------------------------
+Short negative review: 
+bãi gửi xe_hơi 
+
+
+Probabilities at last time step:
+p(positive): 0.27886539697647095
+p(negative): 0.7211345434188843
+
+
+-------------------------------
+Short negative review: 
+phòng máy rộng sạch_sẽ 
+
+
+Probabilities at last time step:
+p(positive): 0.3051263988018036
+p(negative): 0.694873571395874
+
+
+-------------------------------
+Short negative review: 
+máy hàng tự_động tiện 
+
+
+Probabilities at last time step:
+p(positive): 0.43269824981689453
+p(negative): 0.5673017501831055
+
+
+-------------------------------
+Short negative review: 
+sảnh rộng thoáng thích_hợp sinh_hoạt tập_thể 
+
+
+Probabilities at last time step:
+p(positive): 0.1042417585849762
+p(negative): 0.8957582712173462
+
+
+-------------------------------
+Short negative review: 
+sảnh bố_trí bàn sinh_viên nghỉ trưa họp 
+
+
+Probabilities at last time step:
+p(positive): 0.32211604714393616
+p(negative): 0.6778839826583862
+
+
+-------------------------------
+Short negative review: 
+rộng_rãi mát mẽ khang_trang hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.05833752080798149
+p(negative): 0.9416624903678894
+
+
+-------------------------------
+Short negative review: 
+cơ_sở diện_tích lớn 
+
+
+Probabilities at last time step:
+p(positive): 0.7326822876930237
+p(negative): 0.26731768250465393
+
+
+-------------------------------
+Short negative review: 
+phòng yên_tĩnh 
+
+
+Probabilities at last time step:
+p(positive): 0.447439581155777
+p(negative): 0.5525604486465454
+
+
+-------------------------------
+Short negative review: 
+không_gian yên_tĩnh san rộng_rãi phòng hiên đại 
+
+
+Probabilities at last time step:
+p(positive): 0.1622728854417801
+p(negative): 0.8377271294593811
+
+
+-------------------------------
+Short negative review: 
+xây_dựng dãy nhà mở_rộng số_lượng phòng phòng phục_vụ sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.7899980545043945
+p(negative): 0.21000194549560547
+
+
+-------------------------------
+Short negative review: 
+cơ_sở vật_chất nhà_trường cải_thiện liên_tục phục_vụ dạy 
+
+
+Probabilities at last time step:
+p(positive): 0.784382164478302
+p(negative): 0.215617835521698
+
+
+-------------------------------
+Short negative review: 
+phòng lab hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.36819636821746826
+p(negative): 0.631803572177887
+
+
+-------------------------------
+Short negative review: 
+phòng máy hoàn_hảo mạng máy 
+
+
+Probabilities at last time step:
+p(positive): 0.4798911511898041
+p(negative): 0.5201088786125183
+
+
+-------------------------------
+Short negative review: 
+mạng 
+
+
+Probabilities at last time step:
+p(positive): 0.4125836491584778
+p(negative): 0.5874162912368774
+
+
+-------------------------------
+Short negative review: 
+thư_viện online thư_viện không chen_chúc thư_viện 
+
+
+Probabilities at last time step:
+p(positive): 0.15235576033592224
+p(negative): 0.8476442694664001
+
+
+-------------------------------
+Short negative review: 
+thư_viện đầu_sách ý_nghĩa 
+
+
+Probabilities at last time step:
+p(positive): 0.2994278371334076
+p(negative): 0.7005721926689148
+
+
+-------------------------------
+Short negative review: 
+hệ_thống liên thư viên giúp sinh_viên mượn sách 
+
+
+Probabilities at last time step:
+p(positive): 0.6408095955848694
+p(negative): 0.359190434217453
+
+
+-------------------------------
+Short negative review: 
+tranh_tường sống ảo 
+
+
+Probabilities at last time step:
+p(positive): 0.41531404852867126
+p(negative): 0.5846859216690063
+
+
+-------------------------------
+Short negative review: 
+tranh_tường sống ảo thoải_mái 
+
+
+Probabilities at last time step:
+p(positive): 0.3747905194759369
+p(negative): 0.6252094507217407
+
+
+-------------------------------
+Short negative review: 
+sân đẹp góc sống ảo chụp hình 
+
+
+Probabilities at last time step:
+p(positive): 0.09496869146823883
+p(negative): 0.9050312638282776
+
+
+-------------------------------
+Short negative review: 
+tòa nhà làng 
+
+
+Probabilities at last time step:
+p(positive): 0.5084409713745117
+p(negative): 0.49155905842781067
+
+
+-------------------------------
+Short negative review: 
+tòa nhà hiện_đại bảo_vệ an_ninh 
+
+
+Probabilities at last time step:
+p(positive): 0.35751017928123474
+p(negative): 0.6424898505210876
+
+
+-------------------------------
+Short negative review: 
+camera an_ninh gắn khắp 
+
+
+Probabilities at last time step:
+p(positive): 0.4399685859680176
+p(negative): 0.5600314140319824
+
+
+-------------------------------
+Short negative review: 
+hành_lang băng ghế sinh_viên nghỉ_ngơi 
+
+
+Probabilities at last time step:
+p(positive): 0.38665011525154114
+p(negative): 0.6133499145507812
+
+
+-------------------------------
+Short negative review: 
+thang_máy phục_vụ nhu_cầu di_chuyển sinh_viên 
+
+
+Probabilities at last time step:
+p(positive): 0.4735124409198761
+p(negative): 0.5264875888824463
+
+
+-------------------------------
+Short negative review: 
+thang_máy xịn 
+
+
+Probabilities at last time step:
+p(positive): 0.3537554144859314
+p(negative): 0.6462446451187134
+
+
+-------------------------------
+Short negative review: 
+cơ_sở vật_chất hiện_đại 
+
+
+Probabilities at last time step:
+p(positive): 0.5062959790229797
+p(negative): 0.49370408058166504
+
+
+-------------------------------
+Short negative review: 
+nhà_thi_đấu phục_vụ đầy_đủ cacd môn thể_thao 
+
+
+Probabilities at last time step:
+p(positive): 0.2081022709608078
+p(negative): 0.7918977737426758
+
+
+-------------------------------
+Short negative review: 
+hồ bơi sinh_viên luyện_tập 
+
+
+Probabilities at last time step:
+p(positive): 0.564621090888977
+p(negative): 0.43537893891334534
+
+
+-------------------------------
+Short negative review: 
+nhà_thi_đấu lớn 
+
+
+Probabilities at last time step:
+p(positive): 0.5210404992103577
+p(negative): 0.4789595603942871
+
+
+-------------------------------
+Short negative review: 
+hồ bơi hồ 
+
+
+Probabilities at last time step:
+p(positive): 0.4586203098297119
+p(negative): 0.5413796901702881
+
+
+-------------------------------
+Short negative review: 
+cơ_sở vật_chất đáp_ứng đầy_đủ nhu_cầu dạy hài_lòng 
+
+
+Probabilities at last time step:
+p(positive): 0.7617611885070801
+p(negative): 0.23823879659175873
+
+
+-------------------------------
+Short negative review: 
+thất_vọng cơ_sở vật_chất 
+
+
+Probabilities at last time step:
+p(positive): 0.6205182671546936
+p(negative): 0.3794817626476288
+
+
+-------------------------------
+Short negative review: 
+xanh sạch đẹp 
+
+
+Probabilities at last time step:
+p(positive): 0.1289995014667511
+p(negative): 0.8710004687309265
+CALCAULATE 
+Positive: 47/166 => 0.28313252
+Negative: 119/166 => 0.71686745
+----- Example complete -----
+

@@ -1,0 +1,999 @@
+log4j:WARN No appenders could be found for logger (org.nd4j.linalg.factory.Nd4jBackend).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớp_học trang_bị đầy_đủ thiết_bị micro máy_chiếu ổ_cắm điện 
+p(positive): 0.1326344609260559
+p(negative): 0.8673655390739441
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tòa nhà xây_dựng kiến_trúc hiện_đại bố_trí thang_máy 
+p(positive): 0.39428606629371643
+p(negative): 0.6057139039039612
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+quán cà_phê 
+p(positive): 0.3717837929725647
+p(negative): 0.6282162666320801
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hành_lang lầu chào trang_bị thiết_bị sạc điện_thoại sinh_viên 
+p(positive): 0.36189597845077515
+p(negative): 0.6381040215492249
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tòa nhà bố_trí hệ_thống uống tầng đỡ 
+p(positive): 0.43573835492134094
+p(negative): 0.5642616152763367
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đường tòa nhà máy che không sợ mưa_nắng 
+p(positive): 0.34336182475090027
+p(negative): 0.6566382050514221
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_xe máy che 
+p(positive): 0.40404054522514343
+p(negative): 0.595959484577179
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy_lạnh 
+p(positive): 0.353929340839386
+p(negative): 0.6460707187652588
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân banh sân bóng_chuyền 
+p(positive): 0.19755896925926208
+p(negative): 0.8024410605430603
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_xe rộng bãi xe_hơi 
+p(positive): 0.21971629559993744
+p(negative): 0.7802837491035461
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+ổ_cắm điện gắn khắp chổ nghỉ trưa mát 
+p(positive): 0.09356793761253357
+p(negative): 0.906432032585144
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+kí_túc_xá thuận_tiện đi_lại 
+p(positive): 0.210446298122406
+p(negative): 0.7895536422729492
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tuyệt phòng máy_lạnh đà lạt 
+p(positive): 0.3835156559944153
+p(negative): 0.6164842844009399
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy_chiếu đẹp loa to tuyệt 
+p(positive): 0.20351998507976532
+p(negative): 0.7964800000190735
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng youtube thoải_mái 
+p(positive): 0.3905574381351471
+p(negative): 0.6094425320625305
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng khắp 
+p(positive): 0.41043147444725037
+p(negative): 0.5895684957504272
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng tốc_độ 
+p(positive): 0.36923494935035706
+p(negative): 0.6307650208473206
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng xài thoải_mái 
+p(positive): 0.36185628175735474
+p(negative): 0.6381437182426453
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hội_trường rộng máy_lạnh 
+p(positive): 0.18599028885364532
+p(negative): 0.8140097260475159
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên xanh sạch đẹp 
+p(positive): 0.08924555778503418
+p(negative): 0.9107545018196106
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên mát ghế đá thích_hợp họp 
+p(positive): 0.0771235004067421
+p(negative): 0.9228765368461609
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_xe lắp camera yên_tâm 
+p(positive): 0.41676798462867737
+p(negative): 0.5832319855690002
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lắp camera khắp 
+p(positive): 0.40745237469673157
+p(negative): 0.5925476551055908
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tầng camera an_ninh 
+p(positive): 0.44537100195884705
+p(negative): 0.5546289682388306
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên cây_xanh 
+p(positive): 0.2303544282913208
+p(negative): 0.7696455717086792
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_vệ_sinh sạch_sẽ lắp gương sống ảo 
+p(positive): 0.16521093249320984
+p(negative): 0.8347890377044678
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện máy_lạnh đầu_sách thư_viện 
+p(positive): 0.15164172649383545
+p(negative): 0.8483582735061646
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng máy cấu_hình chạy mượt 
+p(positive): 0.48555582761764526
+p(negative): 0.5144441723823547
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân rộng thích_hợp hoạt_động ngoài_trời 
+p(positive): 0.24081234633922577
+p(negative): 0.759187638759613
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chuẩn vệ_sinh quán cảnh sống ảo 
+p(positive): 0.21719323098659515
+p(negative): 0.7828068137168884
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy điểm_danh tầng mất_công chạy 
+p(positive): 0.31391388177871704
+p(negative): 0.686086118221283
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+điểm_danh ứng_dụng hiện_đại 
+p(positive): 0.38019755482673645
+p(negative): 0.6198024153709412
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rộng món ngon 
+p(positive): 0.23042401671409607
+p(negative): 0.7695760130882263
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+món thường_xuyên không ngán 
+p(positive): 0.4191029667854309
+p(negative): 0.5808970928192139
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trung_tâm thuận_tiện đi_lại 
+p(positive): 0.41849926114082336
+p(negative): 0.5815007090568542
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện rộng hiện_đại 
+p(positive): 0.1558007299900055
+p(negative): 0.8441992402076721
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân rộng cây_xanh thích_hợp hoạt_động ngoại khóa 
+p(positive): 0.3101198673248291
+p(negative): 0.6898800730705261
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân lát gạch sạch_sẽ 
+p(positive): 0.22246482968330383
+p(negative): 0.7775352001190186
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+làng yên_tĩnh an_ninh 
+p(positive): 0.30698639154434204
+p(negative): 0.693013608455658
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hội_trường sức chứa lớn thoáng mát 
+p(positive): 0.1263100802898407
+p(negative): 0.8736899495124817
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bàn ghế mới_tinh thoải_mái 
+p(positive): 0.2905716001987457
+p(negative): 0.7094284296035767
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chổ nghỉ trưa mát_mẻ yên_tĩnh 
+p(positive): 0.145782470703125
+p(negative): 0.8542175889015198
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng trang_trí đẹp cách_âm 
+p(positive): 0.393682599067688
+p(negative): 0.6063173413276672
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thang_máy bảo_trì thường_xuyên yên_tâm 
+p(positive): 0.38633736968040466
+p(negative): 0.6136626601219177
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng miễn_phí mạng sinh_viên 
+p(positive): 0.4796682298183441
+p(negative): 0.5203317999839783
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+giảng_đường thiết_kế hiện_đại thoáng 
+p(positive): 0.15227583050727844
+p(negative): 0.847724199295044
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_vệ_sinh rộng hệ_thống nước_sạch 
+p(positive): 0.34834593534469604
+p(negative): 0.6516540050506592
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng máy hiện_đại cáp mạng tuyệt_vời 
+p(positive): 0.44641438126564026
+p(negative): 0.5535856485366821
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xe_buýt đưa_đón sinh_viên bến xe_buýt thuận_tiện sinh_viên đi_lại 
+p(positive): 0.4192432165145874
+p(negative): 0.5807567834854126
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nâng_cấp sân bóng phục_vụ giải bóng_đá 
+p(positive): 0.12920644879341125
+p(negative): 0.8707935810089111
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân_sau vòng tập lái_xe 
+p(positive): 0.4123460352420807
+p(negative): 0.5876539945602417
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hệ_thống tưới tự_động hiện_đại 
+p(positive): 0.372843474149704
+p(negative): 0.6271565556526184
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng không_gian 
+p(positive): 0.4208146035671234
+p(negative): 0.579185426235199
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+chổ vẻ tranh_tường sống ảo thoải_mái 
+p(positive): 0.2924480140209198
+p(negative): 0.7075520157814026
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hồ cá đẹp 
+p(positive): 0.3013090491294861
+p(negative): 0.6986909508705139
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên hồ cá công_viên 
+p(positive): 0.27909940481185913
+p(negative): 0.7209005355834961
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân rộng mát hoạt_động khóa thoải_mái 
+p(positive): 0.274724543094635
+p(negative): 0.7252753973007202
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_ăn món 
+p(positive): 0.3392913043498993
+p(negative): 0.6607086658477783
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+món vặt 
+p(positive): 0.39006105065345764
+p(negative): 0.60993891954422
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên mát 
+p(positive): 0.19774430990219116
+p(negative): 0.8022556304931641
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên sạch_sẽ thoáng mát cây_xanh 
+p(positive): 0.05098986625671387
+p(negative): 0.9490101337432861
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+khuôn_viên thoáng_đãng 
+p(positive): 0.2820337414741516
+p(negative): 0.7179662585258484
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xây_dựng kiến_trúc hiện_đại trang_thiết_bị hiện_đại 
+p(positive): 0.20949849486351013
+p(negative): 0.7905014753341675
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tòa nhà bản_đồ tầng không sợ lạc 
+p(positive): 0.4565650224685669
+p(negative): 0.5434349775314331
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+trông mùa 
+p(positive): 0.39055484533309937
+p(negative): 0.6094451546669006
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng thiết_kế hiện_đại 
+p(positive): 0.47333618998527527
+p(negative): 0.5266637802124023
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng đầy_đủ ánh_sáng 
+p(positive): 0.4311515688896179
+p(negative): 0.5688484311103821
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đầy_đủ phòng đáp_ứng không thường_xuyên chạy phòng 
+p(positive): 0.4984707832336426
+p(negative): 0.5015292167663574
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng thiết_kế không_gian 
+p(positive): 0.4878453016281128
+p(negative): 0.5121546983718872
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng hiện_đại 
+p(positive): 0.40767428278923035
+p(negative): 0.5923256874084473
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy_chiếu xịn 
+p(positive): 0.39285051822662354
+p(negative): 0.6071494817733765
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lớp_học hiện_đại trang_thiết_bị chuẩn 
+p(positive): 0.2371310144662857
+p(negative): 0.7628690004348755
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vô lớp_học mát lạnh 
+p(positive): 0.19729948043823242
+p(negative): 0.8027005195617676
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hệ_thống loa to 
+p(positive): 0.4647686183452606
+p(negative): 0.535231351852417
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_vệ_sinh hiện_đại xà_phòng máy_sấy 
+p(positive): 0.2474582940340042
+p(negative): 0.752541720867157
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vô lạc vô không_gian kiến_trúc châu âu phòng máy_lạnh cảm_giác pari 
+p(positive): 0.21722690761089325
+p(negative): 0.7827730774879456
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+camera an_ninh khắp yên_tâm 
+p(positive): 0.4554380178451538
+p(negative): 0.5445619821548462
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện lắp camera an_ninh 
+p(positive): 0.27617400884628296
+p(negative): 0.7238260507583618
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện sách sách tham_khảo mà_còn sách kĩ_năng 
+p(positive): 0.21559123694896698
+p(negative): 0.7844088077545166
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy cảm_xúc phòng ctsv cute 
+p(positive): 0.48768940567970276
+p(negative): 0.5123105645179749
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tầng tòa nhà máy hàng tự_động mất_công mua 
+p(positive): 0.4750243127346039
+p(negative): 0.5249756574630737
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cổng xây to đẹp 
+p(positive): 0.16977675259113312
+p(negative): 0.8302232623100281
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+cổng đẹp 
+p(positive): 0.25462666153907776
+p(negative): 0.7453733682632446
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+vô màn_hình to đẹp quảng_cáo 
+p(positive): 0.21498902142047882
+p(negative): 0.7850109934806824
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bảng điện_tử tuyệt 
+p(positive): 0.41089850664138794
+p(negative): 0.5891015529632568
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+lắp đèn tự_hào 
+p(positive): 0.37886956334114075
+p(negative): 0.6211304068565369
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hành_lang mát phòng máy_lạnh 
+p(positive): 0.20141589641571045
+p(negative): 0.7985840439796448
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xây_dựng đẹp phòng_ốc sạch_sẽ máy_lạnh máy_chiếu đầy_đủ mục_đích phục_vụ 
+p(positive): 0.09658677130937576
+p(negative): 0.9034131765365601
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+đẹp khang_trang 
+p(positive): 0.17134058475494385
+p(negative): 0.8286594152450562
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng_ốc sạch_sẽ máy_lạnh máy_chiếu loa 
+p(positive): 0.145298033952713
+p(negative): 0.8547019362449646
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng khang_trang 
+p(positive): 0.37053585052490234
+p(negative): 0.6294641494750977
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tận chào an uống thoải_mái 
+p(positive): 0.4992567300796509
+p(negative): 0.5007432699203491
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+quán cà_phê ổn chổ sinh_viên nghỉ trưa 
+p(positive): 0.2631000280380249
+p(negative): 0.7368999123573303
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bật nhạc máy_lạnh nhạc 
+p(positive): 0.25110748410224915
+p(negative): 0.7488925457000732
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bãi xe rộng 
+p(positive): 0.21206003427505493
+p(negative): 0.7879399657249451
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+bãi gửi xe_hơi 
+p(positive): 0.27886539697647095
+p(negative): 0.7211345434188843
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng máy rộng sạch_sẽ 
+p(positive): 0.3051263988018036
+p(negative): 0.694873571395874
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+máy hàng tự_động tiện 
+p(positive): 0.43269824981689453
+p(negative): 0.5673017501831055
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sảnh rộng thoáng thích_hợp sinh_hoạt tập_thể 
+p(positive): 0.1042417585849762
+p(negative): 0.8957582712173462
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sảnh bố_trí bàn sinh_viên nghỉ trưa họp 
+p(positive): 0.32211604714393616
+p(negative): 0.6778839826583862
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+rộng_rãi mát mẽ khang_trang hiện_đại 
+p(positive): 0.05833752080798149
+p(negative): 0.9416624903678894
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng yên_tĩnh 
+p(positive): 0.447439581155777
+p(negative): 0.5525604486465454
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+không_gian yên_tĩnh san rộng_rãi phòng hiên đại 
+p(positive): 0.1622728854417801
+p(negative): 0.8377271294593811
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng lab hiện_đại 
+p(positive): 0.36819636821746826
+p(negative): 0.631803572177887
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+phòng máy hoàn_hảo mạng máy 
+p(positive): 0.4798911511898041
+p(negative): 0.5201088786125183
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+mạng 
+p(positive): 0.4125836491584778
+p(negative): 0.5874162912368774
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện online thư_viện không chen_chúc thư_viện 
+p(positive): 0.15235576033592224
+p(negative): 0.8476442694664001
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thư_viện đầu_sách ý_nghĩa 
+p(positive): 0.2994278371334076
+p(negative): 0.7005721926689148
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tranh_tường sống ảo 
+p(positive): 0.41531404852867126
+p(negative): 0.5846859216690063
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tranh_tường sống ảo thoải_mái 
+p(positive): 0.3747905194759369
+p(negative): 0.6252094507217407
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+sân đẹp góc sống ảo chụp hình 
+p(positive): 0.09496869146823883
+p(negative): 0.9050312638282776
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+tòa nhà hiện_đại bảo_vệ an_ninh 
+p(positive): 0.35751017928123474
+p(negative): 0.6424898505210876
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+camera an_ninh gắn khắp 
+p(positive): 0.4399685859680176
+p(negative): 0.5600314140319824
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hành_lang băng ghế sinh_viên nghỉ_ngơi 
+p(positive): 0.38665011525154114
+p(negative): 0.6133499145507812
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thang_máy phục_vụ nhu_cầu di_chuyển sinh_viên 
+p(positive): 0.4735124409198761
+p(negative): 0.5264875888824463
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+thang_máy xịn 
+p(positive): 0.3537554144859314
+p(negative): 0.6462446451187134
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+nhà_thi_đấu phục_vụ đầy_đủ cacd môn thể_thao 
+p(positive): 0.2081022709608078
+p(negative): 0.7918977737426758
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+hồ bơi hồ 
+p(positive): 0.4586203098297119
+p(negative): 0.5413796901702881
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short positive review: 
+xanh sạch đẹp 
+p(positive): 0.1289995014667511
+p(negative): 0.8710004687309265
+CALCAULATE 
+Positive: 47/166 => 0.28313252
+Negative: 119/166 => 0.71686745
+==================================================================
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng máy ít toàn bụi 
+p(positive): 0.6090010404586792
+p(negative): 0.3909989893436432
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+nhà không thang_máy leo_thang không tinh_thần 
+p(positive): 0.5009723901748657
+p(negative): 0.4990276098251343
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng tòa nhà không kết_nối mạng 
+p(positive): 0.5777558088302612
+p(negative): 0.422244131565094
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+quạt_trần phòng xuống_cấp tiếng ù_ù khó_chịu 
+p(positive): 0.5904151201248169
+p(negative): 0.4095848798751831
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+máy_lạnh quạt cũ hoạt_động tiếng kêu tập trung_học 
+p(positive): 0.5542066693305969
+p(negative): 0.4457933306694031
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+công_trình xây_dựng ồn_ào 
+p(positive): 0.6254077553749084
+p(negative): 0.37459224462509155
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng xuống_cấp sơn tróc rơi phòng 
+p(positive): 0.5882876515388489
+p(negative): 0.41171231865882874
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+máy phòng thực_hành yếu không chạy nổi office 
+p(positive): 0.503750205039978
+p(negative): 0.496249794960022
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+đa_số máy phòng thực_hành thực_hành laptop 
+p(positive): 0.679178774356842
+p(negative): 0.32082119584083557
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng lớn loa nhỏ lớp không giảng_viên giảng 
+p(positive): 0.8014802932739258
+p(negative): 0.19851970672607422
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hệ_thống loa lớp_học tiếng kêu khó_chịu 
+p(positive): 0.6034284830093384
+p(negative): 0.3965715765953064
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng nhỏ sinh_viên đông nóng vô_cùng 
+p(positive): 0.6271541714668274
+p(negative): 0.3728458285331726
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng lớn không loa micro giảng_viên dạy 
+p(positive): 0.8305783271789551
+p(negative): 0.16942164301872253
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng nhỏ không phục_vụ nhu_cầu sinh_viên 
+p(positive): 0.6728941202163696
+p(negative): 0.32710590958595276
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng không cách_âm âm_thanh nhiễu 
+p(positive): 0.5521355867385864
+p(negative): 0.4478644132614136
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng bụi không quét_dọn thường_xuyên 
+p(positive): 0.5765294432640076
+p(negative): 0.4234705865383148
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+hệ_thống loa thường_xuyên nhiễu 
+p(positive): 0.5270841121673584
+p(negative): 0.472915917634964
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng máy toàn bụi lắm không 
+p(positive): 0.5643495321273804
+p(negative): 0.43565040826797485
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng máy không đur máy sinh_viên thực_hành 
+p(positive): 0.7350287437438965
+p(negative): 0.2649713158607483
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+máy phòng thực_hành yếu không đáp_ứng thực_hành sinh_viên 
+p(positive): 0.7492980360984802
+p(negative): 0.25070199370384216
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+không máy lọc sinh_viên 
+p(positive): 0.5273818373680115
+p(negative): 0.4726181924343109
+
+
+ WRONG PREDICTION-------------------------------
+WRONG Short negative review: 
+phòng không cách_âm ồn ảo 
+p(positive): 0.5650132298469543
+p(negative): 0.43498674035072327
+CALCAULATE 
+Positive: 22/69 => 0.3188406
+Negative: 47/69 => 0.68115944
+----- Example complete -----
+

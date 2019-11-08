@@ -26,7 +26,10 @@ public class standardizeBUS {
 		String outputString = null;
 		
 		input = spark.getSparkContext().textFile(this.correctionDto.getInput()[0]);
+		
+		System.out.println("CHECKPOINT");
 		inputString = helpFunc.pushDataFromFileToString(input);
+
 		outputString = this.standardize(inputString, spark);
 		result = this.helpFunc.writeStringToFile(spark, outputString);
 		result.repartition(1).saveAsTextFile(Constant.outputStandardizedDir);
@@ -68,10 +71,10 @@ public class standardizeBUS {
 			}
 			else if (count > 0) {
 				//remove teen code, incorrect words, ...				
-				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ");
+				result += (correctRows[count-1].toString().substring(1, correctRows[count-1].toString().length() - 1)+" ").toLowerCase();
 				continue;
 			}
-			result += (word+" ");
+			result += (word.toLowerCase()+" ");
 		}
 		
 		return result;

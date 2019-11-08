@@ -25,7 +25,9 @@ public class standardizeDAO {
 		// set data for file name elements
 		else {
 			for (int i = 0; i < this.inputFileName.length; i++) {
-				this.inputFileName[i] = "input" + "/" + inputFile;
+				this.inputFileName[i] = "input" + "/" + "test-data"; //inputFile + "8";
+				//this.inputFileName[i] = "input" + "/hello";
+
 			}
 		}
 		

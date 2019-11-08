@@ -2,6 +2,8 @@ package segmentation;
 
 import java.util.ArrayList;
 
+import org.apache.spark.api.java.JavaRDD;
+
 import util.helpFunction;
 import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
@@ -12,20 +14,6 @@ public class segmentationBUS {
 	ArrayList<String> fileName;
 	
 	private helpFunction helpFunc = new helpFunction();
-
-//	public void wordSegmentation(sparkConfigure spark) {
-//		String dataFolder = "/export/dat/tok";
-//		String master = spark.getSparkConf().get("spark.master");	
-//		
-//		Tokenizer tokenizer = null;
-//		tokenizer = new Tokenizer(master, dataFolder + "/lexicon.xml", dataFolder + "/regexp.txt", dataFolder + "/syllables2M.arpa");
-//
-//		String outputDirectory = Constant.projectOutputDir;
-//		String inputFileName = Constant.projectOutputDir + "/Standardize";
-//		this.fileName = this.segmentationDto.getInputFiles();
-//		
-//		tokenizer.tokenize(inputFileName,  outputDirectory + "/Segmentation");
-//    }
 
 	public String wordSegmentation(sparkConfigure spark, String handleString) {
 		String dataFolder = "/export/dat/tok";

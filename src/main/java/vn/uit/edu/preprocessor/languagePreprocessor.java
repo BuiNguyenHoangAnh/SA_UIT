@@ -1,6 +1,9 @@
 package vn.uit.edu.preprocessor;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 import org.apache.spark.SparkContext;
 
@@ -9,6 +12,7 @@ import standardize.standardizeBUS;
 import stopword.removeStopWordsBUS;
 import util.sparkConfigure;
 import vn.uit.edu.sa.define.Constant;
+import vn.uit.edu.sa.vectorize.VectorizeFactory;
 
 public class languagePreprocessor {
 
@@ -18,6 +22,7 @@ public class languagePreprocessor {
 	private removeStopWordsBUS removeStopWords = null;
 	private sparkConfigure spark = null;
 	private String handleString = null;
+	private VectorizeFactory vectorizeFactory = null;
 	
 	public languagePreprocessor(sparkConfigure spark) {
 		this.spark = spark;
@@ -38,17 +43,21 @@ public class languagePreprocessor {
 		
 	
 	public void run(String _fileName) {
+
 		
-		if (_fileName == null)
-			this.fileName = Constant.projectInputFolder + "/input"; //default input
-		else this.fileName =  _fileName; //user input
-		
-		handleString = standardizer.standarizeData(spark, fileName);
-		handleString = segmentation.wordSegmentation(spark, handleString);
-		try {
-			removeStopWords.correctData(this.spark, handleString);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		  if (_fileName == null) this.fileName = Constant.projectInputFolder + "/train/neg/csvc/file"; //default input 
+		  else this.fileName = _fileName; //user input 
+		  
+		  handleString = standardizer.standarizeData(spark, fileName);
+		  //System.out.println(handleString); 
+		  handleString = segmentation.wordSegmentation(spark, handleString);
+		  //System.out.println(handleString); 
+		  try {
+		  removeStopWords.correctData(this.spark, handleString); } catch (IOException
+		  e) { e.printStackTrace(); }
+
+		//vectorizeFactory = new VectorizeFactory(System.getProperty("user.dir") + "/output/fileToUse");	    
+
+	    //vectorizeFactory.run();
 	}
 }

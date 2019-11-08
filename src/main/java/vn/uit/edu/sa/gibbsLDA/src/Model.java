@@ -563,6 +563,7 @@ public class Model {
 		V = data.V;
 		dir = option.dir;
 		savestep = option.savestep;
+		niters = option.niters;
 		System.out.println("M:" + M);
 		System.out.println("V:" + V);
 		
