@@ -40,19 +40,19 @@ public class sentimentAnalyser {
 	 * // // Declare variables //
 	 */
 	// Location to save and extract the training/testing data
-    public static final String DATA_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/dt/"; // need to replace this path. Ex: /path/to/data/train/
+    public static final String DATA_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/data/dt/"; // need to replace this path. Ex: /path/to/data/train/
     // Location for the model word2vector
-    public static final String WORD_VECTORS_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/word2vecModel/vector.txt"; //need to replace this path. Ex: /path/to/data/w2v.bin
+    public static final String WORD_VECTORS_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/word2vecModel/vector.txt"; //need to replace this path. Ex: /path/to/data/w2v.bin
     // Directory save checkpoint MultiLayerNetwork. 
-    public static final String CHECKPOINT_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/checkpoint/"; // ex: /path/to/checkpoint/<name>
+    public static final String CHECKPOINT_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/checkpoint/"; // ex: /path/to/checkpoint/<name>
     //
-    public static final String VALIDATE_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/file";
+    public static final String VALIDATE_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/data/validate/file";
     //
-    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-csvc.zip";
+    //public static final String MODEL_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/model/model-sentiment-csvc.zip";
     //
-    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-dt.zip";
+    public static final String MODEL_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/model/model-sentiment-dt.zip";
     //
-    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-aspect.zip";
+    //public static final String MODEL_PATH = "/home/buinguyenhoanganh/Desktop/SA_UIT/model/model-aspect.zip";
 
     
     public static sentimentIterator train;
