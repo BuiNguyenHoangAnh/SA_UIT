@@ -32,7 +32,7 @@ public class languagePreprocessor {
 	public languagePreprocessor(sparkConfigure spark, String fileName) {
 		this.fileName = fileName;
 		this.spark = spark;
-		initialize();
+		initialize(); 
 	}
 	
 	private void initialize() {
@@ -45,7 +45,7 @@ public class languagePreprocessor {
 	public void run(String _fileName) {
 
 		
-		  if (_fileName == null) this.fileName = Constant.projectInputFolder + "/train/neg/csvc/file"; //default input 
+		  if (_fileName == null) this.fileName = Constant.projectInputFolder + "/191112/neg_facility"; //default input 
 		  else this.fileName = _fileName; //user input 
 		  
 		  handleString = standardizer.standarizeData(spark, fileName);

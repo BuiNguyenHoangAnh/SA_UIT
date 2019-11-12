@@ -33,8 +33,8 @@ import vn.uit.edu.sa.gibbsLDA.*;
  */
 public class App 	
 {	
-    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg-training";
-    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg-training";
+    public static final String VALIDATE_PATH1 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/pos_facility";
+    public static final String VALIDATE_PATH2 = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/neg_facility";
 
     public static void main( String[] args ) throws IOException
     {

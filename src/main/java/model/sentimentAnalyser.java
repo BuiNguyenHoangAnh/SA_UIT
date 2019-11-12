@@ -40,7 +40,7 @@ public class sentimentAnalyser {
 	 * // // Declare variables //
 	 */
 	// Location to save and extract the training/testing data
-    public static final String DATA_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/dt/"; // need to replace this path. Ex: /path/to/data/train/
+    public static final String DATA_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/csvc/"; // need to replace this path. Ex: /path/to/data/train/
     // Location for the model word2vector
     public static final String WORD_VECTORS_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/word2vecModel/vector.txt"; //need to replace this path. Ex: /path/to/data/w2v.bin
     // Directory save checkpoint MultiLayerNetwork. 
@@ -48,9 +48,9 @@ public class sentimentAnalyser {
     //
     public static final String VALIDATE_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/data/validate/file";
     //
-    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-csvc.zip";
+    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-csvc.zip";
     //
-    public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-dt.zip";
+    //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-sentiment-dt.zip";
     //
     //public static final String MODEL_PATH = "/home/tranhamduong/project-sa-uit/workspace/project/model/model-aspect.zip";
 
@@ -164,28 +164,28 @@ public class sentimentAnalyser {
 
 		        //System.out.println("\n\nProbabilities at last time step:");
 		        
-//		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
-//		        	countPos++;
-//		        }
-//		        else {
-//		        	countNeg++;
-//			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
-//			        System.out.println("WRONG Short positive review: \n" + line);
-//			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-//			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
-//		        }
-		        
 		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
-	        	countPos++;
+		        	countPos++;
 		        }
 		        else {
-	        	countNeg++;
+		        	countNeg++;
+			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
+			        System.out.println("WRONG Short positive review: \n" + line);
+			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
 		        }
 		        
-		        System.out.println("\n\n PREDICTION-------------------------------");
-		        System.out.println("Short positive review: \n" + line);
-		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));		        
+//		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
+//	        	countPos++;
+//		        }
+//		        else {
+//	        	countNeg++;
+//		        }
+//		        
+//		        System.out.println("\n\n PREDICTION-------------------------------");
+//		        System.out.println("Short positive review: \n" + line);
+//		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+//		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));		        
 			}
 			
 			System.out.println("CALCAULATE ");
@@ -215,25 +215,26 @@ public class sentimentAnalyser {
 		       //System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
 		       // System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
 		        
+		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
+		        	countPos++;
+			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
+			        System.out.println("WRONG Short negative review: \n" + line);
+			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+		        }
+		        else 
+		        	countNeg++;
+		        
 //		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
 //		        	countPos++;
-//			        System.out.println("\n\n WRONG PREDICTION-------------------------------");
-//			        System.out.println("WRONG Short negative review: \n" + line);
-//			        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-//			        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
 //		        }
 //		        else 
 //		        	countNeg++;
-		        
-		        if (probabilitiesAtLastWord.getDouble(0) > probabilitiesAtLastWord.getDouble(1)) {
-	        	countPos++;
-	        }
-	        else 
-	        	countNeg++;
-		        System.out.println("\n\n PREDICTION-------------------------------");
-		        System.out.println("Short negative review: \n" + line);
-		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
-		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
+//		        
+//		        System.out.println("\n\n PREDICTION-------------------------------");
+//		        System.out.println("Short negative review: \n" + line);
+//		        System.out.println("p(positive): " + probabilitiesAtLastWord.getDouble(0));
+//		        System.out.println("p(negative): " + probabilitiesAtLastWord.getDouble(1));
 		        
 			}
 			
