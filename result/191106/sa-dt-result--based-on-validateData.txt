@@ -1,0 +1,350 @@
+log4j:WARN No appenders could be found for logger (org.nd4j.linalg.factory.Nd4jBackend).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không tâm tầm 
+p(positive): 0.6493734121322632
+p(negative): 0.3506266474723816
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+trình_độ giảng_viên 
+p(positive): 0.6986508965492249
+p(negative): 0.30134910345077515
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không 
+p(positive): 0.6026175618171692
+p(negative): 0.39738237857818604
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không tôn_trọng 
+p(positive): 0.6026175618171692
+p(negative): 0.39738237857818604
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên 
+p(positive): 0.6026175618171692
+p(negative): 0.39738237857818604
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên dạy 
+p(positive): 0.6837284564971924
+p(negative): 0.3162715435028076
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên khô_khan 
+p(positive): 0.6026175618171692
+p(negative): 0.39738237857818604
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên giỏi truyền_đạt 
+p(positive): 0.7268248796463013
+p(negative): 0.27317512035369873
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên khó_tính 
+p(positive): 0.5833705067634583
+p(negative): 0.41662946343421936
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không cập_nhật thông_tin thường_xuyên 
+p(positive): 0.4145321846008301
+p(negative): 0.5854678750038147
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên lạc_hậu 
+p(positive): 0.6026175618171692
+p(negative): 0.39738237857818604
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không bám sát nội_dung môn_học 
+p(positive): 0.5449030995368958
+p(negative): 0.45509693026542664
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình lỗi_thời 
+p(positive): 0.5490376353263855
+p(negative): 0.4509623944759369
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình không cập_nhật thường_xuyên 
+p(positive): 0.4871618151664734
+p(negative): 0.5128381848335266
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình cũ 
+p(positive): 0.4572175443172455
+p(negative): 0.5427824854850769
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình không sát 
+p(positive): 0.5528647303581238
+p(negative): 0.44713521003723145
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình không ứng dung 
+p(positive): 0.5262782573699951
+p(negative): 0.4737217426300049
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+toàn lí_thuyết suông không áp_dụng thực_tiễn 
+p(positive): 0.47051361203193665
+p(negative): 0.5294864177703857
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+thời khóa biểu không hợp_lí 
+p(positive): 0.4604879915714264
+p(negative): 0.539512038230896
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+thời khóa biểu công_bố trễ 
+p(positive): 0.4163817763328552
+p(negative): 0.5836182236671448
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình đào_tạo lạc_hậu 
+p(positive): 0.6750474572181702
+p(negative): 0.3249525725841522
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình đào_tạo lỗi_thời 
+p(positive): 0.6750474572181702
+p(negative): 0.3249525725841522
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+đằng thi nẻo 
+p(positive): 0.5093642473220825
+p(negative): 0.4906356930732727
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không truyền cảm_hứng sinh_viên 
+p(positive): 0.6782777905464172
+p(negative): 0.32172220945358276
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên trẻ kinh_nghiệm 
+p(positive): 0.7385115027427673
+p(negative): 0.26148849725723267
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình liên_kết quốc_tế 
+p(positive): 0.6335718631744385
+p(negative): 0.36642810702323914
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+ít chương_trình liên_kết khu_vực thế_giới 
+p(positive): 0.6114346981048584
+p(negative): 0.388565331697464
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+lí_thuyết không đi_đôi thực_hành 
+p(positive): 0.4897008538246155
+p(negative): 0.5102990865707397
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng khô_khan tiếp_thu 
+p(positive): 0.5239037275314331
+p(negative): 0.4760963022708893
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không sinh_viên 
+p(positive): 0.675033450126648
+p(negative): 0.32496652007102966
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chất_lượng giảng_dạy kém 
+p(positive): 0.6551834344863892
+p(negative): 0.34481656551361084
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+kỹ_năng sư_phạm giảng_viên kém 
+p(positive): 0.6107672452926636
+p(negative): 0.3892327547073364
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giáo_trình không cập_nhật 
+p(positive): 0.529547393321991
+p(negative): 0.47045260667800903
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+nội_dung thực_hành không lý_thuyết 
+p(positive): 0.48615095019340515
+p(negative): 0.5138490796089172
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình đào_tạo toàn món lý_thuyết 
+p(positive): 0.6105785369873047
+p(negative): 0.3894214630126953
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình đào_tạo kéo_dài toàn môn đại_cương 
+p(positive): 0.6619112491607666
+p(negative): 0.3380887806415558
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không tận_tâm sinh_viên 
+p(positive): 0.7450076341629028
+p(negative): 0.2549923360347748
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình đào_tạo lỗi_thời 
+p(positive): 0.6750474572181702
+p(negative): 0.3249525725841522
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+môn_học không cập_nhật 
+p(positive): 0.4397314488887787
+p(negative): 0.5602685809135437
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+đào_tạo phân_tán 
+p(positive): 0.5941441059112549
+p(negative): 0.40585583448410034
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+không hệ đào_tạo mạng không 
+p(positive): 0.502609133720398
+p(negative): 0.49739089608192444
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+chương_trình không hiệu_quả 
+p(positive): 0.6163738965988159
+p(negative): 0.38362616300582886
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+giảng_viên không nhiệt_tình 
+p(positive): 0.7000823020935059
+p(negative): 0.29991769790649414
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+không tương_tác giảng_viên sinh_viên 
+p(positive): 0.6675201058387756
+p(negative): 0.3324798345565796
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+môn chuyên_ngành 
+p(positive): 0.5277385115623474
+p(negative): 0.47226154804229736
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+thời_khoá_biểu dày_đặc không thở 
+p(positive): 0.4839117228984833
+p(negative): 0.5160883069038391
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+ít sinh_viên tinh_thần nghiên_cứu trì lý_thuyết lớp 
+p(positive): 0.5789859890937805
+p(negative): 0.4210140109062195
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+không sinh_viên 
+p(positive): 0.5856648683547974
+p(negative): 0.414335161447525
+
+
+ PREDICTION-------------------------------
+Short negative review: 
+ít workshop chuyên_ngành 
+p(positive): 0.5521883964538574
+p(negative): 0.4478115737438202
+CALCAULATE 
+Positive: 39/49 => 0.79591835
+Negative: 10/49 => 0.20408164
+----- Example complete -----
+
