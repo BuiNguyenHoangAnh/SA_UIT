@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>JD-Spark-WordCount</name>
   <url>http://maven.apache.org</url>
+
+  <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>2.1.6.RELEASE</version>
+  </parent>
   
 <dependencies>
 
@@ -30,28 +36,19 @@
         <version>0.11.1</version>
     </dependency>
     
-<!--     <dependency>
-      <groupId>org.deeplearning4j</groupId>
-      <artifactId>deeplearning4j-core</artifactId>
-      <version>0.4-rc3.8</version>
-   </dependency>
-   <dependency>
-	    <groupId>org.nd4j</groupId>
-	    <artifactId>nd4j-api</artifactId>
-	    <version>0.4-rc3.8</version>
-	</dependency>
-   <dependency>
-	    <groupId>org.deeplearning4j</groupId>
-	    <artifactId>deeplearning4j-nlp</artifactId>
-	    <version>0.4-rc3.8</version>
-	</dependency>
-	
-<dependency>
-  <groupId>org.nd4j</groupId>
-  <artifactId>nd4j-x86</artifactId>
-  <version>0.4-rc3.8</version>
-</dependency> -->
-
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <optional>true</optional>
+    </dependency>
 
 	<dependency>
 		<groupId>org.nd4j</groupId>
@@ -160,6 +157,11 @@
 		         <mainClass>com.journaldev.sparkdemo.App</mainClass>
 		     </configuration>
 		</plugin>
+		
+		<plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
     </plugins>
 </build>
 

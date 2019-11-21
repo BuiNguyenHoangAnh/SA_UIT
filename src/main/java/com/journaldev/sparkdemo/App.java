@@ -63,68 +63,11 @@ public class App
 	    //languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
 	    //preproccessor.run(null); 
 
-    	sentimentAnalyser model = new sentimentAnalyser();
+//    	sentimentAnalyser model = new sentimentAnalyser();
     	//model.sentimentModel();
-	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
+//	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
     	
-    	
-    	
-
-
-/*
- * 
- * GIAI DOAN: TIEN XU LI (RUN MANUALLY)
- * 
- * 
-
-    	
-    	taggingBUS tagging = new taggingBUS();
- */ 	
-     	//segmentationBUS segmentation = new segmentationBUS();
-    	
-    	//standardizeBUS standardize = new standardizeBUS();
-    	
-    	//removeStopWordsBUS removeStopWords = new removeStopWordsBUS();
-    	
-    	/*
-		 * STANDARDIZE DATA
-		 */
-    	//standardize.standardizeData(sparkConfig);
-	    //helpFunction.removeUnusedFile("Standardize");
-  
-		/*
-		 * TOKENIZER/ SEGMENTATION
-		 */
-//    	segmentation.wordSegmentation(spark);
-    	
-		/*
-		 * REMOVE STOP WORD
-		 */
-//    	try {
-//    		removeStopWords.correctData(spark);
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-    	
-		/*
-		 * WORD TAGGING
-		 */
-//    	tagging.wordTagging(spark);
-    	//segmentation.wordSegmentation(sparkConfig);
-    	//helpFunction.removeUnusedFile("Segementation");
-		/*
-		 * REMOVE STOP WORD
-		 */
-		
-		// try { removeStopWords.correctData(sparkConfig); } catch (IOException e) { 
-		 // e.printStackTrace(); }
-    			 
-    	//helpFunction.removeEmptyLine("");		
-		 /*
-		 * WORD TAGGING
-		 */
-    	//tagging.wordTagging(sparkConfig);
+    	new sampleUI().startSampleUI();
     	
     }
 }
