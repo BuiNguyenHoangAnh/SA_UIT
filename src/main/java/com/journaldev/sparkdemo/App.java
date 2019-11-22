@@ -67,7 +67,7 @@ public class App
     	//model.sentimentModel();
 //	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
     	
-    	new sampleUI().startSampleUI();
+//    	new sampleUI().startSampleUI();
     	
     }
 }
