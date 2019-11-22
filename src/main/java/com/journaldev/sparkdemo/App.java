@@ -63,9 +63,9 @@ public class App
 	    //languagePreprocessor preproccessor = new languagePreprocessor(sparkConfig);
 	    //preproccessor.run(null); 
 
-    	sentimentAnalyser model = new sentimentAnalyser();
-    	//model.sentimentModel();
-	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
+//    	sentimentAnalyser model = new sentimentAnalyser();
+//    	//model.sentimentModel();
+//	    model.testData(VALIDATE_PATH1,VALIDATE_PATH2);
     	
     	
     	
